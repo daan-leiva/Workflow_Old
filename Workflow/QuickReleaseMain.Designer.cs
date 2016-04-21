@@ -1,6 +1,6 @@
 ﻿namespace Workflow
 {
-    partial class QuickReleaseForm
+    partial class QuickReleaseMain
     {
         /// <summary>
         /// Required designer variable.

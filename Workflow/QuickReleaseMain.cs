@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Workflow
 {
-    public partial class QuickReleaseForm : Form
+    public partial class QuickReleaseMain : Form
     {
-        public QuickReleaseForm()
+        public QuickReleaseMain()
         {
             InitializeComponent();
         }

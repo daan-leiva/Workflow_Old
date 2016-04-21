@@ -16,7 +16,7 @@ namespace Workflow
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuickReleaseForm());
+            Application.Run(new QuickReleaseMain());
         }
     }
 }
