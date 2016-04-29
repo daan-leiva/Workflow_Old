@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Workflow
 {
-    public partial class QuickRelease_Form : Form
+    public partial class ContractReviewCheckList : Form
     {
-        public QuickRelease_Form()
+        public ContractReviewCheckList()
         {
             InitializeComponent();
         }
