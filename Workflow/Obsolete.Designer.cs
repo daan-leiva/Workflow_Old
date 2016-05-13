@@ -1,6 +1,6 @@
 ﻿namespace Workflow
 {
-    partial class QuickReleaseMain
+    partial class Obsolete
     {
         /// <summary>
         /// Required designer variable.
