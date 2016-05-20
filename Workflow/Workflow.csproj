@@ -66,12 +66,6 @@
     <Compile Include="QuickReleaseForm.Designer.cs">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Obsolete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Obsolete.Designer.cs">
-      <DependentUpon>Obsolete.cs</DependentUpon>
-    </Compile>
     <Compile Include="Viewer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,9 +89,6 @@
     </Compile>
     <EmbeddedResource Include="QuickReleaseForm.resx">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Obsolete.resx">
-      <DependentUpon>Obsolete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Viewer.resx">
       <DependentUpon>Viewer.cs</DependentUpon>
