@@ -29,10 +29,16 @@ namespace Workflow
             quickReleaseForm.Show();
         }
 
-        private void viewPOFormButton_Click(object sender, EventArgs e)
+        private void viewRollsFormButton_Click(object sender, EventArgs e)
         {
             Form rollsRoycePOReview = new RollsRoycePOReview();
             rollsRoycePOReview.Show();
+        }
+
+        private void viewHondaPOFormButton_Click(object sender, EventArgs e)
+        {
+            Form hondaPOReview = new HondaPOReview();
+            hondaPOReview.Show();
         }
     }
 }

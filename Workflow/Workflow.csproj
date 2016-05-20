@@ -52,6 +52,12 @@
     <Compile Include="ContractReviewCheckList.Designer.cs">
       <DependentUpon>ContractReviewCheckList.cs</DependentUpon>
     </Compile>
+    <Compile Include="HondaPOReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HondaPOReview.Designer.cs">
+      <DependentUpon>HondaPOReview.cs</DependentUpon>
+    </Compile>
     <Compile Include="RollsRoycePOReview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="ContractReviewCheckList.resx">
       <DependentUpon>ContractReviewCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HondaPOReview.resx">
+      <DependentUpon>HondaPOReview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RollsRoycePOReview.resx">
       <DependentUpon>RollsRoycePOReview.cs</DependentUpon>
