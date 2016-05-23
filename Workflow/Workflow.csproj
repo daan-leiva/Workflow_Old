@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContractReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractReview.Designer.cs">
+      <DependentUpon>ContractReview.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContractReviewCheckList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Viewer.Designer.cs">
       <DependentUpon>Viewer.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ContractReview.resx">
+      <DependentUpon>ContractReview.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContractReviewCheckList.resx">
       <DependentUpon>ContractReviewCheckList.cs</DependentUpon>
     </EmbeddedResource>

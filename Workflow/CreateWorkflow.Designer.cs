@@ -31,13 +31,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.customerTextBox = new System.Windows.Forms.TextBox();
+            this.partTextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.revTextBox = new System.Windows.Forms.TextBox();
+            this.jobTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,14 +64,14 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label9, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox3, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox4, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.customerTextBox, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.partTextBox, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.label10, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox7, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.revTextBox, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.jobTextBox, 0, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 40);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -100,6 +100,19 @@
             this.label2.Text = "Job";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(137, 51);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(127, 17);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Part";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -113,18 +126,31 @@
             this.label6.Text = "Customer";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // customerTextBox
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.customerTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(137, 51);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(127, 17);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Part";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.customerTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.customerTextBox.Location = new System.Drawing.Point(0, 68);
+            this.customerTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.customerTextBox.Name = "customerTextBox";
+            this.customerTextBox.ReadOnly = true;
+            this.customerTextBox.Size = new System.Drawing.Size(134, 20);
+            this.customerTextBox.TabIndex = 13;
+            // 
+            // partTextBox
+            // 
+            this.partTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.partTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.partTextBox.Location = new System.Drawing.Point(134, 68);
+            this.partTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.partTextBox.Name = "partTextBox";
+            this.partTextBox.ReadOnly = true;
+            this.partTextBox.Size = new System.Drawing.Size(133, 20);
+            this.partTextBox.TabIndex = 14;
             // 
             // label10
             // 
@@ -139,49 +165,30 @@
             this.label10.Text = "Revision";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // revTextBox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.revTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(0, 17);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(134, 20);
-            this.textBox1.TabIndex = 2;
+            this.revTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.revTextBox.Location = new System.Drawing.Point(267, 68);
+            this.revTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.revTextBox.Name = "revTextBox";
+            this.revTextBox.ReadOnly = true;
+            this.revTextBox.Size = new System.Drawing.Size(133, 20);
+            this.revTextBox.TabIndex = 17;
             // 
-            // textBox3
+            // jobTextBox
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.jobTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(0, 68);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(134, 20);
-            this.textBox3.TabIndex = 13;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(134, 68);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(133, 20);
-            this.textBox4.TabIndex = 14;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(267, 68);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(133, 20);
-            this.textBox7.TabIndex = 17;
+            this.jobTextBox.Location = new System.Drawing.Point(0, 17);
+            this.jobTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.jobTextBox.Name = "jobTextBox";
+            this.jobTextBox.Size = new System.Drawing.Size(134, 20);
+            this.jobTextBox.TabIndex = 18;
+            this.jobTextBox.TextChanged += new System.EventHandler(this.jobTextBox_TextChanged);
             // 
             // button1
             // 
@@ -203,6 +210,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CreateWorkflow";
             this.Text = "CreateWorkflow";
+            this.Load += new System.EventHandler(this.CreateWorkflow_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -217,10 +225,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox customerTextBox;
+        private System.Windows.Forms.TextBox partTextBox;
+        private System.Windows.Forms.TextBox revTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox jobTextBox;
     }
 }
