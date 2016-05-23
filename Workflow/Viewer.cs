@@ -40,5 +40,11 @@ namespace Workflow
             Form hondaPOReview = new HondaPOReview();
             hondaPOReview.Show();
         }
+
+        private void createWorkflowButton_Click(object sender, EventArgs e)
+        {
+            Form createWorkflowForm = new CreateWorkflow();
+            createWorkflowForm.Show();
+        }
     }
 }

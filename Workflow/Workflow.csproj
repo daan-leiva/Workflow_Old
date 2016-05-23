@@ -52,6 +52,12 @@
     <Compile Include="ContractReviewCheckList.Designer.cs">
       <DependentUpon>ContractReviewCheckList.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateWorkflow.Designer.cs">
+      <DependentUpon>CreateWorkflow.cs</DependentUpon>
+    </Compile>
     <Compile Include="HondaPOReview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </Compile>
     <EmbeddedResource Include="ContractReviewCheckList.resx">
       <DependentUpon>ContractReviewCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateWorkflow.resx">
+      <DependentUpon>CreateWorkflow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HondaPOReview.resx">
       <DependentUpon>HondaPOReview.cs</DependentUpon>
