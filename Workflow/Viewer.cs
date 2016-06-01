@@ -46,5 +46,11 @@ namespace Workflow
             Form createWorkflowForm = new CreateWorkflow();
             createWorkflowForm.Show();
         }
+
+        private void contractReviewWorkflowButton_Click(object sender, EventArgs e)
+        {
+            Form contractReviewWorkflowForm = new ContractReview();
+            contractReviewWorkflowForm.Show();
+        }
     }
 }

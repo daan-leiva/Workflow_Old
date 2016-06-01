@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.viewHondaPOFormButton = new System.Windows.Forms.Button();
             this.createWorkflowButton = new System.Windows.Forms.Button();
+            this.contractReviewWorkflowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // viewContractReviewButton
@@ -41,7 +42,7 @@
             this.viewContractReviewButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewContractReviewButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.viewContractReviewButton.Location = new System.Drawing.Point(58, 56);
+            this.viewContractReviewButton.Location = new System.Drawing.Point(58, 133);
             this.viewContractReviewButton.Name = "viewContractReviewButton";
             this.viewContractReviewButton.Size = new System.Drawing.Size(98, 38);
             this.viewContractReviewButton.TabIndex = 0;
@@ -54,11 +55,11 @@
             this.viewQuickReleaseButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewQuickReleaseButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.viewQuickReleaseButton.Location = new System.Drawing.Point(58, 100);
+            this.viewQuickReleaseButton.Location = new System.Drawing.Point(58, 43);
             this.viewQuickReleaseButton.Name = "viewQuickReleaseButton";
             this.viewQuickReleaseButton.Size = new System.Drawing.Size(98, 38);
             this.viewQuickReleaseButton.TabIndex = 1;
-            this.viewQuickReleaseButton.Text = "Quick Release";
+            this.viewQuickReleaseButton.Text = "Quick Release Workflow";
             this.viewQuickReleaseButton.UseVisualStyleBackColor = true;
             this.viewQuickReleaseButton.Click += new System.EventHandler(this.viewQuickReleaseButton_Click);
             // 
@@ -67,7 +68,7 @@
             this.viewRollsPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewRollsPOFormButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.viewRollsPOFormButton.Location = new System.Drawing.Point(58, 144);
+            this.viewRollsPOFormButton.Location = new System.Drawing.Point(58, 223);
             this.viewRollsPOFormButton.Name = "viewRollsPOFormButton";
             this.viewRollsPOFormButton.Size = new System.Drawing.Size(98, 38);
             this.viewRollsPOFormButton.TabIndex = 2;
@@ -91,7 +92,7 @@
             this.viewHondaPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewHondaPOFormButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.viewHondaPOFormButton.Location = new System.Drawing.Point(58, 188);
+            this.viewHondaPOFormButton.Location = new System.Drawing.Point(58, 178);
             this.viewHondaPOFormButton.Name = "viewHondaPOFormButton";
             this.viewHondaPOFormButton.Size = new System.Drawing.Size(98, 38);
             this.viewHondaPOFormButton.TabIndex = 4;
@@ -104,7 +105,7 @@
             this.createWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.createWorkflowButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.createWorkflowButton.Location = new System.Drawing.Point(58, 232);
+            this.createWorkflowButton.Location = new System.Drawing.Point(58, 268);
             this.createWorkflowButton.Name = "createWorkflowButton";
             this.createWorkflowButton.Size = new System.Drawing.Size(98, 38);
             this.createWorkflowButton.TabIndex = 5;
@@ -112,12 +113,26 @@
             this.createWorkflowButton.UseVisualStyleBackColor = true;
             this.createWorkflowButton.Click += new System.EventHandler(this.createWorkflowButton_Click);
             // 
+            // contractReviewWorkflowButton
+            // 
+            this.contractReviewWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contractReviewWorkflowButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.contractReviewWorkflowButton.Location = new System.Drawing.Point(58, 88);
+            this.contractReviewWorkflowButton.Name = "contractReviewWorkflowButton";
+            this.contractReviewWorkflowButton.Size = new System.Drawing.Size(98, 38);
+            this.contractReviewWorkflowButton.TabIndex = 6;
+            this.contractReviewWorkflowButton.Text = "Contract Review Workflow";
+            this.contractReviewWorkflowButton.UseVisualStyleBackColor = true;
+            this.contractReviewWorkflowButton.Click += new System.EventHandler(this.contractReviewWorkflowButton_Click);
+            // 
             // Viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(214, 282);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(214, 324);
+            this.Controls.Add(this.contractReviewWorkflowButton);
             this.Controls.Add(this.createWorkflowButton);
             this.Controls.Add(this.viewHondaPOFormButton);
             this.Controls.Add(this.label1);
@@ -139,5 +154,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button viewHondaPOFormButton;
         private System.Windows.Forms.Button createWorkflowButton;
+        private System.Windows.Forms.Button contractReviewWorkflowButton;
     }
 }

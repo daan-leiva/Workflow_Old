@@ -39,6 +39,9 @@ namespace Workflow
 
         private void SetUpDropdown(ComboBox combo_box)
         {
+            // clear items
+            combo_box.Items.Clear();
+
             combo_box.Items.Add("Yes");
             combo_box.Items.Add("No");
             combo_box.Items.Add("N/A");
