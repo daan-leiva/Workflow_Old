@@ -1325,7 +1325,7 @@
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(160, 24);
             this.checkBox30.TabIndex = 76;
-            this.checkBox30.Text = "Quick Release";
+            this.checkBox30.Text = "None";
             this.checkBox30.UseVisualStyleBackColor = true;
             // 
             // label27

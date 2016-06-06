@@ -70,6 +70,18 @@
     <Compile Include="HondaPOReview.Designer.cs">
       <DependentUpon>HondaPOReview.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobCheckForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobCheckForm.Designer.cs">
+      <DependentUpon>JobCheckForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickRelease_QualityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickRelease_QualityForm.Designer.cs">
+      <DependentUpon>QuickRelease_QualityForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RollsRoycePOReview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HondaPOReview.resx">
       <DependentUpon>HondaPOReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobCheckForm.resx">
+      <DependentUpon>JobCheckForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickRelease_QualityForm.resx">
+      <DependentUpon>QuickRelease_QualityForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RollsRoycePOReview.resx">
       <DependentUpon>RollsRoycePOReview.cs</DependentUpon>
