@@ -76,11 +76,17 @@
     <Compile Include="JobCheckForm.Designer.cs">
       <DependentUpon>JobCheckForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuickRelease_QualityForm.cs">
+    <Compile Include="QuickReleaseForm_Engineering.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuickRelease_QualityForm.Designer.cs">
-      <DependentUpon>QuickRelease_QualityForm.cs</DependentUpon>
+    <Compile Include="QuickReleaseForm_Engineering.Designer.cs">
+      <DependentUpon>QuickReleaseForm_Engineering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickReleaseForm_Quality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickReleaseForm_Quality.Designer.cs">
+      <DependentUpon>QuickReleaseForm_Quality.cs</DependentUpon>
     </Compile>
     <Compile Include="RollsRoycePOReview.cs">
       <SubType>Form</SubType>
@@ -117,8 +123,11 @@
     <EmbeddedResource Include="JobCheckForm.resx">
       <DependentUpon>JobCheckForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuickRelease_QualityForm.resx">
-      <DependentUpon>QuickRelease_QualityForm.cs</DependentUpon>
+    <EmbeddedResource Include="QuickReleaseForm_Engineering.resx">
+      <DependentUpon>QuickReleaseForm_Engineering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickReleaseForm_Quality.resx">
+      <DependentUpon>QuickReleaseForm_Quality.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RollsRoycePOReview.resx">
       <DependentUpon>RollsRoycePOReview.cs</DependentUpon>
