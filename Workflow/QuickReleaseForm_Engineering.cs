@@ -12,7 +12,7 @@ namespace Workflow
 {
     public partial class QuickReleaseForm_Engineering : Form
     {
-        public QuickReleaseForm()
+        public QuickReleaseForm_Engineering()
         {
             InitializeComponent();
         }
