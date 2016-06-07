@@ -283,9 +283,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 175);
+            this.label19.Location = new System.Drawing.Point(3, 150);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(426, 35);
+            this.label19.Size = new System.Drawing.Size(426, 30);
             this.label19.TabIndex = 31;
             this.label19.Text = "Review release sheet and incorporate changes nito planning, as applicable.";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,7 +298,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox15.Location = new System.Drawing.Point(435, 462);
+            this.comboBox15.Location = new System.Drawing.Point(435, 394);
             this.comboBox15.Name = "comboBox15";
             this.comboBox15.Size = new System.Drawing.Size(51, 21);
             this.comboBox15.TabIndex = 44;
@@ -309,9 +309,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 350);
+            this.label23.Location = new System.Drawing.Point(3, 300);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(426, 35);
+            this.label23.Size = new System.Drawing.Size(426, 30);
             this.label23.TabIndex = 43;
             this.label23.Text = "Add FAIR operation to planning for Argo-Tech, Parker HSD, Rolls-Royce & UTC, as r" +
     "equired.";
@@ -323,9 +323,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 315);
+            this.label22.Location = new System.Drawing.Point(3, 270);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(426, 35);
+            this.label22.Size = new System.Drawing.Size(426, 30);
             this.label22.TabIndex = 42;
             this.label22.Text = "State if FAIR is required in final inspection operation.";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -336,9 +336,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 385);
+            this.label15.Location = new System.Drawing.Point(3, 330);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(426, 35);
+            this.label15.Size = new System.Drawing.Size(426, 30);
             this.label15.TabIndex = 27;
             this.label15.Text = "Procure spline gages, thread gages, and other gaging, as needed";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -349,9 +349,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 420);
+            this.label4.Location = new System.Drawing.Point(3, 360);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(426, 35);
+            this.label4.Size = new System.Drawing.Size(426, 30);
             this.label4.TabIndex = 26;
             this.label4.Text = "Procure depth gages for gundrill/BTA, as needed.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -362,9 +362,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 455);
+            this.label21.Location = new System.Drawing.Point(3, 390);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(426, 35);
+            this.label21.Size = new System.Drawing.Size(426, 30);
             this.label21.TabIndex = 27;
             this.label21.Text = "Print and sign traveleres";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -377,7 +377,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox14.Location = new System.Drawing.Point(435, 427);
+            this.comboBox14.Location = new System.Drawing.Point(435, 364);
             this.comboBox14.Name = "comboBox14";
             this.comboBox14.Size = new System.Drawing.Size(51, 21);
             this.comboBox14.TabIndex = 41;
@@ -390,7 +390,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox13.Location = new System.Drawing.Point(435, 392);
+            this.comboBox13.Location = new System.Drawing.Point(435, 334);
             this.comboBox13.Name = "comboBox13";
             this.comboBox13.Size = new System.Drawing.Size(51, 21);
             this.comboBox13.TabIndex = 40;
@@ -403,7 +403,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox9.Location = new System.Drawing.Point(435, 357);
+            this.comboBox9.Location = new System.Drawing.Point(435, 304);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(51, 21);
             this.comboBox9.TabIndex = 36;
@@ -416,7 +416,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox1.Location = new System.Drawing.Point(435, 322);
+            this.comboBox1.Location = new System.Drawing.Point(435, 274);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(51, 21);
             this.comboBox1.TabIndex = 34;
@@ -429,7 +429,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox3.Location = new System.Drawing.Point(435, 287);
+            this.comboBox3.Location = new System.Drawing.Point(435, 244);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(51, 21);
             this.comboBox3.TabIndex = 35;
@@ -437,7 +437,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button2.Location = new System.Drawing.Point(3, 633);
+            this.button2.Location = new System.Drawing.Point(3, 543);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 20);
             this.button2.TabIndex = 33;
@@ -452,9 +452,9 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label20.Location = new System.Drawing.Point(3, 140);
+            this.label20.Location = new System.Drawing.Point(3, 120);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(426, 35);
+            this.label20.Size = new System.Drawing.Size(426, 30);
             this.label20.TabIndex = 32;
             this.label20.Text = "Engineering";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -466,7 +466,7 @@
             this.jobLabel.AutoSize = true;
             this.jobLabel.Location = new System.Drawing.Point(435, 0);
             this.jobLabel.Name = "jobLabel";
-            this.jobLabel.Size = new System.Drawing.Size(43, 35);
+            this.jobLabel.Size = new System.Drawing.Size(43, 30);
             this.jobLabel.TabIndex = 24;
             this.jobLabel.Text = "455846";
             this.jobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -474,7 +474,7 @@
             // textBox2
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox2.Location = new System.Drawing.Point(435, 42);
+            this.textBox2.Location = new System.Drawing.Point(435, 35);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(219, 20);
             this.textBox2.TabIndex = 25;
@@ -485,17 +485,17 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.textBox1, 2);
-            this.textBox1.Location = new System.Drawing.Point(3, 493);
+            this.textBox1.Location = new System.Drawing.Point(3, 423);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.tableLayoutPanel1.SetRowSpan(this.textBox1, 4);
-            this.textBox1.Size = new System.Drawing.Size(858, 134);
+            this.textBox1.Size = new System.Drawing.Size(858, 114);
             this.textBox1.TabIndex = 22;
             // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox3.Location = new System.Drawing.Point(435, 77);
+            this.textBox3.Location = new System.Drawing.Point(435, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(219, 20);
             this.textBox3.TabIndex = 26;
@@ -503,7 +503,7 @@
             // textBox4
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox4.Location = new System.Drawing.Point(435, 112);
+            this.textBox4.Location = new System.Drawing.Point(435, 95);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(219, 20);
             this.textBox4.TabIndex = 27;
@@ -514,9 +514,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 210);
+            this.label18.Location = new System.Drawing.Point(3, 180);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(426, 35);
+            this.label18.Size = new System.Drawing.Size(426, 30);
             this.label18.TabIndex = 30;
             this.label18.Text = "Verify setup/time standards in job and template, as needed.";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -527,9 +527,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 245);
+            this.label17.Location = new System.Drawing.Point(3, 210);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(426, 35);
+            this.label17.Size = new System.Drawing.Size(426, 30);
             this.label17.TabIndex = 29;
             this.label17.Text = "Verify Round Robin requirements per FSD-D-MFG-005 are met for Parker Nichols, as " +
     "applicable.";
@@ -541,9 +541,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 280);
+            this.label16.Location = new System.Drawing.Point(3, 240);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(426, 35);
+            this.label16.Size = new System.Drawing.Size(426, 30);
             this.label16.TabIndex = 28;
             this.label16.Text = "Verift FPA reqts (If Rolls-Royce job with two templates).";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -556,7 +556,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox10.Location = new System.Drawing.Point(435, 182);
+            this.comboBox10.Location = new System.Drawing.Point(435, 154);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(51, 21);
             this.comboBox10.TabIndex = 37;
@@ -569,7 +569,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox11.Location = new System.Drawing.Point(435, 217);
+            this.comboBox11.Location = new System.Drawing.Point(435, 184);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(51, 21);
             this.comboBox11.TabIndex = 38;
@@ -582,7 +582,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.comboBox12.Location = new System.Drawing.Point(435, 252);
+            this.comboBox12.Location = new System.Drawing.Point(435, 214);
             this.comboBox12.Name = "comboBox12";
             this.comboBox12.Size = new System.Drawing.Size(51, 21);
             this.comboBox12.TabIndex = 39;
@@ -648,7 +648,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(864, 716);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(864, 603);
             this.tableLayoutPanel1.TabIndex = 24;
             // 
             // label3
@@ -657,9 +657,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 35);
+            this.label3.Location = new System.Drawing.Point(3, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(426, 35);
+            this.label3.Size = new System.Drawing.Size(426, 30);
             this.label3.TabIndex = 2;
             this.label3.Text = "Person";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -670,9 +670,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 70);
+            this.label5.Location = new System.Drawing.Point(3, 60);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(426, 35);
+            this.label5.Size = new System.Drawing.Size(426, 30);
             this.label5.TabIndex = 4;
             this.label5.Text = "Part Number";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -683,9 +683,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 105);
+            this.label6.Location = new System.Drawing.Point(3, 90);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(426, 35);
+            this.label6.Size = new System.Drawing.Size(426, 30);
             this.label6.TabIndex = 5;
             this.label6.Text = "Document";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -698,7 +698,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(426, 35);
+            this.label1.Size = new System.Drawing.Size(426, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Job";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -709,7 +709,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(888, 940);
+            this.ClientSize = new System.Drawing.Size(888, 827);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);

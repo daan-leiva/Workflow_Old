@@ -20,21 +20,12 @@ namespace Workflow
         private void QuickReleaseForm_Load(object sender, EventArgs e)
         {
             // add set up for all combo boxes
-            SetUpDropdown(comboBox1);
             SetUpDropdown(comboBox2);
-            SetUpDropdown(comboBox3);
             SetUpDropdown(comboBox4);
             SetUpDropdown(comboBox5);
             SetUpDropdown(comboBox6);
             SetUpDropdown(comboBox7);
             SetUpDropdown(comboBox8);
-            SetUpDropdown(comboBox9);
-            SetUpDropdown(comboBox10);
-            SetUpDropdown(comboBox11);
-            SetUpDropdown(comboBox12);
-            SetUpDropdown(comboBox13);
-            SetUpDropdown(comboBox14);
-            SetUpDropdown(comboBox15);
         }
 
         private void SetUpDropdown(ComboBox combo_box)

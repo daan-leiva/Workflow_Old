@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Verify revision of all supplemental instructions to PO (including FCDs, MQIs, PSDs [flowed down on MQIs &amp; 9U9646], VQRs, customer travelers and sketches, etc.); verify current revision of MQI, FCD or VQR is documented at the top of the route revision section of the traveler, as applicable</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>If parts sent to stock before 12/1/12, then review dimensional inspection results and marking are complete with Inspection Supervisor; if parts have been in stock more than 6 months, then visual inspection is required. Inspection Supervisor (or delegate) to initial &amp; date when completed.  Initial: ___________________  Date: ___________________</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Create new template (for new part number only), or new route revision to detail drawing changes and/or any manufacturing changes made to planning, as required; verify dimensional changes are clearly identified in both the route revision and affected operations</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Verify in-process/final source inspection requirements are covered and note if FAIR and/or PPAP is required in final inspection operation (as identified above by Quality); add FAIR operation to planning for Argo-Tech, Parker HSD, Rolls-Royce, UTAS &amp; Wencor, as required. Add PPAP operation to planning as required.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Identify NADCAP mandated conventional machining processes (including P11TF12 &amp; P11TF15 requirements) and verify associated tech sheets are complete and in Predator PDM, as applicable. Verify that tools listed on approved tech sheets are current and available.</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Verify suppliers and ATI are customer-approved for special processes (as applicable) and the specifications listed in planning are current, including cutting fluid suppliers as required for conventional machining as a special process</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Verify MPI requirements are fully defined, including spec revisions, procure tech sheet for internal MPI and submit to the Level III Inspector for approval; submit tech sheet to customer for approval if required (e.g., Q390, etc.)</value>
+  </data>
 </root>

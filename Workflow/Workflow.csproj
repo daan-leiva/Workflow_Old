@@ -52,6 +52,18 @@
     <Compile Include="ContractReview.Designer.cs">
       <DependentUpon>ContractReview.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContractReviewCheckList _ME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractReviewCheckList _ME.Designer.cs">
+      <DependentUpon>ContractReviewCheckList _ME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReviewCheckList _QE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractReviewCheckList _QE.Designer.cs">
+      <DependentUpon>ContractReviewCheckList _QE.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContractReviewCheckList_QA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +134,12 @@
     </Compile>
     <EmbeddedResource Include="ContractReview.resx">
       <DependentUpon>ContractReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractReviewCheckList _ME.resx">
+      <DependentUpon>ContractReviewCheckList _ME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractReviewCheckList _QE.resx">
+      <DependentUpon>ContractReviewCheckList _QE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContractReviewCheckList_QA.resx">
       <DependentUpon>ContractReviewCheckList_QA.cs</DependentUpon>
