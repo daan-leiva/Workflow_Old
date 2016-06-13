@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommentsPopUpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommentsPopUpControl.Designer.cs">
+      <DependentUpon>CommentsPopUpControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContractReview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,12 +138,27 @@
     <Compile Include="QuickReleaseForm.Designer.cs">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestCommentPopUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestCommentPopUp.Designer.cs">
+      <DependentUpon>TestCommentPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPracticeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPracticeControl.Designer.cs">
+      <DependentUpon>TestPracticeControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Viewer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Viewer.Designer.cs">
       <DependentUpon>Viewer.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CommentsPopUpControl.resx">
+      <DependentUpon>CommentsPopUpControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContractReview.resx">
       <DependentUpon>ContractReview.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +209,12 @@
     </Compile>
     <EmbeddedResource Include="QuickReleaseForm.resx">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCommentPopUp.resx">
+      <DependentUpon>TestCommentPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPracticeControl.resx">
+      <DependentUpon>TestPracticeControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Viewer.resx">
       <DependentUpon>Viewer.cs</DependentUpon>
