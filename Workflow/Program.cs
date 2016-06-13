@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Workflow
 {
     static class Program
@@ -16,7 +17,8 @@ namespace Workflow
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JobCheckForm());
+            Application.Run(new ContractReviewCheckList());
+            
         }
     }
 }

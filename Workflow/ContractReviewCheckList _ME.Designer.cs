@@ -259,7 +259,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.127659F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.127659F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.127659F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(979, 1480);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(962, 1480);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // checkBox82
@@ -802,7 +802,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(99, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(877, 36);
+            this.label8.Size = new System.Drawing.Size(860, 36);
             this.label8.TabIndex = 7;
             this.label8.Text = "Verify revision of blueprint to PO, including all subassemblies (note that revisi" +
     "on N/R isn\'t interchangeable with N/C); verify blueprint revisions match Predato" +
@@ -817,7 +817,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(99, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(877, 36);
+            this.label6.Size = new System.Drawing.Size(860, 36);
             this.label6.TabIndex = 5;
             this.label6.Text = resources.GetString("label6.Text");
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -830,7 +830,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(99, 72);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(877, 36);
+            this.label17.Size = new System.Drawing.Size(860, 36);
             this.label17.TabIndex = 17;
             this.label17.Text = "Review blueprint, PO and all supplemental instructions to verify requirements are" +
     " covered (including quality clauses)";
@@ -844,7 +844,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(99, 108);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(877, 36);
+            this.label15.Size = new System.Drawing.Size(860, 36);
             this.label15.TabIndex = 15;
             this.label15.Text = "For new parts, compare the PO & supplemental instructions against the Quote Risk " +
     "Analysis in SharePoint; notify Supervisor of any differences or cost-reduction i" +
@@ -859,7 +859,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(99, 144);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(877, 36);
+            this.label16.Size = new System.Drawing.Size(860, 36);
             this.label16.TabIndex = 16;
             this.label16.Text = "Verify shelf-stock conforms to current drawing and specification revisions (if jo" +
     "b will be filled with shelf-stock)…does it conform?  Y or N or N/A";
@@ -873,7 +873,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(99, 180);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(877, 36);
+            this.label14.Size = new System.Drawing.Size(860, 36);
             this.label14.TabIndex = 14;
             this.label14.Text = "If shelf-stock doesn’t conform, notify Customer Service to obtain customer approv" +
     "al to ship parts in this condition or initiate rework traveler to modify stock p" +
@@ -888,7 +888,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(99, 216);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(877, 36);
+            this.label13.Size = new System.Drawing.Size(860, 36);
             this.label13.TabIndex = 13;
             this.label13.Text = resources.GetString("label13.Text");
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -901,7 +901,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(99, 252);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(877, 36);
+            this.label12.Size = new System.Drawing.Size(860, 36);
             this.label12.TabIndex = 12;
             this.label12.Text = "Verify the effectivity of a blueprint change (for in-process revision changes onl" +
     "y) and initiate rework travelers (including marking requirements), as applicable" +
@@ -916,7 +916,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(99, 288);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(877, 36);
+            this.label11.Size = new System.Drawing.Size(860, 36);
             this.label11.TabIndex = 11;
             this.label11.Text = resources.GetString("label11.Text");
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -929,7 +929,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(99, 324);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(877, 36);
+            this.label5.Size = new System.Drawing.Size(860, 36);
             this.label5.TabIndex = 9;
             this.label5.Text = "Verify route revision and fixed process number matches in JobBoss (check the ‘Cus" +
     "tom’ tab and the ‘Internal Notes’)";
@@ -943,7 +943,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(99, 360);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(877, 36);
+            this.label10.Size = new System.Drawing.Size(860, 36);
             this.label10.TabIndex = 10;
             this.label10.Text = "Verify time standards, setup times and supplier lead times are included in the Jo" +
     "bBoss job and template";
@@ -957,7 +957,7 @@
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(99, 396);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(877, 36);
+            this.label35.Size = new System.Drawing.Size(860, 36);
             this.label35.TabIndex = 35;
             this.label35.Text = "Notify Applications Engineers (lathe, mill and gear) of new part so that tooling " +
     "can be procured";
@@ -971,7 +971,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(99, 432);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(877, 36);
+            this.label34.Size = new System.Drawing.Size(860, 36);
             this.label34.TabIndex = 34;
             this.label34.Text = "Review corrective\te and preventive actions within uniPoint to determine if any is" +
     "sues need to be addressed and/or planning changes are required";
@@ -985,7 +985,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(99, 468);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(877, 36);
+            this.label33.Size = new System.Drawing.Size(860, 36);
             this.label33.TabIndex = 33;
             this.label33.Text = "Verify FPA, VSE and any substantiation requirements are incorporated and assign r" +
     "esponsibilities, as applicable";
@@ -999,7 +999,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(99, 504);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(877, 36);
+            this.label30.Size = new System.Drawing.Size(860, 36);
             this.label30.TabIndex = 30;
             this.label30.Text = "Verify Round Robin testing requirements per FSD-D-MFG-005 are met, as applicable";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1012,7 +1012,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(99, 540);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(877, 36);
+            this.label31.Size = new System.Drawing.Size(860, 36);
             this.label31.TabIndex = 31;
             this.label31.Text = "Procure depth gages for gundrill and BTA, spline gages, thread gages, and other g" +
     "aging, as needed";
@@ -1026,7 +1026,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(99, 576);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(877, 36);
+            this.label29.Size = new System.Drawing.Size(860, 36);
             this.label29.TabIndex = 29;
             this.label29.Text = "Identify if tooling or inspection equipment is required for outside machining sup" +
     "pliers";
@@ -1040,7 +1040,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(99, 612);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(877, 36);
+            this.label28.Size = new System.Drawing.Size(860, 36);
             this.label28.TabIndex = 28;
             this.label28.Text = resources.GetString("label28.Text");
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1053,7 +1053,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(99, 648);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(877, 36);
+            this.label26.Size = new System.Drawing.Size(860, 36);
             this.label26.TabIndex = 26;
             this.label26.Text = "Verify SPC requirements and key characteristics are identified in the final inspe" +
     "ction operation, for new part number or revision";
@@ -1067,7 +1067,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(99, 684);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(877, 36);
+            this.label27.Size = new System.Drawing.Size(860, 36);
             this.label27.TabIndex = 27;
             this.label27.Text = "Identify job number, PO or heat lot number if using material bought on another jo" +
     "b (traceability MUST be established by Planning)";
@@ -1081,7 +1081,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(99, 720);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(877, 36);
+            this.label25.Size = new System.Drawing.Size(860, 36);
             this.label25.TabIndex = 25;
             this.label25.Text = "Verify material type, condition (as flowed down by the applicable material or hea" +
     "t treat specification), size and saw length (including material bought on anothe" +
@@ -1096,7 +1096,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(99, 756);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(877, 36);
+            this.label21.Size = new System.Drawing.Size(860, 36);
             this.label21.TabIndex = 21;
             this.label21.Text = "Identify if DFAR or domestic material is required (Q320) or if foreign material i" +
     "s acceptable";
@@ -1110,7 +1110,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(99, 792);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(877, 36);
+            this.label19.Size = new System.Drawing.Size(860, 36);
             this.label19.TabIndex = 19;
             this.label19.Text = "Verify planning for machining and tech sheets are correct and coincide with manuf" +
     "acturing sketch sheets; revise tech sheets as needed";
@@ -1124,7 +1124,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(99, 828);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(877, 36);
+            this.label24.Size = new System.Drawing.Size(860, 36);
             this.label24.TabIndex = 24;
             this.label24.Text = resources.GetString("label24.Text");
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1137,7 +1137,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(99, 864);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(877, 36);
+            this.label22.Size = new System.Drawing.Size(860, 36);
             this.label22.TabIndex = 22;
             this.label22.Text = "Verify special process and masking sketch sheets are complete and in Q-Pulse, as " +
     "applicable";
@@ -1151,7 +1151,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(99, 900);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(877, 36);
+            this.label18.Size = new System.Drawing.Size(860, 36);
             this.label18.TabIndex = 18;
             this.label18.Text = resources.GetString("label18.Text");
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1164,7 +1164,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(99, 936);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(877, 36);
+            this.label23.Size = new System.Drawing.Size(860, 36);
             this.label23.TabIndex = 23;
             this.label23.Text = "Verify applicable PSDs and program are identified for Boeing BAC and BSS specs";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1177,7 +1177,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(99, 972);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(877, 36);
+            this.label20.Size = new System.Drawing.Size(860, 36);
             this.label20.TabIndex = 20;
             this.label20.Text = "Verify special process and outside machining operations reference the material an" +
     "d hardness of the parts";
@@ -1191,7 +1191,7 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(99, 1008);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(877, 36);
+            this.label38.Size = new System.Drawing.Size(860, 36);
             this.label38.TabIndex = 39;
             this.label38.Text = "Verify special process operations state if GEAE is the end user or if S-1000, RRE" +
     "S 90000, SABRe or BPS 4000 applies";
@@ -1205,7 +1205,7 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(99, 1044);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(877, 36);
+            this.label40.Size = new System.Drawing.Size(860, 36);
             this.label40.TabIndex = 41;
             this.label40.Text = "Verify marking requirements are fully defined (including text to be marked, metho" +
     "d and specification)";
@@ -1219,7 +1219,7 @@
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(99, 1080);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(877, 36);
+            this.label43.Size = new System.Drawing.Size(860, 36);
             this.label43.TabIndex = 44;
             this.label43.Text = "Verify traceability requirements…are serial numbers required on NDT certification" +
     "s (e.g., Q380)?";
@@ -1233,7 +1233,7 @@
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(99, 1116);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(877, 36);
+            this.label41.Size = new System.Drawing.Size(860, 36);
             this.label41.TabIndex = 42;
             this.label41.Text = "Verify serial numbers are assigned to correct lots per customer requirements and " +
     "lists were provided by Quality Assurance for customer-supplied material";
@@ -1247,7 +1247,7 @@
             this.label37.AutoSize = true;
             this.label37.Location = new System.Drawing.Point(99, 1152);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(877, 36);
+            this.label37.Size = new System.Drawing.Size(860, 36);
             this.label37.TabIndex = 38;
             this.label37.Text = "Verify cleaning, preservation and packaging requirements (including BPS 4108 and " +
     "inspection operation for marking, preservation and packaging)";
@@ -1261,7 +1261,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(99, 1188);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(877, 36);
+            this.label39.Size = new System.Drawing.Size(860, 36);
             this.label39.TabIndex = 40;
             this.label39.Text = resources.GetString("label39.Text");
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1274,7 +1274,7 @@
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(99, 1224);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(877, 36);
+            this.label42.Size = new System.Drawing.Size(860, 36);
             this.label42.TabIndex = 43;
             this.label42.Text = "Verify shot peen requirements are fully defined and procure tech sheet, as needed" +
     "";
@@ -1288,7 +1288,7 @@
             this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(99, 1260);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(877, 36);
+            this.label36.Size = new System.Drawing.Size(860, 36);
             this.label36.TabIndex = 37;
             this.label36.Text = "Verify EDM requirements are fully defined; procure EDM schedule and verify it is " +
     "approved by the customer (as applicable)";
@@ -1302,7 +1302,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(99, 1296);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(877, 36);
+            this.label32.Size = new System.Drawing.Size(860, 36);
             this.label32.TabIndex = 36;
             this.label32.Text = "Verify EDM metallurgical lab has been performed within the last 2 years (as appli" +
     "cable). If lab is required, add operation and requirements to the traveler.";
@@ -1316,7 +1316,7 @@
             this.label46.AutoSize = true;
             this.label46.Location = new System.Drawing.Point(99, 1332);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(877, 36);
+            this.label46.Size = new System.Drawing.Size(860, 36);
             this.label46.TabIndex = 47;
             this.label46.Text = "Verify all assembly and subassembly planning has been reviewed";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1329,7 +1329,7 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(99, 1368);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(877, 36);
+            this.label44.Size = new System.Drawing.Size(860, 36);
             this.label44.TabIndex = 45;
             this.label44.Text = "Notify sub-tier suppliers and production floor and verify template and ALL active" +
     " jobs have been updated in JobBoss (for in-process revision changes only)";
@@ -1358,7 +1358,7 @@
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.label53.Location = new System.Drawing.Point(3, 52);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(86, 26);
+            this.label53.Size = new System.Drawing.Size(84, 26);
             this.label53.TabIndex = 49;
             this.label53.Text = "PLANNING:";
             this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1369,7 +1369,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label56.Location = new System.Drawing.Point(187, 52);
+            this.label56.Location = new System.Drawing.Point(183, 52);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(76, 26);
             this.label56.TabIndex = 135;
@@ -1424,7 +1424,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(979, 78);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(962, 78);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // textBox7
@@ -1433,9 +1433,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox7.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox7.Location = new System.Drawing.Point(886, 3);
+            this.textBox7.Location = new System.Drawing.Point(868, 3);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(90, 20);
+            this.textBox7.Size = new System.Drawing.Size(91, 20);
             this.textBox7.TabIndex = 14;
             // 
             // textBox6
@@ -1444,9 +1444,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox6.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox6.Location = new System.Drawing.Point(702, 3);
+            this.textBox6.Location = new System.Drawing.Point(688, 3);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(86, 20);
+            this.textBox6.Size = new System.Drawing.Size(84, 20);
             this.textBox6.TabIndex = 13;
             // 
             // textBox5
@@ -1455,9 +1455,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.Location = new System.Drawing.Point(518, 3);
+            this.textBox5.Location = new System.Drawing.Point(508, 3);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(86, 20);
+            this.textBox5.Size = new System.Drawing.Size(84, 20);
             this.textBox5.TabIndex = 12;
             // 
             // textBox4
@@ -1466,9 +1466,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox4.Location = new System.Drawing.Point(279, 3);
+            this.textBox4.Location = new System.Drawing.Point(273, 3);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(86, 20);
+            this.textBox4.Size = new System.Drawing.Size(84, 20);
             this.textBox4.TabIndex = 11;
             this.textBox4.Text = "94131";
             // 
@@ -1478,9 +1478,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.Location = new System.Drawing.Point(95, 3);
+            this.textBox3.Location = new System.Drawing.Point(93, 3);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(86, 20);
+            this.textBox3.Size = new System.Drawing.Size(84, 20);
             this.textBox3.TabIndex = 10;
             this.textBox3.Text = "32145";
             // 
@@ -1494,7 +1494,7 @@
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic);
             this.label47.Location = new System.Drawing.Point(3, 26);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(973, 26);
+            this.label47.Size = new System.Drawing.Size(956, 26);
             this.label47.TabIndex = 0;
             this.label47.Text = "*Individual checkboxes do not have to be checked; the initials and dates on the C" +
     "ontract Review form is record of each task being completed.";
@@ -1509,7 +1509,7 @@
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.label48.Location = new System.Drawing.Point(3, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(86, 26);
+            this.label48.Size = new System.Drawing.Size(84, 26);
             this.label48.TabIndex = 1;
             this.label48.Text = "Job #";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1521,9 +1521,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label52.Location = new System.Drawing.Point(794, 0);
+            this.label52.Location = new System.Drawing.Point(778, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(86, 26);
+            this.label52.Size = new System.Drawing.Size(84, 26);
             this.label52.TabIndex = 5;
             this.label52.Text = "Date";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1535,9 +1535,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label51.Location = new System.Drawing.Point(610, 0);
+            this.label51.Location = new System.Drawing.Point(598, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(86, 26);
+            this.label51.Size = new System.Drawing.Size(84, 26);
             this.label51.TabIndex = 4;
             this.label51.Text = "Initial";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1549,9 +1549,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label50.Location = new System.Drawing.Point(371, 0);
+            this.label50.Location = new System.Drawing.Point(363, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(141, 26);
+            this.label50.Size = new System.Drawing.Size(139, 26);
             this.label50.TabIndex = 3;
             this.label50.Text = "Description of Change";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1563,9 +1563,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label49.Location = new System.Drawing.Point(187, 0);
+            this.label49.Location = new System.Drawing.Point(183, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(86, 26);
+            this.label49.Size = new System.Drawing.Size(84, 26);
             this.label49.TabIndex = 2;
             this.label49.Text = "PO #";
             this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1576,9 +1576,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Location = new System.Drawing.Point(95, 55);
+            this.textBox1.Location = new System.Drawing.Point(93, 55);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(86, 20);
+            this.textBox1.Size = new System.Drawing.Size(84, 20);
             this.textBox1.TabIndex = 8;
             // 
             // textBox2
@@ -1588,9 +1588,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox2, 2);
-            this.textBox2.Location = new System.Drawing.Point(279, 55);
+            this.textBox2.Location = new System.Drawing.Point(273, 55);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 20);
+            this.textBox2.Size = new System.Drawing.Size(229, 20);
             this.textBox2.TabIndex = 9;
             // 
             // ContractReviewCheckList_ME

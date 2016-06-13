@@ -15,7 +15,9 @@ namespace Workflow
         public JobCheckForm()
         {
             InitializeComponent();
+            testCommentPopUp1.Visible = false;
         }
+
 
         private void JobCheckForm_Load(object sender, EventArgs e)
         {
@@ -29,6 +31,17 @@ namespace Workflow
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (testCommentPopUp1.Visible == true)
+            {
+                testCommentPopUp1.Visible = false;
+            }
+            else
+                testCommentPopUp1.Visible = true;
+            
         }
     }
 }
