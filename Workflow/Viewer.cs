@@ -52,5 +52,11 @@ namespace Workflow
             Form contractReviewWorkflowForm = new ContractReview();
             contractReviewWorkflowForm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form jobViewer = new JobListViewer();
+            jobViewer.Show();
+        }
     }
 }

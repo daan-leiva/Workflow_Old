@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Workflow
 {
     public partial class JobListViewer : Form
     {
+        string connection_string = "Server=ATI-SQL;Database=PRODUCTION;UID=support;PWD=lonestar";
+        private BindingSource bindingSource = new BindingSource();
+
         public JobListViewer()
         {
             InitializeComponent();
@@ -22,26 +20,38 @@ namespace Workflow
             // set date time picker range to between a year from now and today
             startDateTimePicker.Value = DateTime.Now.AddYears(-1);
             endDateTimePicker.Value = DateTime.Now;
-        }
 
-        private void customerTextBox_TextChanged(object sender, EventArgs e)
-        {
+            // add event handlers for updating the datagridview
+            startDateTimePicker.ValueChanged += updateDataGridView;
+            endDateTimePicker.ValueChanged += updateDataGridView;
+            customerTextBox.TextChanged += updateDataGridView;
+            partNoTextBox.TextChanged += updateDataGridView;
+            jobTextBox.TextChanged += updateDataGridView;
 
-        }
-
-        private void partNoTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void jobTextBox_TextChanged(object sender, EventArgs e)
-        {
+            // set up datagridview
+            dataGridView.DataSource = bindingSource;
+            dataGridView.ReadOnly = true;
+            dataGridView.MultiSelect = true;
 
         }
 
         private void updateDataGridView(object sender, EventArgs e)
         {
+            string query =
+                "SELECT Job, Customer, Order_Date, Status, Part_Number, Description\n" +
+                "FROM PRODUCTION.dbo.Job\n" +
+                "WHERE Job LIKE '%" + jobTextBox.Text.Trim() + "%' AND Part_Number LIKE '%" + partNoTextBox.Text.Trim() + "%' AND Order_Date >= CONVERT(DATE, '" + startDateTimePicker.Value.ToShortDateString() + "') AND Order_Date <= CONVERT(DATE, '" + endDateTimePicker.Value.ToShortDateString() + "') AND Customer LIKE '%" + customerTextBox.Text.Trim() + "%';";
 
+
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connection_string);
+
+            SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
+            DataTable dt = new DataTable();
+            dataAdapter.Fill(dt);
+            bindingSource.DataSource = dt;
+
+            // update Rows label
+            rowsLabel.Text = "Rows: " + dt.Rows.Count;
         }
     }
 }
