@@ -16,21 +16,30 @@ namespace Workflow
         {
             InitializeComponent();
             textBox8.Visible = false;
+            tableLayoutPanel1.RowStyles[1].Height = 0;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             if (textBox8.Visible == false)
             {
                 textBox8.Visible = true;
+                tableLayoutPanel1.RowStyles[1].Height = 2;
             }
             else
+            {
+                tableLayoutPanel1.RowStyles[1].Height = 0;
                 textBox8.Visible = false;
+            }
+                
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
     }
 }
