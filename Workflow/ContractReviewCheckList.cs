@@ -16,7 +16,12 @@ namespace Workflow
         {
             InitializeComponent();
             textBox8.Visible = false;
-            tableLayoutPanel1.RowStyles[1].Height = 0;
+            textBox9.Visible = false;
+            for(int i=1; i<95; i+=2)
+            {
+                tableLayoutPanel1.RowStyles[i].Height = 0;
+            }
+            
 
         }
 

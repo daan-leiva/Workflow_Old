@@ -131,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(214, 324);
+            this.ClientSize = new System.Drawing.Size(214, 393);
             this.Controls.Add(this.contractReviewWorkflowButton);
             this.Controls.Add(this.createWorkflowButton);
             this.Controls.Add(this.viewHondaPOFormButton);
