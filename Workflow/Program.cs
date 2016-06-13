@@ -17,12 +17,8 @@ namespace Workflow
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
             Application.Run(new Viewer());
-=======
             Application.Run(new ContractReviewCheckList());
-            
->>>>>>> 37b04e496485fc81c67e192956bbe5dd0b8f4d9f
         }
     }
 }
