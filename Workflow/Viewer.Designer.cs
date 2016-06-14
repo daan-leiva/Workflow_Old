@@ -40,7 +40,7 @@
             // 
             // viewContractReviewButton
             // 
-            this.viewContractReviewButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.viewContractReviewButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewContractReviewButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.viewContractReviewButton.Location = new System.Drawing.Point(58, 133);
@@ -53,7 +53,7 @@
             // 
             // viewQuickReleaseButton
             // 
-            this.viewQuickReleaseButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.viewQuickReleaseButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewQuickReleaseButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.viewQuickReleaseButton.Location = new System.Drawing.Point(58, 43);
@@ -66,7 +66,7 @@
             // 
             // viewRollsPOFormButton
             // 
-            this.viewRollsPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.viewRollsPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewRollsPOFormButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.viewRollsPOFormButton.Location = new System.Drawing.Point(58, 223);
@@ -90,7 +90,7 @@
             // 
             // viewHondaPOFormButton
             // 
-            this.viewHondaPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.viewHondaPOFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewHondaPOFormButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.viewHondaPOFormButton.Location = new System.Drawing.Point(58, 178);
@@ -103,7 +103,7 @@
             // 
             // createWorkflowButton
             // 
-            this.createWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.createWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.createWorkflowButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.createWorkflowButton.Location = new System.Drawing.Point(58, 268);
@@ -116,7 +116,7 @@
             // 
             // contractReviewWorkflowButton
             // 
-            this.contractReviewWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.contractReviewWorkflowButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.contractReviewWorkflowButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.contractReviewWorkflowButton.Location = new System.Drawing.Point(58, 88);
@@ -129,7 +129,7 @@
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.Location = new System.Drawing.Point(58, 312);
@@ -145,12 +145,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(214, 393);
-=======
             this.ClientSize = new System.Drawing.Size(214, 386);
             this.Controls.Add(this.button1);
->>>>>>> 20e107a451fad61139e4298977c2ff03b7e2a2a3
             this.Controls.Add(this.contractReviewWorkflowButton);
             this.Controls.Add(this.createWorkflowButton);
             this.Controls.Add(this.viewHondaPOFormButton);
@@ -176,3 +173,4 @@
         private System.Windows.Forms.Button contractReviewWorkflowButton;
         private System.Windows.Forms.Button button1;
     }
+}
