@@ -53,10 +53,10 @@ namespace Workflow
             contractReviewWorkflowForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void jobListVieweButton_Click(object sender, EventArgs e)
         {
-            Form jobViewer = new JobListViewer();
-            jobViewer.Show();
+            Form jobListViewer = new JobListViewer();
+            jobListViewer.Show();
         }
     }
 }
