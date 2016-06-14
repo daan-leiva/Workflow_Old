@@ -52,7 +52,6 @@
             this.jobTextBox.Name = "jobTextBox";
             this.jobTextBox.Size = new System.Drawing.Size(204, 20);
             this.jobTextBox.TabIndex = 42;
-            this.jobTextBox.TextChanged += new System.EventHandler(this.jobTextBox_TextChanged);
             // 
             // partNoTextBox
             // 
@@ -60,7 +59,6 @@
             this.partNoTextBox.Name = "partNoTextBox";
             this.partNoTextBox.Size = new System.Drawing.Size(204, 20);
             this.partNoTextBox.TabIndex = 41;
-            this.partNoTextBox.TextChanged += new System.EventHandler(this.partNoTextBox_TextChanged);
             // 
             // customerTextBox
             // 
@@ -68,7 +66,6 @@
             this.customerTextBox.Name = "customerTextBox";
             this.customerTextBox.Size = new System.Drawing.Size(204, 20);
             this.customerTextBox.TabIndex = 40;
-            this.customerTextBox.TextChanged += new System.EventHandler(this.customerTextBox_TextChanged);
             // 
             // label5
             // 
@@ -129,6 +126,7 @@
             this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
