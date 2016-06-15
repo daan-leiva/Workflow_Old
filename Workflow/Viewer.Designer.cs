@@ -36,6 +36,9 @@
             this.createWorkflowButton = new System.Windows.Forms.Button();
             this.contractReviewWorkflowButton = new System.Windows.Forms.Button();
             this.jobListVieweButton = new System.Windows.Forms.Button();
+            this.contractReviewQAButton = new System.Windows.Forms.Button();
+            this.contractReviewQEButton = new System.Windows.Forms.Button();
+            this.contractReviewMEButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // viewContractReviewButton
@@ -140,12 +143,52 @@
             this.jobListVieweButton.UseVisualStyleBackColor = true;
             this.jobListVieweButton.Click += new System.EventHandler(this.jobListVieweButton_Click);
             // 
+            // contractReviewQAButton
+            // 
+            this.contractReviewQAButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contractReviewQAButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.contractReviewQAButton.Location = new System.Drawing.Point(58, 356);
+            this.contractReviewQAButton.Name = "contractReviewQAButton";
+            this.contractReviewQAButton.Size = new System.Drawing.Size(98, 38);
+            this.contractReviewQAButton.TabIndex = 8;
+            this.contractReviewQAButton.Text = "Contract Review QA";
+            this.contractReviewQAButton.UseVisualStyleBackColor = true;
+            this.contractReviewQAButton.Click += new System.EventHandler(this.contractReviewQAButton_Click);
+            // 
+            // contractReviewQEButton
+            // 
+            this.contractReviewQEButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contractReviewQEButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.contractReviewQEButton.Location = new System.Drawing.Point(58, 400);
+            this.contractReviewQEButton.Name = "contractReviewQEButton";
+            this.contractReviewQEButton.Size = new System.Drawing.Size(98, 38);
+            this.contractReviewQEButton.TabIndex = 9;
+            this.contractReviewQEButton.Text = "Contract Review QE";
+            this.contractReviewQEButton.UseVisualStyleBackColor = true;
+            // 
+            // contractReviewMEButton
+            // 
+            this.contractReviewMEButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contractReviewMEButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.contractReviewMEButton.Location = new System.Drawing.Point(58, 444);
+            this.contractReviewMEButton.Name = "contractReviewMEButton";
+            this.contractReviewMEButton.Size = new System.Drawing.Size(98, 38);
+            this.contractReviewMEButton.TabIndex = 10;
+            this.contractReviewMEButton.Text = "Contract Review ME";
+            this.contractReviewMEButton.UseVisualStyleBackColor = true;
+            // 
             // Viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(214, 374);
+            this.ClientSize = new System.Drawing.Size(214, 503);
+            this.Controls.Add(this.contractReviewMEButton);
+            this.Controls.Add(this.contractReviewQEButton);
+            this.Controls.Add(this.contractReviewQAButton);
             this.Controls.Add(this.jobListVieweButton);
             this.Controls.Add(this.contractReviewWorkflowButton);
             this.Controls.Add(this.createWorkflowButton);
@@ -171,5 +214,8 @@
         private System.Windows.Forms.Button createWorkflowButton;
         private System.Windows.Forms.Button contractReviewWorkflowButton;
         private System.Windows.Forms.Button jobListVieweButton;
+        private System.Windows.Forms.Button contractReviewQAButton;
+        private System.Windows.Forms.Button contractReviewQEButton;
+        private System.Windows.Forms.Button contractReviewMEButton;
     }
 }

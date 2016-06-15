@@ -146,11 +146,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox1, 5);
+
             this.textBox1.Location = new System.Drawing.Point(139, 84);
             this.textBox1.Margin = new System.Windows.Forms.Padding(0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(699, 28);
+
+            this.textBox1.Location = new System.Drawing.Point(142, 75);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(713, 25);
+
             this.textBox1.TabIndex = 8;
             // 
             // label54
@@ -160,10 +168,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label54.Location = new System.Drawing.Point(417, 56);
             this.label54.Margin = new System.Windows.Forms.Padding(0);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(139, 28);
+
+            this.label54.Location = new System.Drawing.Point(426, 50);
+            this.label54.Margin = new System.Windows.Forms.Padding(0);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(142, 25);
+
             this.label54.TabIndex = 6;
             this.label54.Text = "PO/Rev. Date";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,10 +190,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label50.Location = new System.Drawing.Point(556, 0);
             this.label50.Margin = new System.Windows.Forms.Padding(0);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(139, 28);
+
+            this.label50.Location = new System.Drawing.Point(568, 0);
+            this.label50.Margin = new System.Windows.Forms.Padding(0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(142, 25);
+
             this.label50.TabIndex = 3;
             this.label50.Text = "Date";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -193,7 +215,11 @@
             this.label48.Location = new System.Drawing.Point(0, 0);
             this.label48.Margin = new System.Windows.Forms.Padding(0);
             this.label48.Name = "label48";
+
             this.label48.Size = new System.Drawing.Size(139, 28);
+
+            this.label48.Size = new System.Drawing.Size(142, 25);
+
             this.label48.TabIndex = 1;
             this.label48.Text = "Job No.";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,22 +234,39 @@
             this.label55.Location = new System.Drawing.Point(0, 28);
             this.label55.Margin = new System.Windows.Forms.Padding(0);
             this.label55.Name = "label55";
+
             this.label55.Size = new System.Drawing.Size(139, 28);
+
+            this.label55.Size = new System.Drawing.Size(142, 25);
+
             this.label55.TabIndex = 7;
             this.label55.Text = "PO No.";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+
+
+          
+            // 
+
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.BackColor = System.Drawing.SystemColors.Control;
+
             this.textBox4.Location = new System.Drawing.Point(417, 0);
             this.textBox4.Margin = new System.Windows.Forms.Padding(0);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(139, 28);
+
+            this.textBox4.Location = new System.Drawing.Point(426, 0);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(142, 25);
+
             this.textBox4.TabIndex = 11;
             // 
             // textBox5
@@ -232,11 +275,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox5.BackColor = System.Drawing.SystemColors.Control;
+
             this.textBox5.Location = new System.Drawing.Point(695, 0);
             this.textBox5.Margin = new System.Windows.Forms.Padding(0);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(143, 28);
+
+            this.textBox5.Location = new System.Drawing.Point(710, 0);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(145, 25);
+
             this.textBox5.TabIndex = 12;
             // 
             // tableLayoutPanel2
@@ -382,7 +433,11 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
+
             this.tableLayoutPanel2.Size = new System.Drawing.Size(838, 1073);
+
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(855, 962);
+
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // tableLayoutPanel1
@@ -444,7 +499,11 @@
             this.label30.Location = new System.Drawing.Point(0, 980);
             this.label30.Margin = new System.Windows.Forms.Padding(0);
             this.label30.Name = "label30";
+
             this.label30.Size = new System.Drawing.Size(838, 28);
+
+            this.label30.Size = new System.Drawing.Size(855, 25);
+
             this.label30.TabIndex = 80;
             this.label30.Text = "*Note: If job is ‘Active’ or ‘Complete’ and needs review, then create JobBoss wor" +
     "kflow and send job folder to QA. If job is ‘New’, then send job folder to Planni" +
@@ -463,7 +522,11 @@
             this.label22.Location = new System.Drawing.Point(0, 728);
             this.label22.Margin = new System.Windows.Forms.Padding(0);
             this.label22.Name = "label22";
+
             this.label22.Size = new System.Drawing.Size(838, 28);
+
+            this.label22.Size = new System.Drawing.Size(855, 25);
+
             this.label22.TabIndex = 67;
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -476,7 +539,11 @@
             this.textBox8.Margin = new System.Windows.Forms.Padding(0);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
+
             this.textBox8.Size = new System.Drawing.Size(838, 28);
+
+            this.textBox8.Size = new System.Drawing.Size(855, 25);
+
             this.textBox8.TabIndex = 35;
             // 
             // label8
@@ -491,7 +558,11 @@
             this.label8.Location = new System.Drawing.Point(0, 280);
             this.label8.Margin = new System.Windows.Forms.Padding(0);
             this.label8.Name = "label8";
+
             this.label8.Size = new System.Drawing.Size(838, 28);
+
+            this.label8.Size = new System.Drawing.Size(855, 25);
+
             this.label8.TabIndex = 33;
             this.label8.Text = "Comments";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -501,10 +572,17 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox4.Location = new System.Drawing.Point(278, 168);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox4.Location = new System.Drawing.Point(284, 150);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox4.TabIndex = 26;
             this.checkBox4.Text = "Yes";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -520,7 +598,11 @@
             this.label6.Location = new System.Drawing.Point(0, 168);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
+
             this.label6.Size = new System.Drawing.Size(278, 28);
+
+            this.label6.Size = new System.Drawing.Size(284, 25);
+
             this.label6.TabIndex = 25;
             this.label6.Text = "(2) Is this a new purchase order?";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -532,11 +614,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox2, 2);
+
             this.textBox2.Location = new System.Drawing.Point(139, 28);
             this.textBox2.Margin = new System.Windows.Forms.Padding(0);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox2.Location = new System.Drawing.Point(142, 25);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(284, 25);
+
             this.textBox2.TabIndex = 18;
             // 
             // label4
@@ -546,10 +636,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label4.Location = new System.Drawing.Point(278, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(139, 28);
+
+            this.label4.Location = new System.Drawing.Point(284, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(142, 25);
+
             this.label4.TabIndex = 16;
             this.label4.Text = "Initiated By";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -566,7 +663,11 @@
             this.label7.Margin = new System.Windows.Forms.Padding(0);
             this.label7.Name = "label7";
             this.tableLayoutPanel2.SetRowSpan(this.label7, 2);
+
             this.label7.Size = new System.Drawing.Size(838, 56);
+
+            this.label7.Size = new System.Drawing.Size(855, 50);
+
             this.label7.TabIndex = 28;
             this.label7.Text = resources.GetString("label7.Text");
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -578,10 +679,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox5.AutoSize = true;
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox5.Location = new System.Drawing.Point(278, 252);
             this.checkBox5.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox5.Location = new System.Drawing.Point(284, 225);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox5.TabIndex = 29;
             this.checkBox5.Text = "Yes";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -593,10 +701,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox6.Location = new System.Drawing.Point(417, 252);
             this.checkBox6.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox6.Location = new System.Drawing.Point(426, 225);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox6.TabIndex = 30;
             this.checkBox6.Text = "No";
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -608,10 +723,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox7.AutoSize = true;
             this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox7.Location = new System.Drawing.Point(417, 168);
             this.checkBox7.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox7.Location = new System.Drawing.Point(426, 150);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox7.TabIndex = 31;
             this.checkBox7.Text = "No";
             this.checkBox7.UseVisualStyleBackColor = true;
@@ -623,10 +745,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox8.AutoSize = true;
             this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox8.Location = new System.Drawing.Point(556, 252);
             this.checkBox8.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox8.Location = new System.Drawing.Point(568, 225);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox8.TabIndex = 32;
             this.checkBox8.Text = "N/A";
             this.checkBox8.UseVisualStyleBackColor = true;
@@ -643,7 +772,11 @@
             this.label9.Location = new System.Drawing.Point(0, 336);
             this.label9.Margin = new System.Windows.Forms.Padding(0);
             this.label9.Name = "label9";
+
             this.label9.Size = new System.Drawing.Size(838, 28);
+
+            this.label9.Size = new System.Drawing.Size(855, 25);
+
             this.label9.TabIndex = 34;
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -659,7 +792,11 @@
             this.label14.Location = new System.Drawing.Point(0, 448);
             this.label14.Margin = new System.Windows.Forms.Padding(0);
             this.label14.Name = "label14";
+
             this.label14.Size = new System.Drawing.Size(838, 28);
+
+            this.label14.Size = new System.Drawing.Size(855, 25);
+
             this.label14.TabIndex = 46;
             this.label14.Text = "List the subassembly part numbers and revisions (or N/A).";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -676,7 +813,11 @@
             this.label15.Location = new System.Drawing.Point(0, 476);
             this.label15.Margin = new System.Windows.Forms.Padding(0);
             this.label15.Name = "label15";
+
             this.label15.Size = new System.Drawing.Size(838, 28);
+
+            this.label15.Size = new System.Drawing.Size(855, 25);
+
             this.label15.TabIndex = 47;
             this.label15.Text = "*Add more rows for additional subassemblies (as required).";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -693,7 +834,11 @@
             this.label16.Location = new System.Drawing.Point(0, 504);
             this.label16.Margin = new System.Windows.Forms.Padding(0);
             this.label16.Name = "label16";
+
             this.label16.Size = new System.Drawing.Size(838, 28);
+
+            this.label16.Size = new System.Drawing.Size(855, 25);
+
             this.label16.TabIndex = 48;
             this.label16.Text = "(7) Have any of the subassembly drawings changed since the last review?   ";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -710,7 +855,11 @@
             this.label17.Location = new System.Drawing.Point(0, 532);
             this.label17.Margin = new System.Windows.Forms.Padding(0);
             this.label17.Name = "label17";
+
             this.label17.Size = new System.Drawing.Size(278, 28);
+
+            this.label17.Size = new System.Drawing.Size(284, 25);
+
             this.label17.TabIndex = 52;
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -722,10 +871,17 @@
             this.checkBox13.AutoSize = true;
             this.checkBox13.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox13.Location = new System.Drawing.Point(278, 532);
             this.checkBox13.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox13.Location = new System.Drawing.Point(284, 475);
+            this.checkBox13.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox13.TabIndex = 49;
             this.checkBox13.Text = "Yes";
             this.checkBox13.UseVisualStyleBackColor = false;
@@ -738,10 +894,17 @@
             this.checkBox14.AutoSize = true;
             this.checkBox14.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox14.Location = new System.Drawing.Point(417, 532);
             this.checkBox14.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox14.Location = new System.Drawing.Point(426, 475);
+            this.checkBox14.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox14.TabIndex = 50;
             this.checkBox14.Text = "No";
             this.checkBox14.UseVisualStyleBackColor = false;
@@ -754,10 +917,17 @@
             this.checkBox15.AutoSize = true;
             this.checkBox15.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox15.Location = new System.Drawing.Point(556, 532);
             this.checkBox15.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox15.Location = new System.Drawing.Point(568, 475);
+            this.checkBox15.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox15.TabIndex = 51;
             this.checkBox15.Text = "N/A";
             this.checkBox15.UseVisualStyleBackColor = false;
@@ -770,10 +940,17 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label18.Location = new System.Drawing.Point(695, 532);
             this.label18.Margin = new System.Windows.Forms.Padding(0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(143, 28);
+
+            this.label18.Location = new System.Drawing.Point(710, 475);
+            this.label18.Margin = new System.Windows.Forms.Padding(0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(145, 25);
+
             this.label18.TabIndex = 53;
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -788,7 +965,11 @@
             this.label19.Location = new System.Drawing.Point(0, 560);
             this.label19.Margin = new System.Windows.Forms.Padding(0);
             this.label19.Name = "label19";
+
             this.label19.Size = new System.Drawing.Size(278, 28);
+
+            this.label19.Size = new System.Drawing.Size(284, 25);
+
             this.label19.TabIndex = 54;
             this.label19.Text = "Subassembly Part Number";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -801,10 +982,17 @@
             this.label20.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.label20, 2);
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label20.Location = new System.Drawing.Point(278, 560);
             this.label20.Margin = new System.Windows.Forms.Padding(0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(278, 28);
+
+            this.label20.Location = new System.Drawing.Point(284, 500);
+            this.label20.Margin = new System.Windows.Forms.Padding(0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(284, 25);
+
             this.label20.TabIndex = 55;
             this.label20.Text = "Drawing Rev.";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -817,10 +1005,17 @@
             this.label21.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.label21, 2);
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label21.Location = new System.Drawing.Point(556, 560);
             this.label21.Margin = new System.Windows.Forms.Padding(0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(282, 28);
+
+            this.label21.Location = new System.Drawing.Point(568, 500);
+            this.label21.Margin = new System.Windows.Forms.Padding(0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(287, 25);
+
             this.label21.TabIndex = 56;
             this.label21.Text = "Change?";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -832,10 +1027,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox16.AutoSize = true;
             this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox16.Location = new System.Drawing.Point(556, 588);
             this.checkBox16.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox16.Location = new System.Drawing.Point(568, 525);
+            this.checkBox16.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox16.TabIndex = 57;
             this.checkBox16.Text = "Yes";
             this.checkBox16.UseVisualStyleBackColor = true;
@@ -847,10 +1049,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox19.AutoSize = true;
             this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox19.Location = new System.Drawing.Point(556, 616);
             this.checkBox19.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox19.Location = new System.Drawing.Point(568, 550);
+            this.checkBox19.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox19.TabIndex = 60;
             this.checkBox19.Text = "Yes";
             this.checkBox19.UseVisualStyleBackColor = true;
@@ -862,10 +1071,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox17.AutoSize = true;
             this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox17.Location = new System.Drawing.Point(556, 644);
             this.checkBox17.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox17.Location = new System.Drawing.Point(568, 575);
+            this.checkBox17.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox17.TabIndex = 58;
             this.checkBox17.Text = "Yes";
             this.checkBox17.UseVisualStyleBackColor = true;
@@ -877,10 +1093,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox20.AutoSize = true;
             this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox20.Location = new System.Drawing.Point(556, 672);
             this.checkBox20.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox20.Location = new System.Drawing.Point(568, 600);
+            this.checkBox20.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox20.TabIndex = 61;
             this.checkBox20.Text = "Yes";
             this.checkBox20.UseVisualStyleBackColor = true;
@@ -892,10 +1115,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox18.AutoSize = true;
             this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox18.Location = new System.Drawing.Point(556, 700);
             this.checkBox18.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox18.Location = new System.Drawing.Point(568, 625);
+            this.checkBox18.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox18.TabIndex = 59;
             this.checkBox18.Text = "Yes";
             this.checkBox18.UseVisualStyleBackColor = true;
@@ -907,10 +1137,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox23.AutoSize = true;
             this.checkBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox23.Location = new System.Drawing.Point(695, 588);
             this.checkBox23.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox23.Location = new System.Drawing.Point(710, 525);
+            this.checkBox23.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox23.TabIndex = 64;
             this.checkBox23.Text = "No";
             this.checkBox23.UseVisualStyleBackColor = true;
@@ -922,10 +1159,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox21.AutoSize = true;
             this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox21.Location = new System.Drawing.Point(695, 616);
             this.checkBox21.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox21.Location = new System.Drawing.Point(710, 550);
+            this.checkBox21.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox21.TabIndex = 62;
             this.checkBox21.Text = "No";
             this.checkBox21.UseVisualStyleBackColor = true;
@@ -937,10 +1181,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox22.AutoSize = true;
             this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox22.Location = new System.Drawing.Point(695, 644);
             this.checkBox22.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox22.Location = new System.Drawing.Point(710, 575);
+            this.checkBox22.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox22.TabIndex = 63;
             this.checkBox22.Text = "No";
             this.checkBox22.UseVisualStyleBackColor = true;
@@ -952,10 +1203,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox24.AutoSize = true;
             this.checkBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox24.Location = new System.Drawing.Point(695, 672);
             this.checkBox24.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox24.Location = new System.Drawing.Point(710, 600);
+            this.checkBox24.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox24.TabIndex = 65;
             this.checkBox24.Text = "No";
             this.checkBox24.UseVisualStyleBackColor = true;
@@ -967,10 +1225,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox25.AutoSize = true;
             this.checkBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox25.Location = new System.Drawing.Point(695, 700);
             this.checkBox25.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox25.Location = new System.Drawing.Point(710, 625);
+            this.checkBox25.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox25.TabIndex = 66;
             this.checkBox25.Text = "No";
             this.checkBox25.UseVisualStyleBackColor = true;
@@ -987,7 +1252,11 @@
             this.label23.Location = new System.Drawing.Point(0, 756);
             this.label23.Margin = new System.Windows.Forms.Padding(0);
             this.label23.Name = "label23";
+
             this.label23.Size = new System.Drawing.Size(838, 28);
+
+            this.label23.Size = new System.Drawing.Size(855, 25);
+
             this.label23.TabIndex = 68;
             this.label23.Text = "(8) Is International Traffic in Arms Regulations (ITAR) or Arms Export Control Ac" +
     "t (AECA) referenced on the purchase order or drawing(s)?   ";
@@ -1000,10 +1269,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox26.AutoSize = true;
             this.checkBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox26.Location = new System.Drawing.Point(278, 784);
             this.checkBox26.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox26.Location = new System.Drawing.Point(284, 700);
+            this.checkBox26.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox26.Name = "checkBox26";
+            this.checkBox26.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox26.TabIndex = 69;
             this.checkBox26.Text = "Yes";
             this.checkBox26.UseVisualStyleBackColor = true;
@@ -1015,10 +1291,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox27.AutoSize = true;
             this.checkBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox27.Location = new System.Drawing.Point(417, 784);
             this.checkBox27.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox27.Location = new System.Drawing.Point(426, 700);
+            this.checkBox27.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox27.Name = "checkBox27";
+            this.checkBox27.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox27.TabIndex = 70;
             this.checkBox27.Text = "No";
             this.checkBox27.UseVisualStyleBackColor = true;
@@ -1035,7 +1318,11 @@
             this.label24.Location = new System.Drawing.Point(0, 812);
             this.label24.Margin = new System.Windows.Forms.Padding(0);
             this.label24.Name = "label24";
+
             this.label24.Size = new System.Drawing.Size(838, 28);
+
+            this.label24.Size = new System.Drawing.Size(855, 25);
+
             this.label24.TabIndex = 71;
             this.label24.Text = "*If question 8 was answered \'Yes\', then identify as ITAR in the JobBoss Material " +
     "Record.";
@@ -1053,7 +1340,11 @@
             this.label25.Location = new System.Drawing.Point(0, 840);
             this.label25.Margin = new System.Windows.Forms.Padding(0);
             this.label25.Name = "label25";
+
             this.label25.Size = new System.Drawing.Size(838, 28);
+
+            this.label25.Size = new System.Drawing.Size(855, 25);
+
             this.label25.TabIndex = 72;
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1069,7 +1360,11 @@
             this.label26.Location = new System.Drawing.Point(0, 868);
             this.label26.Margin = new System.Windows.Forms.Padding(0);
             this.label26.Name = "label26";
+
             this.label26.Size = new System.Drawing.Size(417, 28);
+
+            this.label26.Size = new System.Drawing.Size(426, 25);
+
             this.label26.TabIndex = 73;
             this.label26.Text = "(9) Is a Contract Review or Release Process required?";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1081,10 +1376,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox28.AutoSize = true;
             this.checkBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox28.Location = new System.Drawing.Point(417, 868);
             this.checkBox28.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox28.Location = new System.Drawing.Point(426, 775);
+            this.checkBox28.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox28.Name = "checkBox28";
+            this.checkBox28.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox28.TabIndex = 74;
             this.checkBox28.Text = "Contract Review";
             this.checkBox28.UseVisualStyleBackColor = true;
@@ -1096,10 +1398,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox29.AutoSize = true;
             this.checkBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox29.Location = new System.Drawing.Point(556, 868);
             this.checkBox29.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox29.Location = new System.Drawing.Point(568, 775);
+            this.checkBox29.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox29.Name = "checkBox29";
+            this.checkBox29.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox29.TabIndex = 75;
             this.checkBox29.Text = "Quick Release";
             this.checkBox29.UseVisualStyleBackColor = true;
@@ -1111,10 +1420,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox30.AutoSize = true;
             this.checkBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox30.Location = new System.Drawing.Point(695, 868);
             this.checkBox30.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox30.Location = new System.Drawing.Point(710, 775);
+            this.checkBox30.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox30.Name = "checkBox30";
+            this.checkBox30.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox30.TabIndex = 76;
             this.checkBox30.Text = "None";
             this.checkBox30.UseVisualStyleBackColor = true;
@@ -1131,7 +1447,11 @@
             this.label27.Location = new System.Drawing.Point(0, 896);
             this.label27.Margin = new System.Windows.Forms.Padding(0);
             this.label27.Name = "label27";
+
             this.label27.Size = new System.Drawing.Size(838, 28);
+
+            this.label27.Size = new System.Drawing.Size(855, 25);
+
             this.label27.TabIndex = 77;
             this.label27.Text = "*If any of questions 3-7 were answered \'Yes\', then a Contract Review is required." +
     "";
@@ -1149,7 +1469,11 @@
             this.label28.Location = new System.Drawing.Point(0, 924);
             this.label28.Margin = new System.Windows.Forms.Padding(0);
             this.label28.Name = "label28";
+
             this.label28.Size = new System.Drawing.Size(838, 28);
+
+            this.label28.Size = new System.Drawing.Size(855, 25);
+
             this.label28.TabIndex = 78;
             this.label28.Text = "*If any of questions 3-7 were answered ‘No’ and question 1 was answered ‘New’, th" +
     "en the Quick Release process is required.";
@@ -1167,7 +1491,11 @@
             this.label29.Location = new System.Drawing.Point(0, 952);
             this.label29.Margin = new System.Windows.Forms.Padding(0);
             this.label29.Name = "label29";
+
             this.label29.Size = new System.Drawing.Size(838, 28);
+
+            this.label29.Size = new System.Drawing.Size(855, 25);
+
             this.label29.TabIndex = 79;
             this.label29.Text = "*If any of questions 3-7 were answered ‘No’ and question 1 was answered ‘Active’ " +
     "or ‘Complete’, then no further review is required.";
@@ -1180,11 +1508,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox17.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox17, 2);
+
             this.textBox17.Location = new System.Drawing.Point(278, 588);
             this.textBox17.Margin = new System.Windows.Forms.Padding(0);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox17.Location = new System.Drawing.Point(284, 525);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox17.Multiline = true;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(284, 25);
+
             this.textBox17.TabIndex = 87;
             // 
             // textBox13
@@ -1194,11 +1530,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox13.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox13, 2);
+
             this.textBox13.Location = new System.Drawing.Point(278, 616);
             this.textBox13.Margin = new System.Windows.Forms.Padding(0);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox13.Location = new System.Drawing.Point(284, 550);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(284, 25);
+
             this.textBox13.TabIndex = 90;
             // 
             // textBox12
@@ -1212,7 +1556,11 @@
             this.textBox12.Margin = new System.Windows.Forms.Padding(0);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
+
             this.textBox12.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox12.Size = new System.Drawing.Size(284, 25);
+
             this.textBox12.TabIndex = 89;
             // 
             // textBox16
@@ -1226,7 +1574,11 @@
             this.textBox16.Margin = new System.Windows.Forms.Padding(0);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
+
             this.textBox16.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox16.Size = new System.Drawing.Size(284, 25);
+
             this.textBox16.TabIndex = 94;
             // 
             // textBox18
@@ -1240,7 +1592,11 @@
             this.textBox18.Margin = new System.Windows.Forms.Padding(0);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
+
             this.textBox18.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox18.Size = new System.Drawing.Size(284, 25);
+
             this.textBox18.TabIndex = 95;
             // 
             // textBox20
@@ -1250,11 +1606,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox20.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox20, 2);
+
             this.textBox20.Location = new System.Drawing.Point(278, 644);
             this.textBox20.Margin = new System.Windows.Forms.Padding(0);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox20.Location = new System.Drawing.Point(284, 575);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox20.Multiline = true;
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(284, 25);
+
             this.textBox20.TabIndex = 97;
             // 
             // textBox21
@@ -1268,7 +1632,11 @@
             this.textBox21.Margin = new System.Windows.Forms.Padding(0);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
+
             this.textBox21.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox21.Size = new System.Drawing.Size(284, 25);
+
             this.textBox21.TabIndex = 98;
             // 
             // textBox27
@@ -1278,11 +1646,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox27.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox27, 2);
+
             this.textBox27.Location = new System.Drawing.Point(278, 672);
             this.textBox27.Margin = new System.Windows.Forms.Padding(0);
             this.textBox27.Multiline = true;
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox27.Location = new System.Drawing.Point(284, 600);
+            this.textBox27.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox27.Multiline = true;
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(284, 25);
+
             this.textBox27.TabIndex = 104;
             // 
             // textBox25
@@ -1296,7 +1672,11 @@
             this.textBox25.Margin = new System.Windows.Forms.Padding(0);
             this.textBox25.Multiline = true;
             this.textBox25.Name = "textBox25";
+
             this.textBox25.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox25.Size = new System.Drawing.Size(284, 25);
+
             this.textBox25.TabIndex = 102;
             // 
             // textBox29
@@ -1306,11 +1686,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox29.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox29, 2);
+
             this.textBox29.Location = new System.Drawing.Point(278, 700);
             this.textBox29.Margin = new System.Windows.Forms.Padding(0);
             this.textBox29.Multiline = true;
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox29.Location = new System.Drawing.Point(284, 625);
+            this.textBox29.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox29.Multiline = true;
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(284, 25);
+
             this.textBox29.TabIndex = 106;
             // 
             // label5
@@ -1324,7 +1712,11 @@
             this.label5.Location = new System.Drawing.Point(0, 140);
             this.label5.Margin = new System.Windows.Forms.Padding(0);
             this.label5.Name = "label5";
+
             this.label5.Size = new System.Drawing.Size(278, 28);
+
+            this.label5.Size = new System.Drawing.Size(284, 25);
+
             this.label5.TabIndex = 21;
             this.label5.Text = "(1) What is the status of this job?";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1336,10 +1728,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox2.Location = new System.Drawing.Point(417, 140);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox2.Location = new System.Drawing.Point(426, 125);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox2.TabIndex = 23;
             this.checkBox2.Text = "Active (parts in WIP)";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -1352,10 +1751,17 @@
             this.checkBox3.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.checkBox3, 2);
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox3.Location = new System.Drawing.Point(556, 140);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(282, 28);
+
+            this.checkBox3.Location = new System.Drawing.Point(568, 125);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(287, 25);
+
             this.checkBox3.TabIndex = 24;
             this.checkBox3.Text = "Complete (parts in stock)";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -1367,10 +1773,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox1.Location = new System.Drawing.Point(278, 140);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox1.Location = new System.Drawing.Point(284, 125);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox1.TabIndex = 22;
             this.checkBox1.Text = "New (not started)";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -1387,7 +1800,11 @@
             this.label3.Location = new System.Drawing.Point(0, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
+
             this.label3.Size = new System.Drawing.Size(838, 28);
+
+            this.label3.Size = new System.Drawing.Size(855, 25);
+
             this.label3.TabIndex = 15;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1401,7 +1818,11 @@
             this.label2.Location = new System.Drawing.Point(0, 84);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
+
             this.label2.Size = new System.Drawing.Size(139, 28);
+
+            this.label2.Size = new System.Drawing.Size(142, 25);
+
             this.label2.TabIndex = 14;
             this.label2.Text = "Description of Change";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1416,7 +1837,11 @@
             this.label31.Location = new System.Drawing.Point(0, 56);
             this.label31.Margin = new System.Windows.Forms.Padding(0);
             this.label31.Name = "label31";
+
             this.label31.Size = new System.Drawing.Size(139, 28);
+
+            this.label31.Size = new System.Drawing.Size(142, 25);
+
             this.label31.TabIndex = 108;
             this.label31.Text = "PO Change/Rev.";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1428,11 +1853,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox31.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox31, 2);
+
             this.textBox31.Location = new System.Drawing.Point(139, 56);
             this.textBox31.Margin = new System.Windows.Forms.Padding(0);
             this.textBox31.Multiline = true;
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(278, 28);
+
+            this.textBox31.Location = new System.Drawing.Point(142, 50);
+            this.textBox31.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox31.Multiline = true;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(284, 25);
+
             this.textBox31.TabIndex = 109;
             // 
             // textBox6
@@ -1442,11 +1875,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox6.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox6, 2);
+
             this.textBox6.Location = new System.Drawing.Point(556, 28);
             this.textBox6.Margin = new System.Windows.Forms.Padding(0);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(282, 28);
+
+            this.textBox6.Location = new System.Drawing.Point(568, 25);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(287, 25);
+
             this.textBox6.TabIndex = 19;
             // 
             // label1
@@ -1456,10 +1897,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+
             this.label1.Location = new System.Drawing.Point(417, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 28);
+
+            this.label1.Location = new System.Drawing.Point(426, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 25);
+
             this.label1.TabIndex = 13;
             this.label1.Text = "PO Qty.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1471,11 +1919,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox7.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.textBox7, 2);
+
             this.textBox7.Location = new System.Drawing.Point(556, 56);
             this.textBox7.Margin = new System.Windows.Forms.Padding(0);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(282, 28);
+
+            this.textBox7.Location = new System.Drawing.Point(568, 50);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(287, 25);
+
             this.textBox7.TabIndex = 20;
             // 
             // label10
@@ -1488,7 +1944,11 @@
             this.label10.Location = new System.Drawing.Point(0, 364);
             this.label10.Margin = new System.Windows.Forms.Padding(0);
             this.label10.Name = "label10";
+
             this.label10.Size = new System.Drawing.Size(139, 28);
+
+            this.label10.Size = new System.Drawing.Size(142, 25);
+
             this.label10.TabIndex = 36;
             this.label10.Text = "Part Number";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1499,11 +1959,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox9.BackColor = System.Drawing.SystemColors.Control;
+
             this.textBox9.Location = new System.Drawing.Point(139, 364);
             this.textBox9.Margin = new System.Windows.Forms.Padding(0);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(139, 28);
+
+            this.textBox9.Location = new System.Drawing.Point(142, 325);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(142, 25);
+
             this.textBox9.TabIndex = 38;
             // 
             // label12
@@ -1514,10 +1982,17 @@
             this.label12.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.label12, 2);
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+
             this.label12.Location = new System.Drawing.Point(278, 364);
             this.label12.Margin = new System.Windows.Forms.Padding(0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(278, 28);
+
+            this.label12.Location = new System.Drawing.Point(284, 325);
+            this.label12.Margin = new System.Windows.Forms.Padding(0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(284, 25);
+
             this.label12.TabIndex = 40;
             this.label12.Text = "(4) Is this a new part number?";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1529,10 +2004,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox9.AutoSize = true;
             this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox9.Location = new System.Drawing.Point(556, 364);
             this.checkBox9.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox9.Location = new System.Drawing.Point(568, 325);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox9.TabIndex = 41;
             this.checkBox9.Text = "Yes";
             this.checkBox9.UseVisualStyleBackColor = true;
@@ -1544,10 +2026,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox10.AutoSize = true;
             this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox10.Location = new System.Drawing.Point(695, 364);
             this.checkBox10.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox10.Location = new System.Drawing.Point(710, 325);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox10.TabIndex = 42;
             this.checkBox10.Text = "No";
             this.checkBox10.UseVisualStyleBackColor = true;
@@ -1562,7 +2051,11 @@
             this.label11.Location = new System.Drawing.Point(0, 392);
             this.label11.Margin = new System.Windows.Forms.Padding(0);
             this.label11.Name = "label11";
+
             this.label11.Size = new System.Drawing.Size(139, 28);
+
+            this.label11.Size = new System.Drawing.Size(142, 25);
+
             this.label11.TabIndex = 37;
             this.label11.Text = "Drawing Rev.";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1573,11 +2066,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox10.BackColor = System.Drawing.SystemColors.Control;
+
             this.textBox10.Location = new System.Drawing.Point(139, 392);
             this.textBox10.Margin = new System.Windows.Forms.Padding(0);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(139, 28);
+
+            this.textBox10.Location = new System.Drawing.Point(142, 350);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(142, 25);
+
             this.textBox10.TabIndex = 39;
             // 
             // label13
@@ -1588,10 +2089,17 @@
             this.label13.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.label13, 2);
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+
             this.label13.Location = new System.Drawing.Point(278, 392);
             this.label13.Margin = new System.Windows.Forms.Padding(0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(278, 28);
+
+            this.label13.Location = new System.Drawing.Point(284, 350);
+            this.label13.Margin = new System.Windows.Forms.Padding(0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(284, 25);
+
             this.label13.TabIndex = 43;
             this.label13.Text = "(5) Has the drawing changed since the last review?";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1603,10 +2111,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox11.AutoSize = true;
             this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox11.Location = new System.Drawing.Point(556, 392);
             this.checkBox11.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox11.Location = new System.Drawing.Point(568, 350);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox11.TabIndex = 44;
             this.checkBox11.Text = "Yes";
             this.checkBox11.UseVisualStyleBackColor = true;
@@ -1618,10 +2133,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox12.AutoSize = true;
             this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox12.Location = new System.Drawing.Point(695, 392);
             this.checkBox12.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox12.Location = new System.Drawing.Point(710, 350);
+            this.checkBox12.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox12.TabIndex = 45;
             this.checkBox12.Text = "No";
             this.checkBox12.UseVisualStyleBackColor = true;
@@ -1636,7 +2158,11 @@
             this.label32.Location = new System.Drawing.Point(0, 420);
             this.label32.Margin = new System.Windows.Forms.Padding(0);
             this.label32.Name = "label32";
+
             this.label32.Size = new System.Drawing.Size(139, 28);
+
+            this.label32.Size = new System.Drawing.Size(142, 25);
+
             this.label32.TabIndex = 110;
             this.label32.Text = "Applicable CID #s";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1647,11 +2173,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox32.BackColor = System.Drawing.SystemColors.Control;
+
             this.textBox32.Location = new System.Drawing.Point(139, 420);
             this.textBox32.Margin = new System.Windows.Forms.Padding(0);
             this.textBox32.Multiline = true;
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(139, 28);
+
+            this.textBox32.Location = new System.Drawing.Point(142, 375);
+            this.textBox32.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox32.Multiline = true;
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(142, 25);
+
             this.textBox32.TabIndex = 111;
             // 
             // label33
@@ -1662,10 +2196,17 @@
             this.label33.AutoSize = true;
             this.tableLayoutPanel2.SetColumnSpan(this.label33, 2);
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+
             this.label33.Location = new System.Drawing.Point(278, 420);
             this.label33.Margin = new System.Windows.Forms.Padding(0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(278, 28);
+
+            this.label33.Location = new System.Drawing.Point(284, 375);
+            this.label33.Margin = new System.Windows.Forms.Padding(0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(284, 25);
+
             this.label33.TabIndex = 112;
             this.label33.Text = "(6) Are there any new CIDs since the last review";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1677,10 +2218,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox31.AutoSize = true;
             this.checkBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox31.Location = new System.Drawing.Point(556, 420);
             this.checkBox31.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(139, 28);
+
+            this.checkBox31.Location = new System.Drawing.Point(568, 375);
+            this.checkBox31.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox31.Name = "checkBox31";
+            this.checkBox31.Size = new System.Drawing.Size(142, 25);
+
             this.checkBox31.TabIndex = 113;
             this.checkBox31.Text = "Yes";
             this.checkBox31.UseVisualStyleBackColor = true;
@@ -1692,10 +2240,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox32.AutoSize = true;
             this.checkBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+
             this.checkBox32.Location = new System.Drawing.Point(695, 420);
             this.checkBox32.Margin = new System.Windows.Forms.Padding(0);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(143, 28);
+
+            this.checkBox32.Location = new System.Drawing.Point(710, 375);
+            this.checkBox32.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox32.Name = "checkBox32";
+            this.checkBox32.Size = new System.Drawing.Size(145, 25);
+
             this.checkBox32.TabIndex = 114;
             this.checkBox32.Text = "No";
             this.checkBox32.UseVisualStyleBackColor = true;
