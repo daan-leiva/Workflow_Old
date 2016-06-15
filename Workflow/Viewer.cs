@@ -64,5 +64,17 @@ namespace Workflow
             Form contractReviewQAForm = new ContractReviewCheckList_QA();
             contractReviewQAForm.Show();
         }
+
+        private void contractReviewQEButton_Click(object sender, EventArgs e)
+        {
+            Form contractReviewQEForm = new ContractReviewCheckList_QE();
+            contractReviewQEForm.Show();
+        }
+
+        private void contractReviewMEButton_Click(object sender, EventArgs e)
+        {
+            Form contractReviewMEForm = new ContractReviewCheckList_ME();
+            contractReviewMEForm.Show();
+        }
     }
 }

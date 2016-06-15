@@ -167,6 +167,7 @@
             this.contractReviewQEButton.TabIndex = 9;
             this.contractReviewQEButton.Text = "Contract Review QE";
             this.contractReviewQEButton.UseVisualStyleBackColor = true;
+            this.contractReviewQEButton.Click += new System.EventHandler(this.contractReviewQEButton_Click);
             // 
             // contractReviewMEButton
             // 
@@ -179,6 +180,7 @@
             this.contractReviewMEButton.TabIndex = 10;
             this.contractReviewMEButton.Text = "Contract Review ME";
             this.contractReviewMEButton.UseVisualStyleBackColor = true;
+            this.contractReviewMEButton.Click += new System.EventHandler(this.contractReviewMEButton_Click);
             // 
             // Viewer
             // 
