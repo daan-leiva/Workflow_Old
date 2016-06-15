@@ -39,6 +39,7 @@
             this.contractReviewQAButton = new System.Windows.Forms.Button();
             this.contractReviewQEButton = new System.Windows.Forms.Button();
             this.contractReviewMEButton = new System.Windows.Forms.Button();
+            this.statusPageButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // viewContractReviewButton
@@ -182,12 +183,26 @@
             this.contractReviewMEButton.UseVisualStyleBackColor = true;
             this.contractReviewMEButton.Click += new System.EventHandler(this.contractReviewMEButton_Click);
             // 
+            // statusPageButton
+            // 
+            this.statusPageButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.statusPageButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.statusPageButton.Location = new System.Drawing.Point(58, 488);
+            this.statusPageButton.Name = "statusPageButton";
+            this.statusPageButton.Size = new System.Drawing.Size(98, 38);
+            this.statusPageButton.TabIndex = 11;
+            this.statusPageButton.Text = "statusPage";
+            this.statusPageButton.UseVisualStyleBackColor = true;
+            this.statusPageButton.Click += new System.EventHandler(this.statusPageButton_Click);
+            // 
             // Viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(214, 503);
+            this.ClientSize = new System.Drawing.Size(214, 538);
+            this.Controls.Add(this.statusPageButton);
             this.Controls.Add(this.contractReviewMEButton);
             this.Controls.Add(this.contractReviewQEButton);
             this.Controls.Add(this.contractReviewQAButton);
@@ -219,5 +234,6 @@
         private System.Windows.Forms.Button contractReviewQAButton;
         private System.Windows.Forms.Button contractReviewQEButton;
         private System.Windows.Forms.Button contractReviewMEButton;
+        private System.Windows.Forms.Button statusPageButton;
     }
 }

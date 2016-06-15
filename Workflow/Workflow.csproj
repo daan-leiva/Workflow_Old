@@ -138,6 +138,12 @@
     <Compile Include="QuickReleaseForm.Designer.cs">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatusPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusPage.Designer.cs">
+      <DependentUpon>StatusPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestCommentPopUp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </Compile>
     <EmbeddedResource Include="QuickReleaseForm.resx">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusPage.resx">
+      <DependentUpon>StatusPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TestCommentPopUp.resx">
       <DependentUpon>TestCommentPopUp.cs</DependentUpon>
