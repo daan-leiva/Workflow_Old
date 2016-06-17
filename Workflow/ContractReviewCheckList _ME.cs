@@ -225,18 +225,19 @@ namespace Workflow
 
         private void textBox8_TextChanged(object sender, EventArgs e)
         {
-            if (textBox8.Text == "")
-            {
-                button2.Text = "Create";
-               
-            }
-            else
-                button2.Text = "View/Edit";
+            
 
         }
 
-       
+        private void textBox8_TextChanged_1(object sender, EventArgs e)
+        {
+            if (textBox8.Text == "")
+            {
+                button1.Text = "Create";
 
-        
+            }
+            else
+                button1.Text = "View/Edit";
+        }
     }
 }
