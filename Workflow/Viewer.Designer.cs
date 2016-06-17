@@ -188,11 +188,11 @@
             this.statusPageButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.statusPageButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.statusPageButton.Location = new System.Drawing.Point(58, 488);
+            this.statusPageButton.Location = new System.Drawing.Point(58, 487);
             this.statusPageButton.Name = "statusPageButton";
             this.statusPageButton.Size = new System.Drawing.Size(98, 38);
             this.statusPageButton.TabIndex = 11;
-            this.statusPageButton.Text = "statusPage";
+            this.statusPageButton.Text = "Status Page";
             this.statusPageButton.UseVisualStyleBackColor = true;
             this.statusPageButton.Click += new System.EventHandler(this.statusPageButton_Click);
             // 

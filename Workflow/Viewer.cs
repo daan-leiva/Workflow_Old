@@ -79,7 +79,8 @@ namespace Workflow
 
         private void statusPageButton_Click(object sender, EventArgs e)
         {
-            Form 
+            Form statusForm = new StatusPage();
+            statusForm.Show();
         }
     }
 }
