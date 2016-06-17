@@ -120,6 +120,12 @@
   <metadata name="button39.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="label44.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="button39.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label6.Text" xml:space="preserve">
     <value>Verify revision of all supplemental instructions to PO (including FCDs, MQIs, PSDs [flowed down on MQIs &amp; 9U9646], VQRs, customer travelers and sketches, etc.); verify current revision of MQI, FCD or VQR is documented at the top of the route revision section of the traveler, as applicable</value>
   </data>
