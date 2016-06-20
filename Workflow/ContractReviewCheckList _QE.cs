@@ -16,27 +16,17 @@ namespace Workflow
         public ContractReviewCheckList_QE()
         {
             InitializeComponent();
-
-            for(int i=1; i<79; i+=2)
-            {
-                tableLayoutPanel1.RowStyles[i].Height = 0;
-            }
-        
-            
         }
 
+        #region buttonClicks
         private void button1_Click(object sender, EventArgs e)
         {
             textBox8.Visible = !textBox8.Visible;
-            
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
             textBox9.Visible = !textBox9.Visible;
-           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -226,10 +216,19 @@ namespace Workflow
             textBox46.Visible = !textBox46.Visible;
             
         }
+        #endregion
 
         private void textBox8_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void ContractReviewCheckList_QE_Load(object sender, EventArgs e)
+        {
+            for (int i = 1; i < 79; i += 2)
+            {
+                tableLayoutPanel1.RowStyles[i].Height = 0;
+            }
         }
     }
 
