@@ -31,13 +31,13 @@ namespace Workflow
 
         private void viewRollsFormButton_Click(object sender, EventArgs e)
         {
-            Form rollsRoycePOReview = new RollsRoycePOReview();
+            Form rollsRoycePOReview = new RollsRoycePOReview("12345", false);
             rollsRoycePOReview.Show();
         }
 
         private void viewHondaPOFormButton_Click(object sender, EventArgs e)
         {
-            Form hondaPOReview = new HondaPOReview();
+            Form hondaPOReview = new HondaPOReview("12345", false);
             hondaPOReview.Show();
         }
 
@@ -79,8 +79,8 @@ namespace Workflow
 
         private void statusPageButton_Click(object sender, EventArgs e)
         {
-            Form statusForm = new StatusPage();
-            statusForm.Show();
+            //Form statusForm = new StatusPage();
+            //statusForm.Show();
         }
     }
 }

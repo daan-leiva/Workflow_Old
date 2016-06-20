@@ -53,5 +53,32 @@ namespace Workflow
             // update Rows label
             rowsLabel.Text = "Rows: " + dt.Rows.Count;
         }
+
+        private void createJobButton_Click(object sender, EventArgs e)
+        {
+            // launch dialog to ask for the type of job to be created
+            this.Hide();
+            Form poType = new POTypeForm();
+            poType.FormClosed += (s, args) => this.Close();
+            poType.Show();
+        }
+
+        private void dataGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // check that the cell is valid
+            if (e == null)
+                return;
+            if (dataGridView.Rows[e.RowIndex].Cells[0].Value == null || dataGridView.Rows[e.RowIndex].Cells[0].Value.ToString().Trim().Length == 0)
+                return;
+
+            // launch status page and pass job, partno and customer as arguments
+            this.Hide();
+            Form statusPage = new StatusPageQuickRelease(dataGridView.Rows[e.RowIndex].Cells[0].Value.ToString(),
+                                                dataGridView.Rows[e.RowIndex].Cells[1].Value.ToString(),
+                                                dataGridView.Rows[e.RowIndex].Cells[2].Value.ToString(),
+                                                "Contract Review");
+            statusPage.FormClosed += (s, args) => this.Close();
+            statusPage.Show();
+        }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
 
-namespace ATICertViewer
+namespace Workflow
 {
     public partial class LogInForm : Form
     {
@@ -25,11 +25,19 @@ namespace ATICertViewer
         {
             // makeas the character for the password field be an asterix
             passwordTextBox.PasswordChar = '*';
+            // set up windows user log in
+            userLabel.Text = Environment.UserName;
         }
 
         private void logInButton_Click(object sender, EventArgs e)
         {
             VerifyLogin();
+
+            // open job list viewer
+            this.Hide();
+            Form jobList = new JobListViewer();
+            jobList.FormClosed += (s, args) => this.Close();
+            jobList.Show();
         }
 
         private void cancelButton_Click(object sender, EventArgs e)

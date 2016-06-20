@@ -112,6 +112,12 @@
     <Compile Include="LogInForm.designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="POTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POTypeForm.Designer.cs">
+      <DependentUpon>POTypeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuickReleaseForm_Engineering.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,11 +144,11 @@
     <Compile Include="QuickReleaseForm.Designer.cs">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StatusPage.cs">
+    <Compile Include="StatusPageQuickRelease.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StatusPage.Designer.cs">
-      <DependentUpon>StatusPage.cs</DependentUpon>
+    <Compile Include="StatusPageQuickRelease.Designer.cs">
+      <DependentUpon>StatusPageQuickRelease.cs</DependentUpon>
     </Compile>
     <Compile Include="TestCommentPopUp.cs">
       <SubType>UserControl</SubType>
@@ -195,6 +201,9 @@
     <EmbeddedResource Include="LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="POTypeForm.resx">
+      <DependentUpon>POTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuickReleaseForm_Engineering.resx">
       <DependentUpon>QuickReleaseForm_Engineering.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,8 +225,8 @@
     <EmbeddedResource Include="QuickReleaseForm.resx">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StatusPage.resx">
-      <DependentUpon>StatusPage.cs</DependentUpon>
+    <EmbeddedResource Include="StatusPageQuickRelease.resx">
+      <DependentUpon>StatusPageQuickRelease.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TestCommentPopUp.resx">
       <DependentUpon>TestCommentPopUp.cs</DependentUpon>

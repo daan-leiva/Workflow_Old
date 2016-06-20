@@ -43,6 +43,7 @@
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.rowsLabel = new System.Windows.Forms.Label();
             this.endDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.createJobButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,6 +157,7 @@
             this.dataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView.Size = new System.Drawing.Size(843, 187);
             this.dataGridView.TabIndex = 46;
+            this.dataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellDoubleClick);
             // 
             // rowsLabel
             // 
@@ -174,12 +176,23 @@
             this.endDateTimePicker.Size = new System.Drawing.Size(204, 20);
             this.endDateTimePicker.TabIndex = 48;
             // 
+            // createJobButton
+            // 
+            this.createJobButton.Location = new System.Drawing.Point(773, 111);
+            this.createJobButton.Name = "createJobButton";
+            this.createJobButton.Size = new System.Drawing.Size(75, 23);
+            this.createJobButton.TabIndex = 49;
+            this.createJobButton.Text = "Create Job";
+            this.createJobButton.UseVisualStyleBackColor = true;
+            this.createJobButton.Click += new System.EventHandler(this.createJobButton_Click);
+            // 
             // JobListViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(866, 361);
+            this.Controls.Add(this.createJobButton);
             this.Controls.Add(this.endDateTimePicker);
             this.Controls.Add(this.rowsLabel);
             this.Controls.Add(this.dataGridView);
@@ -215,5 +228,6 @@
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.Label rowsLabel;
         private System.Windows.Forms.DateTimePicker endDateTimePicker;
+        private System.Windows.Forms.Button createJobButton;
     }
 }
