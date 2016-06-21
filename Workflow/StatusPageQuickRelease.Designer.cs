@@ -272,6 +272,7 @@
             this.step1Label.TabIndex = 41;
             this.step1Label.Text = "PO Review";
             this.step1Label.DoubleClick += new System.EventHandler(this.step1Label_DoubleClick);
+            this.step1Label.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.step1Label_MouseDoubleClick);
             // 
             // step1Details
             // 
@@ -323,7 +324,9 @@
             this.step2Label.Size = new System.Drawing.Size(260, 23);
             this.step2Label.TabIndex = 47;
             this.step2Label.Text = "Quick Release Eng";
+            this.step2Label.TextChanged += new System.EventHandler(this.step2Label_TextChanged);
             this.step2Label.DoubleClick += new System.EventHandler(this.step2Label_DoubleClick);
+            this.step2Label.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.step2Label_MouseDoubleClick);
             // 
             // step2Details
             // 
@@ -376,6 +379,7 @@
             this.step3Label.TabIndex = 51;
             this.step3Label.Text = "Quick Release Quality";
             this.step3Label.DoubleClick += new System.EventHandler(this.step3Label_DoubleClick);
+            this.step3Label.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.step3Label_MouseDoubleClick);
             // 
             // step3Details
             // 
@@ -467,6 +471,7 @@
             this.step4Label.TabIndex = 53;
             this.step4Label.Text = "Step 1";
             this.step4Label.DoubleClick += new System.EventHandler(this.step4Label_DoubleClick);
+            this.step4Label.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.step4Label_MouseDoubleClick);
             // 
             // StatusPageQuickRelease
             // 
