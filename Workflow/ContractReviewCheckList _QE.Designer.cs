@@ -2516,7 +2516,7 @@
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label45.Location = new System.Drawing.Point(0, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(971, 48);
+            this.label45.Size = new System.Drawing.Size(988, 48);
             this.label45.TabIndex = 1;
             this.label45.Text = "Absolute Technologies\r\nContract Review";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2751,7 +2751,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(988, 1045);
+            this.ClientSize = new System.Drawing.Size(1005, 1045);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label45);
             this.Controls.Add(this.tableLayoutPanel1);
