@@ -43,7 +43,7 @@ namespace Workflow
 
             // load status page
             this.Hide();
-            Form statusForm = new StatusPageQuickRelease(jobNo, partNoLabel.Text.Trim(), "HONDA AERO", type);
+            Form statusForm = new StatusPage(jobNo, partNoLabel.Text.Trim(), "HONDA AERO", type);
             statusForm.FormClosed += (s, args) => this.Close();
             statusForm.Show();
         }

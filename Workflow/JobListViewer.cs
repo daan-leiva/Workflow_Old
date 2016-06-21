@@ -73,9 +73,9 @@ namespace Workflow
 
             // launch status page and pass job, partno and customer as arguments
             this.Hide();
-            Form statusPage = new StatusPageQuickRelease(dataGridView.Rows[e.RowIndex].Cells[0].Value.ToString(),
+            Form statusPage = new StatusPage(dataGridView.Rows[e.RowIndex].Cells[0].Value.ToString(),
+                                                dataGridView.Rows[e.RowIndex].Cells[4].Value.ToString(),
                                                 dataGridView.Rows[e.RowIndex].Cells[1].Value.ToString(),
-                                                dataGridView.Rows[e.RowIndex].Cells[2].Value.ToString(),
                                                 "Contract Review");
             statusPage.FormClosed += (s, args) => this.Close();
             statusPage.Show();

@@ -99,13 +99,27 @@ namespace Workflow
         private void userNameTextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
+            {
                 VerifyLogin();
+                // open job list viewer
+                this.Hide();
+                Form jobList = new JobListViewer();
+                jobList.FormClosed += (s, args) => this.Close();
+                jobList.Show();
+            }
         }
 
         private void passwordTextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
+            {
                 VerifyLogin();
+                // open job list viewer
+                this.Hide();
+                Form jobList = new JobListViewer();
+                jobList.FormClosed += (s, args) => this.Close();
+                jobList.Show();
+            }
         }
     }
 }

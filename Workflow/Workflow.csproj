@@ -144,11 +144,11 @@
     <Compile Include="QuickReleaseForm.Designer.cs">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StatusPageQuickRelease.cs">
+    <Compile Include="StatusPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StatusPageQuickRelease.Designer.cs">
-      <DependentUpon>StatusPageQuickRelease.cs</DependentUpon>
+    <Compile Include="StatusPage.Designer.cs">
+      <DependentUpon>StatusPage.cs</DependentUpon>
     </Compile>
     <Compile Include="TestCommentPopUp.cs">
       <SubType>UserControl</SubType>
@@ -225,8 +225,8 @@
     <EmbeddedResource Include="QuickReleaseForm.resx">
       <DependentUpon>QuickReleaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StatusPageQuickRelease.resx">
-      <DependentUpon>StatusPageQuickRelease.cs</DependentUpon>
+    <EmbeddedResource Include="StatusPage.resx">
+      <DependentUpon>StatusPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TestCommentPopUp.resx">
       <DependentUpon>TestCommentPopUp.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace Workflow
 {
-    partial class StatusPageQuickRelease
+    partial class StatusPage
     {
         /// <summary>
         /// Required designer variable.
@@ -42,17 +42,14 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.workflowList = new System.Windows.Forms.ListBox();
-            this.step1Label = new System.Windows.Forms.TextBox();
             this.step1Details = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.step2Label = new System.Windows.Forms.TextBox();
             this.step2Details = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.step3Label = new System.Windows.Forms.TextBox();
             this.step3Details = new System.Windows.Forms.GroupBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -61,7 +58,11 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.step4Details = new System.Windows.Forms.GroupBox();
-            this.step4Label = new System.Windows.Forms.TextBox();
+            this.step1Label = new System.Windows.Forms.Label();
+            this.step2Label = new System.Windows.Forms.Label();
+            this.step3Label = new System.Windows.Forms.Label();
+            this.step4Label = new System.Windows.Forms.Label();
+            this.createWorkflowButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.step1Details.SuspendLayout();
@@ -260,19 +261,6 @@
             this.workflowList.Size = new System.Drawing.Size(120, 251);
             this.workflowList.TabIndex = 2;
             // 
-            // step1Label
-            // 
-            this.step1Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.step1Label.Enabled = false;
-            this.step1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.step1Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.step1Label.Location = new System.Drawing.Point(158, 266);
-            this.step1Label.Name = "step1Label";
-            this.step1Label.Size = new System.Drawing.Size(260, 23);
-            this.step1Label.TabIndex = 41;
-            this.step1Label.Text = "PO Review";
-            this.step1Label.DoubleClick += new System.EventHandler(this.step1Label_DoubleClick);
-            // 
             // step1Details
             // 
             this.step1Details.Controls.Add(this.label12);
@@ -312,19 +300,6 @@
             this.label26.TabIndex = 0;
             this.label26.Text = "Username";
             // 
-            // step2Label
-            // 
-            this.step2Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.step2Label.Enabled = false;
-            this.step2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.step2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.step2Label.Location = new System.Drawing.Point(424, 266);
-            this.step2Label.Name = "step2Label";
-            this.step2Label.Size = new System.Drawing.Size(260, 23);
-            this.step2Label.TabIndex = 47;
-            this.step2Label.Text = "Quick Release Eng";
-            this.step2Label.DoubleClick += new System.EventHandler(this.step2Label_DoubleClick);
-            // 
             // step2Details
             // 
             this.step2Details.Controls.Add(this.label19);
@@ -363,19 +338,6 @@
             this.label21.Size = new System.Drawing.Size(55, 13);
             this.label21.TabIndex = 0;
             this.label21.Text = "Username";
-            // 
-            // step3Label
-            // 
-            this.step3Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.step3Label.Enabled = false;
-            this.step3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.step3Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.step3Label.Location = new System.Drawing.Point(690, 266);
-            this.step3Label.Name = "step3Label";
-            this.step3Label.Size = new System.Drawing.Size(260, 23);
-            this.step3Label.TabIndex = 51;
-            this.step3Label.Text = "Quick Release Quality";
-            this.step3Label.DoubleClick += new System.EventHandler(this.step3Label_DoubleClick);
             // 
             // step3Details
             // 
@@ -455,37 +417,87 @@
             this.step4Details.TabIndex = 52;
             this.step4Details.TabStop = false;
             // 
+            // step1Label
+            // 
+            this.step1Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.step1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold);
+            this.step1Label.ForeColor = System.Drawing.SystemColors.Window;
+            this.step1Label.Location = new System.Drawing.Point(158, 272);
+            this.step1Label.Name = "step1Label";
+            this.step1Label.Size = new System.Drawing.Size(260, 23);
+            this.step1Label.TabIndex = 54;
+            this.step1Label.Text = "PO Reivew";
+            this.step1Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.step1Label.DoubleClick += new System.EventHandler(this.step1Label_DoubleClick);
+            // 
+            // step2Label
+            // 
+            this.step2Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.step2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold);
+            this.step2Label.ForeColor = System.Drawing.SystemColors.Window;
+            this.step2Label.Location = new System.Drawing.Point(424, 272);
+            this.step2Label.Name = "step2Label";
+            this.step2Label.Size = new System.Drawing.Size(260, 23);
+            this.step2Label.TabIndex = 55;
+            this.step2Label.Text = "PO Reivew";
+            this.step2Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.step2Label.DoubleClick += new System.EventHandler(this.step2Label_DoubleClick_1);
+            // 
+            // step3Label
+            // 
+            this.step3Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.step3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold);
+            this.step3Label.ForeColor = System.Drawing.SystemColors.Window;
+            this.step3Label.Location = new System.Drawing.Point(690, 272);
+            this.step3Label.Name = "step3Label";
+            this.step3Label.Size = new System.Drawing.Size(260, 23);
+            this.step3Label.TabIndex = 56;
+            this.step3Label.Text = "PO Reivew";
+            this.step3Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.step3Label.DoubleClick += new System.EventHandler(this.step3Label_DoubleClick_1);
+            // 
             // step4Label
             // 
             this.step4Label.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.step4Label.Enabled = false;
-            this.step4Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.step4Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold);
             this.step4Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.step4Label.Location = new System.Drawing.Point(956, 266);
+            this.step4Label.Location = new System.Drawing.Point(956, 272);
             this.step4Label.Name = "step4Label";
             this.step4Label.Size = new System.Drawing.Size(260, 23);
-            this.step4Label.TabIndex = 53;
-            this.step4Label.Text = "Step 1";
-            this.step4Label.DoubleClick += new System.EventHandler(this.step4Label_DoubleClick);
+            this.step4Label.TabIndex = 57;
+            this.step4Label.Text = "PO Reivew";
+            this.step4Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.step4Label.DoubleClick += new System.EventHandler(this.step4Label_DoubleClick_1);
             // 
-            // StatusPageQuickRelease
+            // createWorkflowButton
+            // 
+            this.createWorkflowButton.Location = new System.Drawing.Point(158, 204);
+            this.createWorkflowButton.Name = "createWorkflowButton";
+            this.createWorkflowButton.Size = new System.Drawing.Size(96, 23);
+            this.createWorkflowButton.TabIndex = 58;
+            this.createWorkflowButton.Text = "Create Workflow";
+            this.createWorkflowButton.UseVisualStyleBackColor = true;
+            this.createWorkflowButton.Click += new System.EventHandler(this.createWorkflowButton_Click);
+            // 
+            // StatusPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1227, 472);
+            this.Controls.Add(this.createWorkflowButton);
             this.Controls.Add(this.step4Label);
-            this.Controls.Add(this.step4Details);
             this.Controls.Add(this.step3Label);
-            this.Controls.Add(this.step3Details);
             this.Controls.Add(this.step2Label);
-            this.Controls.Add(this.step2Details);
             this.Controls.Add(this.step1Label);
+            this.Controls.Add(this.step4Details);
+            this.Controls.Add(this.step3Details);
+            this.Controls.Add(this.step2Details);
             this.Controls.Add(this.step1Details);
             this.Controls.Add(this.workflowList);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "StatusPageQuickRelease";
+            this.Name = "StatusPage";
             this.Text = "StatusPage";
             this.Load += new System.EventHandler(this.StatusPage_Load);
             this.groupBox1.ResumeLayout(false);
@@ -520,17 +532,14 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ListBox workflowList;
-        private System.Windows.Forms.TextBox step1Label;
         private System.Windows.Forms.GroupBox step1Details;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox step2Label;
         private System.Windows.Forms.GroupBox step2Details;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox step3Label;
         private System.Windows.Forms.GroupBox step3Details;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label28;
@@ -539,6 +548,10 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.GroupBox step4Details;
-        private System.Windows.Forms.TextBox step4Label;
+        private System.Windows.Forms.Label step1Label;
+        private System.Windows.Forms.Label step4Label;
+        private System.Windows.Forms.Label step2Label;
+        private System.Windows.Forms.Label step3Label;
+        private System.Windows.Forms.Button createWorkflowButton;
     }
 }
