@@ -17,6 +17,8 @@ namespace Workflow
             InitializeComponent();
             
         }
+        
+        //Button events that open and close a textbox for comments
         #region buttonclicks
         private void button1_Click(object sender, EventArgs e)
         {
@@ -224,7 +226,7 @@ namespace Workflow
         
 
         
-
+        //Initializes all rows to 0 to hide and space closer
         private void ContractReviewCheckList_ME_Load(object sender, EventArgs e)
         {
             for (int i = 1; i < 79; i += 2)
@@ -233,6 +235,9 @@ namespace Workflow
             }
         }
 
+        //textBox events that change button text
+        //If there is text Button will show 'View/Edit'
+        //Else Button will show 'Create Notes'
         #region textChange
         private void textBox8_TextChanged_1(object sender, EventArgs e)
         {

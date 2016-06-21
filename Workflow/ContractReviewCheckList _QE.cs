@@ -18,6 +18,7 @@ namespace Workflow
             InitializeComponent();
         }
 
+        //Button Events that open and close a textbox
         #region buttonClicks
         private void button1_Click(object sender, EventArgs e)
         {
@@ -219,7 +220,7 @@ namespace Workflow
         #endregion
 
         
-
+        //Make all rows 0 to hide rows
         private void ContractReviewCheckList_QE_Load(object sender, EventArgs e)
         {
             for (int i = 1; i < 79; i += 2)
@@ -228,6 +229,9 @@ namespace Workflow
             }
         }
 
+        //textBox events that change text of Button
+        //If there is text then Button will read 'View/edit'
+        //If no text Button will read 'Create Note'
         #region textChangeQE
         private void textBox8_TextChanged_1(object sender, EventArgs e)
         {
