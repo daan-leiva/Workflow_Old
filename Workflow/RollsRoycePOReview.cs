@@ -54,7 +54,7 @@ namespace Workflow
 
             // load status page
             this.Hide();
-            Form statusForm = new StatusPageQuickRelease(jobNo, partNoLabel.Text.Trim(), "Rolls Royce", type);
+            Form statusForm = new StatusPageQuickRelease(jobNo, partNoLabel.Text.Trim(), "ROLLS", type);
             statusForm.FormClosed += (s, args) => this.Close();
             statusForm.Show();
         }

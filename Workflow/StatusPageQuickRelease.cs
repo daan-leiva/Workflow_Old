@@ -89,20 +89,20 @@ namespace Workflow
             }
 
             // set up detail events double click
-            step1Details.DoubleClick += this.step1Details_Enter;
-            step2Details.DoubleClick += this.step2Details_Enter;
-            step3Details.DoubleClick += this.step3Details_Enter;
-            step4Details.DoubleClick += this.step4Details_Enter;
+            step1Details.DoubleClick += this.step1Details_DoubleClick;
+            step2Details.DoubleClick += this.step2Details_DoubleClick;
+            step3Details.DoubleClick += this.step3Details_DoubleClick;
+            step4Details.DoubleClick += this.step4Details_DoubleClick;
         }
 
-        private void step1Details_Enter(object sender, EventArgs e)
+        private void step1Details_DoubleClick(object sender, EventArgs e)
         {
-            if(customer.Equals("Honda"))
+            if(customer.Equals("HONDA AERO"))
             {
                 Form hondaPo = new HondaPOReview(jobNo, true);
                 hondaPo.Show();
             }
-            else if(customer.Equals("Rolls Royce"))
+            else if(customer.Equals("ROLLS"))
             {
                 Form rollsPO = new RollsRoycePOReview(jobNo, true);
                 rollsPO.Show();
@@ -111,10 +111,19 @@ namespace Workflow
 
         private void step1Label_DoubleClick(object sender, EventArgs e)
         {
-            
+            if (customer.Equals("HONDA AERO"))
+            {
+                Form hondaPo = new HondaPOReview(jobNo, true);
+                hondaPo.Show();
+            }
+            else if (customer.Equals("ROLLS"))
+            {
+                Form rollsPO = new RollsRoycePOReview(jobNo, true);
+                rollsPO.Show();
+            }
         }
 
-        private void step2Details_Enter(object sender, EventArgs e)
+        private void step2Details_DoubleClick(object sender, EventArgs e)
         {
             if (type.Equals("Contract Review"))
             {
@@ -130,10 +139,19 @@ namespace Workflow
 
         private void step2Label_DoubleClick(object sender, EventArgs e)
         {
-            
+            if (type.Equals("Contract Review"))
+            {
+                Form contractReviewME = new ContractReviewCheckList_ME();
+                contractReviewME.Show();
+            }
+            else if (type.Equals("Quick Release"))
+            {
+                Form quickReleaseForm = new QuickReleaseForm_Engineering();
+                quickReleaseForm.Show();
+            }
         }
 
-        private void step3Details_Enter(object sender, EventArgs e)
+        private void step3Details_DoubleClick(object sender, EventArgs e)
         {
             if (type.Equals("Contract Review"))
             {
@@ -149,58 +167,6 @@ namespace Workflow
 
         private void step3Label_DoubleClick(object sender, EventArgs e)
         {
-            
-        }
-
-        private void step4Details_Enter(object sender, EventArgs e)
-        {
-            if (type.Equals("Contract Review"))
-            {
-                Form contractReviewME = new ContractReviewCheckList_QE();
-                contractReviewME.Show();
-            }
-        }
-
-        private void step4Label_DoubleClick(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void step2Label_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void step1Label_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if (customer.Equals("Honda"))
-            {
-                Form hondaPo = new HondaPOReview(jobNo, true);
-                hondaPo.Show();
-            }
-            else if (customer.Equals("Rolls Royce"))
-            {
-                Form rollsPO = new RollsRoycePOReview(jobNo, true);
-                rollsPO.Show();
-            }
-        }
-
-        private void step2Label_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if (type.Equals("Contract Review"))
-            {
-                Form contractReviewME = new ContractReviewCheckList_ME();
-                contractReviewME.Show();
-            }
-            else if (type.Equals("Quick Release"))
-            {
-                Form quickReleaseForm = new QuickReleaseForm_Engineering();
-                quickReleaseForm.Show();
-            }
-        }
-
-        private void step3Label_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
             if (type.Equals("Contract Review"))
             {
                 Form contractReviewME = new ContractReviewCheckList_QA();
@@ -213,7 +179,16 @@ namespace Workflow
             }
         }
 
-        private void step4Label_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void step4Details_DoubleClick(object sender, EventArgs e)
+        {
+            if (type.Equals("Contract Review"))
+            {
+                Form contractReviewME = new ContractReviewCheckList_QE();
+                contractReviewME.Show();
+            }
+        }
+
+        private void step4Label_DoubleClick(object sender, EventArgs e)
         {
             if (type.Equals("Contract Review"))
             {
