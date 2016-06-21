@@ -111,16 +111,7 @@ namespace Workflow
 
         private void step1Label_DoubleClick(object sender, EventArgs e)
         {
-            if (customer.Equals("Honda"))
-            {
-                Form hondaPo = new HondaPOReview(jobNo, true);
-                hondaPo.Show();
-            }
-            else if (customer.Equals("Rolls Royce"))
-            {
-                Form rollsPO = new RollsRoycePOReview(jobNo, true);
-                rollsPO.Show();
-            }
+            
         }
 
         private void step2Details_Enter(object sender, EventArgs e)
@@ -139,16 +130,7 @@ namespace Workflow
 
         private void step2Label_DoubleClick(object sender, EventArgs e)
         {
-            if (type.Equals("Contract Review"))
-            {
-                Form contractReviewME = new ContractReviewCheckList_ME();
-                contractReviewME.Show();
-            }
-            else if (type.Equals("Quick Release"))
-            {
-                Form quickReleaseForm = new QuickReleaseForm_Engineering();
-                quickReleaseForm.Show();
-            }
+            
         }
 
         private void step3Details_Enter(object sender, EventArgs e)
@@ -167,16 +149,7 @@ namespace Workflow
 
         private void step3Label_DoubleClick(object sender, EventArgs e)
         {
-            if (type.Equals("Contract Review"))
-            {
-                Form contractReviewME = new ContractReviewCheckList_QA();
-                contractReviewME.Show();
-            }
-            else if (type.Equals("Quick Release"))
-            {
-                Form quickReleaseForm = new QuickReleaseForm_Quality();
-                quickReleaseForm.Show();
-            }
+            
         }
 
         private void step4Details_Enter(object sender, EventArgs e)
@@ -189,6 +162,53 @@ namespace Workflow
         }
 
         private void step4Label_DoubleClick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void step1Label_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (customer.Equals("Honda"))
+            {
+                Form hondaPo = new HondaPOReview(jobNo, true);
+                hondaPo.Show();
+            }
+            else if (customer.Equals("Rolls Royce"))
+            {
+                Form rollsPO = new RollsRoycePOReview(jobNo, true);
+                rollsPO.Show();
+            }
+        }
+
+        private void step2Label_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (type.Equals("Contract Review"))
+            {
+                Form contractReviewME = new ContractReviewCheckList_ME();
+                contractReviewME.Show();
+            }
+            else if (type.Equals("Quick Release"))
+            {
+                Form quickReleaseForm = new QuickReleaseForm_Engineering();
+                quickReleaseForm.Show();
+            }
+        }
+
+        private void step3Label_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (type.Equals("Contract Review"))
+            {
+                Form contractReviewME = new ContractReviewCheckList_QA();
+                contractReviewME.Show();
+            }
+            else if (type.Equals("Quick Release"))
+            {
+                Form quickReleaseForm = new QuickReleaseForm_Quality();
+                quickReleaseForm.Show();
+            }
+        }
+
+        private void step4Label_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             if (type.Equals("Contract Review"))
             {
