@@ -65,7 +65,7 @@ namespace Workflow
 
                     if (reader.Read())
                     {
-                        byte[] enteredPasswordHashByes = System.Text.Encoding.Default.GetBytes(reader.GetString(10));
+                        byteS[] enteredPasswordHashByes = System.Text.Encoding.Default.GetBytes(reader.GetString(10));
                         PasswordHash hash = new PasswordHash(enteredPasswordHashByes);
                         if (hash.Verify(passwordTextBox.Text))
                         {

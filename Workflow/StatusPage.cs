@@ -67,9 +67,9 @@ namespace Workflow
                 step4Details.Show();
 
                 // rename steps 2-4
-                step2Label.Text = "Contract Review CheckList ME";
-                step3Label.Text = "Contract Review CheckList QA";
-                step4Label.Text = "Contract Review CheckList QE";
+                step2Label.Text = "Contract Review Check List ME";
+                step3Label.Text = "Contract Review Check List QA";
+                step4Label.Text = "Contract Review Check List QE";
             }
             else if (type.Equals("Quick Release"))
             {

@@ -112,6 +112,7 @@
     <Compile Include="LogInForm.designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PasswordHash.cs" />
     <Compile Include="POTypeForm.cs">
       <SubType>Form</SubType>
     </Compile>
