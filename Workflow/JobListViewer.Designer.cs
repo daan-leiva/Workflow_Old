@@ -178,6 +178,7 @@
             // 
             // createJobButton
             // 
+            this.createJobButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.createJobButton.Location = new System.Drawing.Point(773, 111);
             this.createJobButton.Name = "createJobButton";
             this.createJobButton.Size = new System.Drawing.Size(75, 23);

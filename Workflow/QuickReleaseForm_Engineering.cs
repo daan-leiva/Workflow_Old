@@ -12,9 +12,14 @@ namespace Workflow
 {
     public partial class QuickReleaseForm_Engineering : Form
     {
-        public QuickReleaseForm_Engineering()
+        string jobNo;
+        string partNo;
+
+        public QuickReleaseForm_Engineering(string jobNo, string partNo)
         {
             InitializeComponent();
+            this.jobNo = jobNo;
+            this.partNo = partNo;
         }
 
         private void QuickReleaseForm_Load(object sender, EventArgs e)
@@ -29,6 +34,9 @@ namespace Workflow
             SetUpDropdown(comboBox13);
             SetUpDropdown(comboBox14);
             SetUpDropdown(comboBox15);
+            // initialize texboxes
+            jobTextBox.Text = jobNo;
+            partNumberTextBox.Text = partNo;
         }
 
         private void SetUpDropdown(ComboBox combo_box)
@@ -41,6 +49,11 @@ namespace Workflow
             combo_box.Items.Add("N/A");
 
             combo_box.DropDownStyle = ComboBoxStyle.DropDownList;
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

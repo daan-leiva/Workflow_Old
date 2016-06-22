@@ -134,7 +134,7 @@ namespace Workflow
             }
             else if (type.Equals("Quick Release"))
             {
-                Form quickReleaseForm = new QuickReleaseForm_Engineering();
+                Form quickReleaseForm = new QuickReleaseForm_Engineering(jobNo, partNo);
                 quickReleaseForm.Show();
             }
         }
@@ -148,7 +148,7 @@ namespace Workflow
             }
             else if (type.Equals("Quick Release"))
             {
-                Form quickReleaseForm = new QuickReleaseForm_Engineering();
+                Form quickReleaseForm = new QuickReleaseForm_Engineering(jobNo, partNo);
                 quickReleaseForm.Show();
             }
         }
@@ -162,7 +162,7 @@ namespace Workflow
             }
             else if (type.Equals("Quick Release"))
             {
-                Form quickReleaseForm = new QuickReleaseForm_Quality();
+                Form quickReleaseForm = new QuickReleaseForm_Quality(jobNo, partNo);
                 quickReleaseForm.Show();
             }
         }
@@ -176,7 +176,7 @@ namespace Workflow
             }
             else if (type.Equals("Quick Release"))
             {
-                Form quickReleaseForm = new QuickReleaseForm_Quality();
+                Form quickReleaseForm = new QuickReleaseForm_Quality(jobNo, partNo);
                 quickReleaseForm.Show();
             }
         }
