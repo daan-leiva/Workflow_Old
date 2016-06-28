@@ -46,6 +46,8 @@ namespace Workflow
         }
 
         private void VerifyLogin()
+
+        private void VerifyLogin()
         {
             /*
             //verify that user account exists
