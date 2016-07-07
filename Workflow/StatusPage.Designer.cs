@@ -36,11 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.jobNoLabel = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.workflowList = new System.Windows.Forms.ListBox();
             this.step1Details = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -103,11 +99,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.jobNoLabel, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label11, 1, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -186,32 +178,6 @@
             this.label3.Text = "Customer";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(338, 19);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "PO Date";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 76);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(338, 20);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Due Date";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // jobNoLabel
             // 
             this.jobNoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -225,41 +191,16 @@
             this.jobNoLabel.Text = "33154";
             this.jobNoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(347, 57);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(842, 19);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "December 26, 2015";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label11
-            // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(347, 76);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(842, 20);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "May 26, 2017";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // workflowList
             // 
             this.workflowList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.workflowList.FormattingEnabled = true;
-            this.workflowList.Location = new System.Drawing.Point(20, 204);
+            this.workflowList.Location = new System.Drawing.Point(20, 212);
             this.workflowList.Name = "workflowList";
-            this.workflowList.Size = new System.Drawing.Size(120, 251);
+            this.workflowList.Size = new System.Drawing.Size(120, 160);
             this.workflowList.TabIndex = 2;
+            this.workflowList.SelectedIndexChanged += new System.EventHandler(this.workflowList_SelectedIndexChanged);
             // 
             // step1Details
             // 
@@ -471,7 +412,7 @@
             // 
             // createWorkflowButton
             // 
-            this.createWorkflowButton.Location = new System.Drawing.Point(158, 204);
+            this.createWorkflowButton.Location = new System.Drawing.Point(158, 212);
             this.createWorkflowButton.Name = "createWorkflowButton";
             this.createWorkflowButton.Size = new System.Drawing.Size(96, 23);
             this.createWorkflowButton.TabIndex = 58;
@@ -484,7 +425,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1227, 472);
+            this.ClientSize = new System.Drawing.Size(1227, 383);
             this.Controls.Add(this.createWorkflowButton);
             this.Controls.Add(this.step4Label);
             this.Controls.Add(this.step3Label);
@@ -526,11 +467,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label jobNoLabel;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ListBox workflowList;
         private System.Windows.Forms.GroupBox step1Details;
         private System.Windows.Forms.Label label12;

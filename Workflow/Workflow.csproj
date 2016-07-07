@@ -88,6 +88,7 @@
     <Compile Include="CreateWorkflow.Designer.cs">
       <DependentUpon>CreateWorkflow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Globals.cs" />
     <Compile Include="HondaPOReview.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -30,6 +30,7 @@ namespace Workflow
 
         private void StatusPage_Load(object sender, EventArgs e)
         {
+            
             // set up job number label
             jobNoLabel.Text = jobNo;
             partNoLabel.Text = partNo;
@@ -203,6 +204,11 @@ namespace Workflow
         {
             workflowList.Items.Add(workflowCount.ToString("D" + 4));
             workflowCount++;
+        }
+
+        private void workflowList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
