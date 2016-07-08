@@ -18,7 +18,7 @@ namespace Workflow
         string customer;
         Status_Type type;
 
-        enum Status_Type {ContractReview, QuickRelease, None};
+        enum Status_Type { ContractReview, QuickRelease, None };
 
         public StatusPage(string jobNo, string partNo, string customer, string type)
         {
@@ -48,55 +48,8 @@ namespace Workflow
             createWorkflowButton_Click(new object(), new EventArgs());
             createWorkflowButton_Click(new object(), new EventArgs());
 
-            // disable the forms that are not needed for this type
-            if (type.Equals("Nothing")) // only needs PO Form
-            {
-                // Show step 1
-                step1Label.Show();
-                step1Details.Show();
-                // Hide step 2-4
-                step2Label.Hide();
-                step2Details.Hide();
-                step3Label.Hide();
-                step3Details.Hide();
-                step4Label.Hide();
-                step4Details.Hide();
-            }
-            else if (type.Equals("Contract Review"))
-            {
-                // Show step 1 - 4
-                step1Label.Show();
-                step1Details.Show();
-                step2Label.Show();
-                step2Details.Show();
-                step3Label.Show();
-                step3Details.Show();
-                step4Label.Show();
-                step4Details.Show();
-
-                // rename steps 2-4
-                step2Label.Text = "Contract Review Check List ME";
-                step3Label.Text = "Contract Review Check List QA";
-                step4Label.Text = "Contract Review Check List QE";
-            }
-            else if (type.Equals("Quick Release"))
-            {
-                // Show step 1 - 3
-                step1Label.Show();
-                step1Details.Show();
-                step2Label.Show();
-                step2Details.Show();
-                step3Label.Show();
-                step3Details.Show();
-
-                // Hide step 4
-                step4Label.Hide();
-                step4Details.Hide();
-
-                // rename steps 2-3
-                step2Label.Text = "Quick Release Engineering";
-                step3Label.Text = "Quick Release Quality";
-            }
+            // update layout shape
+            UpdateLayout(this.type);
 
             // set up detail events double click
             step1Details.DoubleClick += this.step1Details_DoubleClick;
@@ -130,13 +83,91 @@ namespace Workflow
                 workflowListBox.SelectedIndex = 0;
         }
 
+        private void UpdateLayout(Status_Type type)
+        {
+            // disable the forms that are not needed for this type
+            if (type == Status_Type.None) // only needs PO Form
+            {
+                // Show step 1
+                step1Label.Show();
+                step1Details.Show();
+                // Hide step 2-4
+                step2Label.Hide();
+                step2Details.Hide();
+                step3Label.Hide();
+                step3Details.Hide();
+                step4Label.Hide();
+                step4Details.Hide();
+            }
+            else if (type == Status_Type.ContractReview)
+            {
+                // Show step 1 - 4
+                step1Label.Show();
+                step1Details.Show();
+                step2Label.Show();
+                step2Details.Show();
+                step3Label.Show();
+                step3Details.Show();
+                step4Label.Show();
+                step4Details.Show();
+
+                // rename steps 2-4
+                step2Label.Text = "Contract Review Check List ME";
+                step3Label.Text = "Contract Review Check List QA";
+                step4Label.Text = "Contract Review Check List QE";
+            }
+            else if (type == Status_Type.QuickRelease)
+            {
+                // Show step 1 - 3
+                step1Label.Show();
+                step1Details.Show();
+                step2Label.Show();
+                step2Details.Show();
+                step3Label.Show();
+                step3Details.Show();
+
+                // Hide step 4
+                step4Label.Hide();
+                step4Details.Hide();
+
+                // rename steps 2-3
+                step2Label.Text = "Quick Release Engineering";
+                step3Label.Text = "Quick Release Quality";
+            }
+        }
+
         private void UpdateFromDB(int workflowID)
         {
             using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
             {
                 conn.Open();
 
-                string query = "";
+                string query =
+                    "SELECT [Job]\n" +
+                    ",[JobCreator_UserName]\n" +
+                    ",[Workflow_ID]\n" +
+                    ",[Type]\n" +
+                    ",[LastUpdated]\n" +
+                    ",[POReview_Status]\n" +
+                    ",[POReview_UserName]\n" +
+                    ",[POReview_TimeStamp]\n" +
+                    ",[QuickRelease_Engineering_Status]\n" +
+                    ",[QuickRelease_Engineer_UserName]\n" +
+                    ",[QuickRelease_Engineering_TimeStamp]\n" +
+                    ",[QuickRelease_Quality_Status]\n" +
+                    ",[QuickRelease_Quality_UserName]\n" +
+                    ",[QuickRelease_Quality_TimeStamp]\n" +
+                    ",[ContractReview_ME_Status]\n" +
+                    ",[ContractReview_ME_UserName]\n" +
+                    ",[ContractReview_ME_TimeStamp]\n" +
+                    ",[ContractReview_QA_Status]\n" +
+                    ",[ContractReview_QA_UserName]\n" +
+                    ",[ContractReview_QA_TimeStamp]\n" +
+                    ",[ContractReview_QE_Status]\n" +
+                    ",[ContractReview_QE_UserName]\n" +
+                    ",[ContractReview_QE_TimeStamp]\n" +
+                    "FROM[ATI_Workflow].[dbo].[StatusData]\n" +
+                    "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + workflowID + "';";
             }
         }
 
