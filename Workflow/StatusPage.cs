@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Odbc;
 
 namespace Workflow
 {
@@ -15,8 +16,9 @@ namespace Workflow
         string jobNo;
         string partNo;
         string customer;
-        string type;
-        int workflowCount;
+        Status_Type type;
+
+        enum Status_Type {ContractReview, QuickRelease, None};
 
         public StatusPage(string jobNo, string partNo, string customer, string type)
         {
@@ -24,13 +26,18 @@ namespace Workflow
             this.jobNo = jobNo;
             this.partNo = partNo;
             this.customer = customer;
-            this.type = type;
-            this.workflowCount = 1;
+
+            if (type.Equals("Nothing"))
+                this.type = Status_Type.None;
+            else if (type.Equals("Contract Review"))
+                this.type = Status_Type.ContractReview;
+            else
+                this.type = Status_Type.QuickRelease;
         }
 
         private void StatusPage_Load(object sender, EventArgs e)
         {
-            
+
             // set up job number label
             jobNoLabel.Text = jobNo;
             partNoLabel.Text = partNo;
@@ -96,16 +103,51 @@ namespace Workflow
             step2Details.DoubleClick += this.step2Details_DoubleClick;
             step3Details.DoubleClick += this.step3Details_DoubleClick;
             step4Details.DoubleClick += this.step4Details_DoubleClick;
+
+            // add workflows to workflow
+            using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
+            {
+                conn.Open();
+
+                string query =
+                    "SELECT Job, Workflow_ID\n" +
+                    "FROM [ATI_Workflow].[dbo].[StatusData]\n" +
+                    "WHERE Job = '" + jobNo + "';";
+
+                OdbcCommand com = new OdbcCommand(query, conn);
+                OdbcDataReader reader = com.ExecuteReader();
+
+                // check that there is more than one valid row
+                while (reader.Read() && !reader.IsDBNull(0))
+                {
+                    if (!reader.IsDBNull(1))
+                        workflowListBox.Items.Add(reader.GetInt32(1));
+                }
+            }
+
+            // if list is > 1 then select and activate first workflow and load info
+            if (workflowListBox.Items.Count > 0)
+                workflowListBox.SelectedIndex = 0;
+        }
+
+        private void UpdateFromDB(int workflowID)
+        {
+            using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
+            {
+                conn.Open();
+
+                string query = "";
+            }
         }
 
         private void step1Details_DoubleClick(object sender, EventArgs e)
         {
-            if(customer.Equals("HONDA AERO"))
+            if (customer.Equals("HONDA AERO"))
             {
                 Form hondaPo = new HondaPOReview(jobNo, true);
                 hondaPo.Show();
             }
-            else if(customer.Equals("ROLLS"))
+            else if (customer.Equals("ROLLS"))
             {
                 Form rollsPO = new RollsRoycePOReview(jobNo, true);
                 rollsPO.Show();
@@ -202,13 +244,13 @@ namespace Workflow
 
         private void createWorkflowButton_Click(object sender, EventArgs e)
         {
-            workflowList.Items.Add(workflowCount.ToString("D" + 4));
-            workflowCount++;
+            // TO_DO
         }
 
         private void workflowList_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (workflowListBox.SelectedItem != null)
+                UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
         }
     }
 }

@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.jobNoLabel = new System.Windows.Forms.Label();
-            this.workflowList = new System.Windows.Forms.ListBox();
+            this.workflowListBox = new System.Windows.Forms.ListBox();
             this.step1Details = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -191,16 +191,16 @@
             this.jobNoLabel.Text = "33154";
             this.jobNoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // workflowList
+            // workflowListBox
             // 
-            this.workflowList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.workflowListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.workflowList.FormattingEnabled = true;
-            this.workflowList.Location = new System.Drawing.Point(20, 212);
-            this.workflowList.Name = "workflowList";
-            this.workflowList.Size = new System.Drawing.Size(120, 160);
-            this.workflowList.TabIndex = 2;
-            this.workflowList.SelectedIndexChanged += new System.EventHandler(this.workflowList_SelectedIndexChanged);
+            this.workflowListBox.FormattingEnabled = true;
+            this.workflowListBox.Location = new System.Drawing.Point(20, 212);
+            this.workflowListBox.Name = "workflowListBox";
+            this.workflowListBox.Size = new System.Drawing.Size(120, 160);
+            this.workflowListBox.TabIndex = 2;
+            this.workflowListBox.SelectedIndexChanged += new System.EventHandler(this.workflowList_SelectedIndexChanged);
             // 
             // step1Details
             // 
@@ -435,7 +435,7 @@
             this.Controls.Add(this.step3Details);
             this.Controls.Add(this.step2Details);
             this.Controls.Add(this.step1Details);
-            this.Controls.Add(this.workflowList);
+            this.Controls.Add(this.workflowListBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "StatusPage";
@@ -468,7 +468,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label jobNoLabel;
-        private System.Windows.Forms.ListBox workflowList;
+        private System.Windows.Forms.ListBox workflowListBox;
         private System.Windows.Forms.GroupBox step1Details;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label27;
