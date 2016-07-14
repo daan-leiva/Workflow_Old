@@ -16,6 +16,7 @@ namespace Workflow
         string jobNo;
         int workflow_ID;
         public bool been_updated { get; set; }
+        int[] rowSizes = new int[12];
 
         public ContractReviewCheckList_QA(string jobNo, int workflow_ID)
         {
@@ -29,6 +30,13 @@ namespace Workflow
         private void button1_Click(object sender, EventArgs e)
         {
             question1TextBox.Visible = !question1TextBox.Visible;
+            if (question1TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[1].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[1].Height = rowSizes[1];
+                
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,7 +71,15 @@ namespace Workflow
             jobNoTextBox.Enabled = false;
             approvalTextBox.Text = Globals.userName;
             approvalTextBox.Enabled = false;
-
+           
+            
+            
+            for (int i = 1; i < 12; i += 2)
+            {
+                tableLayoutPanel1.RowStyles[i].Height = rowSizes[i];
+            }
+            
+            
             // check if it exists in DB and load data
             using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
             {
@@ -237,8 +253,40 @@ namespace Workflow
                         been_updated = true;
                 }
             }
-
+            
             this.Close();
         }
+
+        private void question1TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question2TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question3TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question4TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question5TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question6TextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

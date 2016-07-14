@@ -330,7 +330,7 @@
             this.tableLayoutPanel1.SetColumnSpan(this.question1CheckBox, 2);
             this.question1CheckBox.Location = new System.Drawing.Point(3, 3);
             this.question1CheckBox.Name = "question1CheckBox";
-            this.question1CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question1CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question1CheckBox.TabIndex = 50;
             this.question1CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -340,9 +340,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(89, 310);
+            this.label7.Location = new System.Drawing.Point(89, 390);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(783, 31);
+            this.label7.Size = new System.Drawing.Size(772, 29);
             this.label7.TabIndex = 6;
             this.label7.Text = "Identify if FAIR and/or PPAP is required ...is it requried? Y or N";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -353,9 +353,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(89, 248);
+            this.label9.Location = new System.Drawing.Point(89, 312);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(783, 31);
+            this.label9.Size = new System.Drawing.Size(772, 29);
             this.label9.TabIndex = 8;
             this.label9.Text = "Provide serial number list for customer-supplied material and request serial numb" +
     "ers from customers (e.g. Rolls-Royce), as applicable";
@@ -367,9 +367,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(89, 186);
+            this.label4.Location = new System.Drawing.Point(89, 234);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(783, 31);
+            this.label4.Size = new System.Drawing.Size(772, 29);
             this.label4.TabIndex = 3;
             this.label4.Text = "Verify blueprint details is legible throughout & create master inpsection report " +
     "and blue print, if new part number or revision";
@@ -381,9 +381,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(89, 124);
+            this.label3.Location = new System.Drawing.Point(89, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(783, 31);
+            this.label3.Size = new System.Drawing.Size(772, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "Verify purchase order flow down of customer sampling plan & identify on master in" +
     "spection report, including AQL and feauture calssification, as applicable";
@@ -395,9 +395,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(89, 62);
+            this.label2.Location = new System.Drawing.Point(89, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(783, 31);
+            this.label2.Size = new System.Drawing.Size(772, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Verify all specifications required for job are in Q-Pulse and that the revisions " +
     "are current";
@@ -411,7 +411,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(89, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(783, 31);
+            this.label1.Size = new System.Drawing.Size(772, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Verify current bluepring, EO or ADCN (if applicable) and all supplemental instruc" +
     "tions are in Q-Pulse (verify revisions to PO, including subassemblies)";
@@ -425,9 +425,9 @@
             this.question2CheckBox.AutoSize = true;
             this.question2CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tableLayoutPanel1.SetColumnSpan(this.question2CheckBox, 2);
-            this.question2CheckBox.Location = new System.Drawing.Point(3, 65);
+            this.question2CheckBox.Location = new System.Drawing.Point(3, 81);
             this.question2CheckBox.Name = "question2CheckBox";
-            this.question2CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question2CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question2CheckBox.TabIndex = 51;
             this.question2CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -439,9 +439,9 @@
             this.question3CheckBox.AutoSize = true;
             this.question3CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tableLayoutPanel1.SetColumnSpan(this.question3CheckBox, 2);
-            this.question3CheckBox.Location = new System.Drawing.Point(3, 127);
+            this.question3CheckBox.Location = new System.Drawing.Point(3, 159);
             this.question3CheckBox.Name = "question3CheckBox";
-            this.question3CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question3CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question3CheckBox.TabIndex = 52;
             this.question3CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -453,9 +453,9 @@
             this.question4CheckBox.AutoSize = true;
             this.question4CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tableLayoutPanel1.SetColumnSpan(this.question4CheckBox, 2);
-            this.question4CheckBox.Location = new System.Drawing.Point(3, 189);
+            this.question4CheckBox.Location = new System.Drawing.Point(3, 237);
             this.question4CheckBox.Name = "question4CheckBox";
-            this.question4CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question4CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question4CheckBox.TabIndex = 53;
             this.question4CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -467,9 +467,9 @@
             this.question5CheckBox.AutoSize = true;
             this.question5CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tableLayoutPanel1.SetColumnSpan(this.question5CheckBox, 2);
-            this.question5CheckBox.Location = new System.Drawing.Point(3, 251);
+            this.question5CheckBox.Location = new System.Drawing.Point(3, 315);
             this.question5CheckBox.Name = "question5CheckBox";
-            this.question5CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question5CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question5CheckBox.TabIndex = 54;
             this.question5CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -481,9 +481,9 @@
             this.question6CheckBox.AutoSize = true;
             this.question6CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tableLayoutPanel1.SetColumnSpan(this.question6CheckBox, 2);
-            this.question6CheckBox.Location = new System.Drawing.Point(3, 313);
+            this.question6CheckBox.Location = new System.Drawing.Point(3, 393);
             this.question6CheckBox.Name = "question6CheckBox";
-            this.question6CheckBox.Size = new System.Drawing.Size(80, 25);
+            this.question6CheckBox.Size = new System.Drawing.Size(80, 23);
             this.question6CheckBox.TabIndex = 55;
             this.question6CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -491,7 +491,7 @@
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.569715F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.569715F));
@@ -522,23 +522,24 @@
             this.tableLayoutPanel1.Controls.Add(this.button1, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.question1TextBox, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.submitButton, 3, 12);
+            this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 161);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 13;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.896552F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 406);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.35643F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.86139F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(946, 522);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // question6TextBox
@@ -546,65 +547,70 @@
             this.question6TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question6TextBox.Location = new System.Drawing.Point(89, 344);
+            this.question6TextBox.Location = new System.Drawing.Point(89, 422);
             this.question6TextBox.Multiline = true;
             this.question6TextBox.Name = "question6TextBox";
-            this.question6TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question6TextBox.Size = new System.Drawing.Size(772, 43);
             this.question6TextBox.TabIndex = 59;
             this.question6TextBox.Visible = false;
+            this.question6TextBox.TextChanged += new System.EventHandler(this.question6TextBox_TextChanged);
             // 
             // question5TextBox
             // 
             this.question5TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question5TextBox.Location = new System.Drawing.Point(89, 282);
+            this.question5TextBox.Location = new System.Drawing.Point(89, 344);
             this.question5TextBox.Multiline = true;
             this.question5TextBox.Name = "question5TextBox";
-            this.question5TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question5TextBox.Size = new System.Drawing.Size(772, 43);
             this.question5TextBox.TabIndex = 59;
             this.question5TextBox.Visible = false;
+            this.question5TextBox.TextChanged += new System.EventHandler(this.question5TextBox_TextChanged);
             // 
             // question4TextBox
             // 
             this.question4TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question4TextBox.Location = new System.Drawing.Point(89, 220);
+            this.question4TextBox.Location = new System.Drawing.Point(89, 266);
             this.question4TextBox.Multiline = true;
             this.question4TextBox.Name = "question4TextBox";
-            this.question4TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question4TextBox.Size = new System.Drawing.Size(772, 43);
             this.question4TextBox.TabIndex = 59;
             this.question4TextBox.Visible = false;
+            this.question4TextBox.TextChanged += new System.EventHandler(this.question4TextBox_TextChanged);
             // 
             // question3TextBox
             // 
             this.question3TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question3TextBox.Location = new System.Drawing.Point(89, 158);
+            this.question3TextBox.Location = new System.Drawing.Point(89, 188);
             this.question3TextBox.Multiline = true;
             this.question3TextBox.Name = "question3TextBox";
-            this.question3TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question3TextBox.Size = new System.Drawing.Size(772, 43);
             this.question3TextBox.TabIndex = 59;
             this.question3TextBox.Visible = false;
+            this.question3TextBox.TextChanged += new System.EventHandler(this.question3TextBox_TextChanged);
             // 
             // question2TextBox
             // 
             this.question2TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question2TextBox.Location = new System.Drawing.Point(89, 96);
+            this.question2TextBox.Location = new System.Drawing.Point(89, 110);
             this.question2TextBox.Multiline = true;
             this.question2TextBox.Name = "question2TextBox";
-            this.question2TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question2TextBox.Size = new System.Drawing.Size(772, 43);
             this.question2TextBox.TabIndex = 59;
             this.question2TextBox.Visible = false;
+            this.question2TextBox.TextChanged += new System.EventHandler(this.question2TextBox_TextChanged);
             // 
             // button6
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.Location = new System.Drawing.Point(880, 314);
+            this.button6.Location = new System.Drawing.Point(867, 393);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 57;
@@ -615,7 +621,7 @@
             // button5
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.Location = new System.Drawing.Point(880, 252);
+            this.button5.Location = new System.Drawing.Point(867, 315);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 57;
@@ -626,7 +632,7 @@
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.Location = new System.Drawing.Point(880, 190);
+            this.button4.Location = new System.Drawing.Point(867, 237);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 57;
@@ -637,7 +643,7 @@
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.Location = new System.Drawing.Point(880, 128);
+            this.button3.Location = new System.Drawing.Point(867, 159);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 57;
@@ -648,7 +654,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(880, 66);
+            this.button2.Location = new System.Drawing.Point(867, 81);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 57;
@@ -659,7 +665,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(880, 4);
+            this.button1.Location = new System.Drawing.Point(867, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 56;
@@ -672,16 +678,17 @@
             this.question1TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.question1TextBox.Location = new System.Drawing.Point(89, 34);
+            this.question1TextBox.Location = new System.Drawing.Point(89, 32);
             this.question1TextBox.Multiline = true;
             this.question1TextBox.Name = "question1TextBox";
-            this.question1TextBox.Size = new System.Drawing.Size(783, 25);
+            this.question1TextBox.Size = new System.Drawing.Size(772, 43);
             this.question1TextBox.TabIndex = 58;
             this.question1TextBox.Visible = false;
+            this.question1TextBox.TextChanged += new System.EventHandler(this.question1TextBox_TextChanged);
             // 
             // submitButton
             // 
-            this.submitButton.Location = new System.Drawing.Point(878, 375);
+            this.submitButton.Location = new System.Drawing.Point(867, 471);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(75, 23);
             this.submitButton.TabIndex = 60;

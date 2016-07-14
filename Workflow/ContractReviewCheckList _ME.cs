@@ -245,6 +245,7 @@ namespace Workflow
             meApprovalTextBox.Text = Globals.userName;
             meApprovalTextBox.Enabled = false;
 
+            
             // check if it exists in DB and load data
             using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
             {
