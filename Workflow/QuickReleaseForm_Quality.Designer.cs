@@ -40,19 +40,19 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.question5ComboBox = new System.Windows.Forms.ComboBox();
+            this.question4ComboBox = new System.Windows.Forms.ComboBox();
+            this.question3ComboBox = new System.Windows.Forms.ComboBox();
+            this.question2ComboBox = new System.Windows.Forms.ComboBox();
+            this.question1ComboBox = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.documentTextBox = new System.Windows.Forms.TextBox();
             this.partNumberTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.remarksTextBox = new System.Windows.Forms.TextBox();
+            this.question6ComboBox = new System.Windows.Forms.ComboBox();
+            this.personTextBox = new System.Windows.Forms.TextBox();
             this.jobTextBox = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.timeStampButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -219,58 +219,58 @@
             this.label14.Text = "Remarks: Request";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // comboBox4
+            // question5ComboBox
             // 
-            this.comboBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(426, 331);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(51, 21);
-            this.comboBox4.TabIndex = 17;
+            this.question5ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question5ComboBox.FormattingEnabled = true;
+            this.question5ComboBox.Location = new System.Drawing.Point(426, 331);
+            this.question5ComboBox.Name = "question5ComboBox";
+            this.question5ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question5ComboBox.TabIndex = 17;
             // 
-            // comboBox5
+            // question4ComboBox
             // 
-            this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(426, 295);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(51, 21);
-            this.comboBox5.TabIndex = 18;
+            this.question4ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question4ComboBox.FormattingEnabled = true;
+            this.question4ComboBox.Location = new System.Drawing.Point(426, 295);
+            this.question4ComboBox.Name = "question4ComboBox";
+            this.question4ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question4ComboBox.TabIndex = 18;
             // 
-            // comboBox6
+            // question3ComboBox
             // 
-            this.comboBox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(426, 259);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(51, 21);
-            this.comboBox6.TabIndex = 19;
+            this.question3ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question3ComboBox.FormattingEnabled = true;
+            this.question3ComboBox.Location = new System.Drawing.Point(426, 259);
+            this.question3ComboBox.Name = "question3ComboBox";
+            this.question3ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question3ComboBox.TabIndex = 19;
             // 
-            // comboBox7
+            // question2ComboBox
             // 
-            this.comboBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.question2ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question2ComboBox.FormattingEnabled = true;
+            this.question2ComboBox.Items.AddRange(new object[] {
             "Yes",
             "No",
             "N/A"});
-            this.comboBox7.Location = new System.Drawing.Point(426, 223);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(51, 21);
-            this.comboBox7.TabIndex = 20;
+            this.question2ComboBox.Location = new System.Drawing.Point(426, 223);
+            this.question2ComboBox.Name = "question2ComboBox";
+            this.question2ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question2ComboBox.TabIndex = 20;
             // 
-            // comboBox8
+            // question1ComboBox
             // 
-            this.comboBox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.question1ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question1ComboBox.FormattingEnabled = true;
+            this.question1ComboBox.Items.AddRange(new object[] {
             "Yes",
             "No",
             "N/A"});
-            this.comboBox8.Location = new System.Drawing.Point(426, 187);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(51, 21);
-            this.comboBox8.TabIndex = 21;
+            this.question1ComboBox.Location = new System.Drawing.Point(426, 187);
+            this.question1ComboBox.Name = "question1ComboBox";
+            this.question1ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question1ComboBox.TabIndex = 21;
             // 
             // tableLayoutPanel1
             // 
@@ -280,11 +280,11 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox4, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.documentTextBox, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.partNumberTextBox, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox8, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.question1ComboBox, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label7, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.label8, 0, 5);
@@ -295,15 +295,15 @@
             this.tableLayoutPanel1.Controls.Add(this.label13, 0, 10);
             this.tableLayoutPanel1.Controls.Add(this.label12, 0, 9);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox7, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox6, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox5, 1, 8);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox4, 1, 9);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 12);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox2, 1, 10);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.question2ComboBox, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.question3ComboBox, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.question4ComboBox, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.question5ComboBox, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.remarksTextBox, 0, 12);
+            this.tableLayoutPanel1.Controls.Add(this.question6ComboBox, 1, 10);
+            this.tableLayoutPanel1.Controls.Add(this.personTextBox, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.jobTextBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 16);
+            this.tableLayoutPanel1.Controls.Add(this.timeStampButton, 0, 16);
             this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 90);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -333,13 +333,13 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(847, 665);
             this.tableLayoutPanel1.TabIndex = 24;
             // 
-            // textBox4
+            // documentTextBox
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox4.Location = new System.Drawing.Point(426, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(219, 20);
-            this.textBox4.TabIndex = 27;
+            this.documentTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.documentTextBox.Location = new System.Drawing.Point(426, 116);
+            this.documentTextBox.Name = "documentTextBox";
+            this.documentTextBox.Size = new System.Drawing.Size(219, 20);
+            this.documentTextBox.TabIndex = 27;
             // 
             // partNumberTextBox
             // 
@@ -349,40 +349,40 @@
             this.partNumberTextBox.Size = new System.Drawing.Size(219, 20);
             this.partNumberTextBox.TabIndex = 26;
             // 
-            // textBox1
+            // remarksTextBox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.remarksTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.SetColumnSpan(this.textBox1, 2);
-            this.textBox1.Location = new System.Drawing.Point(3, 435);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.tableLayoutPanel1.SetRowSpan(this.textBox1, 4);
-            this.textBox1.Size = new System.Drawing.Size(841, 138);
-            this.textBox1.TabIndex = 22;
+            this.tableLayoutPanel1.SetColumnSpan(this.remarksTextBox, 2);
+            this.remarksTextBox.Location = new System.Drawing.Point(3, 435);
+            this.remarksTextBox.Multiline = true;
+            this.remarksTextBox.Name = "remarksTextBox";
+            this.tableLayoutPanel1.SetRowSpan(this.remarksTextBox, 4);
+            this.remarksTextBox.Size = new System.Drawing.Size(841, 138);
+            this.remarksTextBox.TabIndex = 22;
             // 
-            // comboBox2
+            // question6ComboBox
             // 
-            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.question6ComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.question6ComboBox.FormattingEnabled = true;
+            this.question6ComboBox.Items.AddRange(new object[] {
             "Yes",
             "No",
             "N/A"});
-            this.comboBox2.Location = new System.Drawing.Point(426, 367);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(51, 21);
-            this.comboBox2.TabIndex = 23;
+            this.question6ComboBox.Location = new System.Drawing.Point(426, 367);
+            this.question6ComboBox.Name = "question6ComboBox";
+            this.question6ComboBox.Size = new System.Drawing.Size(51, 21);
+            this.question6ComboBox.TabIndex = 23;
             // 
-            // textBox2
+            // personTextBox
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox2.Location = new System.Drawing.Point(426, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(219, 20);
-            this.textBox2.TabIndex = 25;
-            this.textBox2.Text = "dleiva";
+            this.personTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.personTextBox.Location = new System.Drawing.Point(426, 44);
+            this.personTextBox.Name = "personTextBox";
+            this.personTextBox.Size = new System.Drawing.Size(219, 20);
+            this.personTextBox.TabIndex = 25;
+            this.personTextBox.Text = "dleiva";
             // 
             // jobTextBox
             // 
@@ -396,15 +396,16 @@
             this.jobTextBox.Text = "455846";
             this.jobTextBox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button2
+            // timeStampButton
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button2.Location = new System.Drawing.Point(3, 579);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 20);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "Timestamp";
-            this.button2.UseVisualStyleBackColor = true;
+            this.timeStampButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.timeStampButton.Location = new System.Drawing.Point(3, 579);
+            this.timeStampButton.Name = "timeStampButton";
+            this.timeStampButton.Size = new System.Drawing.Size(75, 20);
+            this.timeStampButton.TabIndex = 33;
+            this.timeStampButton.Text = "Timestamp";
+            this.timeStampButton.UseVisualStyleBackColor = true;
+            this.timeStampButton.Click += new System.EventHandler(this.timeStampButton_Click);
             // 
             // label2
             // 
@@ -486,20 +487,20 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox question5ComboBox;
+        private System.Windows.Forms.ComboBox question4ComboBox;
+        private System.Windows.Forms.ComboBox question3ComboBox;
+        private System.Windows.Forms.ComboBox question2ComboBox;
+        private System.Windows.Forms.ComboBox question1ComboBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox remarksTextBox;
+        private System.Windows.Forms.ComboBox question6ComboBox;
+        private System.Windows.Forms.TextBox documentTextBox;
         private System.Windows.Forms.TextBox partNumberTextBox;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox personTextBox;
         private System.Windows.Forms.Label jobTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button timeStampButton;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Button submitButton;

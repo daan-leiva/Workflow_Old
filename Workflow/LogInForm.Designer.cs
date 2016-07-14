@@ -36,6 +36,7 @@
             this.cancelButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.userLabel = new System.Windows.Forms.Label();
+            this.winLogInButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -60,7 +61,7 @@
             // 
             this.userNameTextBox.Location = new System.Drawing.Point(107, 51);
             this.userNameTextBox.Name = "userNameTextBox";
-            this.userNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.userNameTextBox.Size = new System.Drawing.Size(188, 20);
             this.userNameTextBox.TabIndex = 0;
             this.userNameTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.userNameTextBox_KeyDown);
             // 
@@ -68,13 +69,13 @@
             // 
             this.passwordTextBox.Location = new System.Drawing.Point(107, 82);
             this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordTextBox.Size = new System.Drawing.Size(188, 20);
             this.passwordTextBox.TabIndex = 1;
             this.passwordTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passwordTextBox_KeyDown);
             // 
             // logInButton
             // 
-            this.logInButton.Location = new System.Drawing.Point(43, 118);
+            this.logInButton.Location = new System.Drawing.Point(107, 122);
             this.logInButton.Name = "logInButton";
             this.logInButton.Size = new System.Drawing.Size(75, 23);
             this.logInButton.TabIndex = 2;
@@ -84,7 +85,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(130, 118);
+            this.cancelButton.Location = new System.Drawing.Point(194, 122);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 3;
@@ -110,12 +111,23 @@
             this.userLabel.TabIndex = 5;
             this.userLabel.Text = "label4";
             // 
+            // winLogInButton
+            // 
+            this.winLogInButton.Location = new System.Drawing.Point(220, 11);
+            this.winLogInButton.Name = "winLogInButton";
+            this.winLogInButton.Size = new System.Drawing.Size(75, 23);
+            this.winLogInButton.TabIndex = 6;
+            this.winLogInButton.Text = "Win Log In";
+            this.winLogInButton.UseVisualStyleBackColor = true;
+            this.winLogInButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LogInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(248, 157);
+            this.ClientSize = new System.Drawing.Size(304, 157);
+            this.Controls.Add(this.winLogInButton);
             this.Controls.Add(this.userLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cancelButton);
@@ -142,5 +154,6 @@
         private System.Windows.Forms.Button cancelButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label userLabel;
+        private System.Windows.Forms.Button winLogInButton;
     }
 }

@@ -26,7 +26,7 @@ namespace Workflow
             // makeas the character for the password field be an asterix
             passwordTextBox.PasswordChar = '*';
             // set up windows user log in
-            userLabel.Text = Environment.UserName;
+            userLabel.Text =Environment.UserName;
         }
 
         private void logInButton_Click(object sender, EventArgs e)
@@ -124,6 +124,9 @@ namespace Workflow
             {
                 if (VerifyLogin())
                 {
+                    // set user name in globals
+                    Globals.userName = userNameTextBox.Text.Trim();
+
                     // open job list viewer
                     this.Hide();
                     Form jobList = new JobListViewer();
@@ -141,6 +144,9 @@ namespace Workflow
             {
                 if (VerifyLogin())
                 {
+                    // set user name in globals
+                    Globals.userName = userNameTextBox.Text.Trim();
+
                     // open job list viewer
                     this.Hide();
                     Form jobList = new JobListViewer();
@@ -150,6 +156,18 @@ namespace Workflow
                 else
                     MessageBox.Show("Username or Password is incorrect");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // set username to windows name
+            Globals.userName = Environment.UserName;
+
+            // open job list viewer
+            this.Hide();
+            Form jobList = new JobListViewer();
+            jobList.FormClosed += (s, args) => this.Close();
+            jobList.Show();
         }
     }
 }

@@ -124,6 +124,8 @@
             // 
             // dataGridView
             // 
+            this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -163,7 +165,7 @@
             // 
             this.rowsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.rowsLabel.AutoSize = true;
-            this.rowsLabel.Location = new System.Drawing.Point(808, 339);
+            this.rowsLabel.Location = new System.Drawing.Point(785, 339);
             this.rowsLabel.Name = "rowsLabel";
             this.rowsLabel.Size = new System.Drawing.Size(46, 13);
             this.rowsLabel.TabIndex = 47;

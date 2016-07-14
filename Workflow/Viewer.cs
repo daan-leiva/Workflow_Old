@@ -37,7 +37,7 @@ namespace Workflow
 
         private void viewHondaPOFormButton_Click(object sender, EventArgs e)
         {
-            Form hondaPOReview = new HondaPOReview("12345", false);
+            Form hondaPOReview = new HondaPOReview("12345", false, 101);
             hondaPOReview.Show();
         }
 
@@ -61,19 +61,19 @@ namespace Workflow
 
         private void contractReviewQAButton_Click(object sender, EventArgs e)
         {
-            Form contractReviewQAForm = new ContractReviewCheckList_QA();
+            Form contractReviewQAForm = new ContractReviewCheckList_QA("10", 101);
             contractReviewQAForm.Show();
         }
 
         private void contractReviewQEButton_Click(object sender, EventArgs e)
         {
-            Form contractReviewQEForm = new ContractReviewCheckList_QE();
+            Form contractReviewQEForm = new ContractReviewCheckList_QE("10", 101);
             contractReviewQEForm.Show();
         }
 
         private void contractReviewMEButton_Click(object sender, EventArgs e)
         {
-            Form contractReviewMEForm = new ContractReviewCheckList_ME();
+            Form contractReviewMEForm = new ContractReviewCheckList_ME("10", 101);
             contractReviewMEForm.Show();
         }
 

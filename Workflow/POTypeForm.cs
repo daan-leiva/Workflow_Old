@@ -22,7 +22,7 @@ namespace Workflow
             Random r = new Random();
             // launch honda PO
             this.Hide();
-            Form hondaPOForm = new HondaPOReview(r.Next(30001,39999).ToString(), false);
+            Form hondaPOForm = new HondaPOReview(r.Next(30001,39999).ToString(), false, 101);
             hondaPOForm.FormClosed += (s, args) => this.Close();
             hondaPOForm.Show();
         }

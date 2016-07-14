@@ -14,12 +14,14 @@ namespace Workflow
     {
         string jobNo;
         bool readOnly;
+        public string type { get; set; }
 
         public RollsRoycePOReview(string jobNo, bool readOnly)
         {
             InitializeComponent();
             this.jobNo = jobNo;
             this.readOnly = readOnly;
+            type = "Invalid";
         }
 
         private void RollsRoycePOReview_Load(object sender, EventArgs e)
@@ -52,11 +54,20 @@ namespace Workflow
             }
 
 
-            // load status page
-            this.Hide();
-            Form statusForm = new StatusPage(jobNo, partNoLabel.Text.Trim(), "ROLLS", type);
-            statusForm.FormClosed += (s, args) => this.Close();
-            statusForm.Show();
+            if (this.Modal)
+            {
+                // submit query info: TOD_DO
+
+                this.Close();
+            }
+            else
+            {
+                // load status page
+                this.Hide();
+                Form statusForm = new StatusPage(jobNo, partNoLabel.Text.Trim(), "ROLLS", type);
+                statusForm.FormClosed += (s, args) => this.Close();
+                statusForm.Show();
+            }
         }
     }
 }

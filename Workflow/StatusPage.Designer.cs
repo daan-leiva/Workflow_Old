@@ -39,20 +39,20 @@
             this.jobNoLabel = new System.Windows.Forms.Label();
             this.workflowListBox = new System.Windows.Forms.ListBox();
             this.step1Details = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.step1Status = new System.Windows.Forms.Label();
+            this.step1TimeStamp = new System.Windows.Forms.Label();
+            this.step1UserName = new System.Windows.Forms.Label();
             this.step2Details = new System.Windows.Forms.GroupBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.step2Status = new System.Windows.Forms.Label();
+            this.step2TimeStamp = new System.Windows.Forms.Label();
+            this.step2UserName = new System.Windows.Forms.Label();
             this.step3Details = new System.Windows.Forms.GroupBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.step3Status = new System.Windows.Forms.Label();
+            this.step3TimeStamp = new System.Windows.Forms.Label();
+            this.step3UserName = new System.Windows.Forms.Label();
+            this.step4UserName = new System.Windows.Forms.Label();
+            this.step4TimeStamp = new System.Windows.Forms.Label();
+            this.step4Status = new System.Windows.Forms.Label();
             this.step4Details = new System.Windows.Forms.GroupBox();
             this.step1Label = new System.Windows.Forms.Label();
             this.step2Label = new System.Windows.Forms.Label();
@@ -204,154 +204,154 @@
             // 
             // step1Details
             // 
-            this.step1Details.Controls.Add(this.label12);
-            this.step1Details.Controls.Add(this.label27);
-            this.step1Details.Controls.Add(this.label26);
+            this.step1Details.Controls.Add(this.step1Status);
+            this.step1Details.Controls.Add(this.step1TimeStamp);
+            this.step1Details.Controls.Add(this.step1UserName);
             this.step1Details.Location = new System.Drawing.Point(158, 287);
             this.step1Details.Name = "step1Details";
             this.step1Details.Size = new System.Drawing.Size(260, 85);
             this.step1Details.TabIndex = 38;
             this.step1Details.TabStop = false;
             // 
-            // label12
+            // step1Status
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(7, 57);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(37, 13);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Status";
+            this.step1Status.AutoSize = true;
+            this.step1Status.Location = new System.Drawing.Point(7, 57);
+            this.step1Status.Name = "step1Status";
+            this.step1Status.Size = new System.Drawing.Size(37, 13);
+            this.step1Status.TabIndex = 2;
+            this.step1Status.Text = "Status";
             // 
-            // label27
+            // step1TimeStamp
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(7, 39);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(58, 13);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Timestamp";
+            this.step1TimeStamp.AutoSize = true;
+            this.step1TimeStamp.Location = new System.Drawing.Point(7, 39);
+            this.step1TimeStamp.Name = "step1TimeStamp";
+            this.step1TimeStamp.Size = new System.Drawing.Size(58, 13);
+            this.step1TimeStamp.TabIndex = 1;
+            this.step1TimeStamp.Text = "Timestamp";
             // 
-            // label26
+            // step1UserName
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
-            this.label26.Location = new System.Drawing.Point(6, 16);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(55, 13);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "Username";
+            this.step1UserName.AutoSize = true;
+            this.step1UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
+            this.step1UserName.Location = new System.Drawing.Point(6, 16);
+            this.step1UserName.Name = "step1UserName";
+            this.step1UserName.Size = new System.Drawing.Size(55, 13);
+            this.step1UserName.TabIndex = 0;
+            this.step1UserName.Text = "Username";
             // 
             // step2Details
             // 
-            this.step2Details.Controls.Add(this.label19);
-            this.step2Details.Controls.Add(this.label20);
-            this.step2Details.Controls.Add(this.label21);
+            this.step2Details.Controls.Add(this.step2Status);
+            this.step2Details.Controls.Add(this.step2TimeStamp);
+            this.step2Details.Controls.Add(this.step2UserName);
             this.step2Details.Location = new System.Drawing.Point(424, 287);
             this.step2Details.Name = "step2Details";
             this.step2Details.Size = new System.Drawing.Size(260, 85);
             this.step2Details.TabIndex = 46;
             this.step2Details.TabStop = false;
             // 
-            // label19
+            // step2Status
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(7, 57);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(37, 13);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Status";
+            this.step2Status.AutoSize = true;
+            this.step2Status.Location = new System.Drawing.Point(7, 57);
+            this.step2Status.Name = "step2Status";
+            this.step2Status.Size = new System.Drawing.Size(37, 13);
+            this.step2Status.TabIndex = 2;
+            this.step2Status.Text = "Status";
             // 
-            // label20
+            // step2TimeStamp
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(7, 39);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(58, 13);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Timestamp";
+            this.step2TimeStamp.AutoSize = true;
+            this.step2TimeStamp.Location = new System.Drawing.Point(7, 39);
+            this.step2TimeStamp.Name = "step2TimeStamp";
+            this.step2TimeStamp.Size = new System.Drawing.Size(58, 13);
+            this.step2TimeStamp.TabIndex = 1;
+            this.step2TimeStamp.Text = "Timestamp";
             // 
-            // label21
+            // step2UserName
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
-            this.label21.Location = new System.Drawing.Point(6, 16);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(55, 13);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Username";
+            this.step2UserName.AutoSize = true;
+            this.step2UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
+            this.step2UserName.Location = new System.Drawing.Point(6, 16);
+            this.step2UserName.Name = "step2UserName";
+            this.step2UserName.Size = new System.Drawing.Size(55, 13);
+            this.step2UserName.TabIndex = 0;
+            this.step2UserName.Text = "Username";
             // 
             // step3Details
             // 
-            this.step3Details.Controls.Add(this.label25);
-            this.step3Details.Controls.Add(this.label28);
-            this.step3Details.Controls.Add(this.label29);
+            this.step3Details.Controls.Add(this.step3Status);
+            this.step3Details.Controls.Add(this.step3TimeStamp);
+            this.step3Details.Controls.Add(this.step3UserName);
             this.step3Details.Location = new System.Drawing.Point(690, 287);
             this.step3Details.Name = "step3Details";
             this.step3Details.Size = new System.Drawing.Size(260, 85);
             this.step3Details.TabIndex = 50;
             this.step3Details.TabStop = false;
             // 
-            // label25
+            // step3Status
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(7, 57);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(37, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Status";
+            this.step3Status.AutoSize = true;
+            this.step3Status.Location = new System.Drawing.Point(7, 57);
+            this.step3Status.Name = "step3Status";
+            this.step3Status.Size = new System.Drawing.Size(37, 13);
+            this.step3Status.TabIndex = 2;
+            this.step3Status.Text = "Status";
             // 
-            // label28
+            // step3TimeStamp
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(7, 39);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(58, 13);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Timestamp";
+            this.step3TimeStamp.AutoSize = true;
+            this.step3TimeStamp.Location = new System.Drawing.Point(7, 39);
+            this.step3TimeStamp.Name = "step3TimeStamp";
+            this.step3TimeStamp.Size = new System.Drawing.Size(58, 13);
+            this.step3TimeStamp.TabIndex = 1;
+            this.step3TimeStamp.Text = "Timestamp";
             // 
-            // label29
+            // step3UserName
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
-            this.label29.Location = new System.Drawing.Point(6, 16);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(55, 13);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Username";
+            this.step3UserName.AutoSize = true;
+            this.step3UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
+            this.step3UserName.Location = new System.Drawing.Point(6, 16);
+            this.step3UserName.Name = "step3UserName";
+            this.step3UserName.Size = new System.Drawing.Size(55, 13);
+            this.step3UserName.TabIndex = 0;
+            this.step3UserName.Text = "Username";
             // 
-            // label32
+            // step4UserName
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
-            this.label32.Location = new System.Drawing.Point(6, 16);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(55, 13);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "Username";
+            this.step4UserName.AutoSize = true;
+            this.step4UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline);
+            this.step4UserName.Location = new System.Drawing.Point(6, 16);
+            this.step4UserName.Name = "step4UserName";
+            this.step4UserName.Size = new System.Drawing.Size(55, 13);
+            this.step4UserName.TabIndex = 0;
+            this.step4UserName.Text = "Username";
             // 
-            // label31
+            // step4TimeStamp
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(7, 39);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(58, 13);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Timestamp";
+            this.step4TimeStamp.AutoSize = true;
+            this.step4TimeStamp.Location = new System.Drawing.Point(7, 39);
+            this.step4TimeStamp.Name = "step4TimeStamp";
+            this.step4TimeStamp.Size = new System.Drawing.Size(58, 13);
+            this.step4TimeStamp.TabIndex = 1;
+            this.step4TimeStamp.Text = "Timestamp";
             // 
-            // label30
+            // step4Status
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(7, 57);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(37, 13);
-            this.label30.TabIndex = 2;
-            this.label30.Text = "Status";
+            this.step4Status.AutoSize = true;
+            this.step4Status.Location = new System.Drawing.Point(7, 57);
+            this.step4Status.Name = "step4Status";
+            this.step4Status.Size = new System.Drawing.Size(37, 13);
+            this.step4Status.TabIndex = 2;
+            this.step4Status.Text = "Status";
             // 
             // step4Details
             // 
-            this.step4Details.Controls.Add(this.label30);
-            this.step4Details.Controls.Add(this.label31);
-            this.step4Details.Controls.Add(this.label32);
+            this.step4Details.Controls.Add(this.step4Status);
+            this.step4Details.Controls.Add(this.step4TimeStamp);
+            this.step4Details.Controls.Add(this.step4UserName);
             this.step4Details.Location = new System.Drawing.Point(956, 287);
             this.step4Details.Name = "step4Details";
             this.step4Details.Size = new System.Drawing.Size(260, 85);
@@ -470,20 +470,20 @@
         private System.Windows.Forms.Label jobNoLabel;
         private System.Windows.Forms.ListBox workflowListBox;
         private System.Windows.Forms.GroupBox step1Details;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label step1Status;
+        private System.Windows.Forms.Label step1TimeStamp;
+        private System.Windows.Forms.Label step1UserName;
         private System.Windows.Forms.GroupBox step2Details;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label step2Status;
+        private System.Windows.Forms.Label step2TimeStamp;
+        private System.Windows.Forms.Label step2UserName;
         private System.Windows.Forms.GroupBox step3Details;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label step3Status;
+        private System.Windows.Forms.Label step3TimeStamp;
+        private System.Windows.Forms.Label step3UserName;
+        private System.Windows.Forms.Label step4UserName;
+        private System.Windows.Forms.Label step4TimeStamp;
+        private System.Windows.Forms.Label step4Status;
         private System.Windows.Forms.GroupBox step4Details;
         private System.Windows.Forms.Label step1Label;
         private System.Windows.Forms.Label step4Label;
