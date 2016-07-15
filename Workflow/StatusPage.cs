@@ -46,10 +46,16 @@ namespace Workflow
             UpdateLayout();
 
             // set up detail events double click
-            step1Details.DoubleClick += this.step1Details_DoubleClick;
-            step2Details.DoubleClick += this.step2Details_DoubleClick;
-            step3Details.DoubleClick += this.step3Details_DoubleClick;
-            step4Details.DoubleClick += this.step4Details_DoubleClick;
+            step1Details.DoubleClick += this.step1_DoubleClick;
+            step2Details.DoubleClick += this.step2_DoubleClick;
+            step3Details.DoubleClick += this.step3_DoubleClick;
+            step4Details.DoubleClick += this.step4_DoubleClick;
+            step5Details.DoubleClick += this.step5_DoubleClick;
+            step1Label.DoubleClick += this.step1_DoubleClick;
+            step2Label.DoubleClick += this.step2_DoubleClick;
+            step3Label.DoubleClick += this.step3_DoubleClick;
+            step4Label.DoubleClick += this.step4_DoubleClick;
+            step5Label.DoubleClick += this.step5_DoubleClick;
 
             // add workflows to workflow
             using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
@@ -86,47 +92,47 @@ namespace Workflow
                 step1Label.Show();
                 step1Details.Show();
                 // Hide step 2-4
-                step2Label.Hide();
-                step2Details.Hide();
                 step3Label.Hide();
                 step3Details.Hide();
                 step4Label.Hide();
                 step4Details.Hide();
+                step5Label.Hide();
+                step5Details.Hide();
             }
             else if (type == Status_Type.ContractReview)
             {
                 // Show step 1 - 4
                 step1Label.Show();
                 step1Details.Show();
-                step2Label.Show();
-                step2Details.Show();
                 step3Label.Show();
                 step3Details.Show();
                 step4Label.Show();
                 step4Details.Show();
+                step5Label.Show();
+                step5Details.Show();
 
                 // rename steps 2-4
-                step2Label.Text = "Contract Review Check List ME";
-                step3Label.Text = "Contract Review Check List QA";
-                step4Label.Text = "Contract Review Check List QE";
+                step3Label.Text = "Contract Review Check List ME";
+                step4Label.Text = "Contract Review Check List QA";
+                step5Label.Text = "Contract Review Check List QE";
             }
             else if (type == Status_Type.QuickRelease)
             {
                 // Show step 1 - 3
                 step1Label.Show();
                 step1Details.Show();
-                step2Label.Show();
-                step2Details.Show();
                 step3Label.Show();
                 step3Details.Show();
+                step4Label.Show();
+                step4Details.Show();
 
                 // Hide step 4
-                step4Label.Hide();
-                step4Details.Hide();
+                step5Label.Hide();
+                step5Details.Hide();
 
                 // rename steps 2-3
-                step2Label.Text = "Quick Release Engineering";
-                step3Label.Text = "Quick Release Quality";
+                step3Label.Text = "Quick Release Engineering";
+                step4Label.Text = "Quick Release Quality";
             }
         }
 
@@ -257,7 +263,7 @@ namespace Workflow
             }
         }
 
-        private void step1Details_DoubleClick(object sender, EventArgs e)
+        private void step1_DoubleClick(object sender, EventArgs e)
         {
             if (customer.Equals("HONDA AERO"))
             {
@@ -271,21 +277,12 @@ namespace Workflow
             }
         }
 
-        private void step1Label_DoubleClick(object sender, EventArgs e)
+        private void step2_DoubleClick(object sender, EventArgs e)
         {
-            if (customer.Equals("HONDA AERO"))
-            {
-                Form hondaPo = new HondaPOReview(jobNo, true, int.Parse(workflowListBox.SelectedItem.ToString()));
-                hondaPo.ShowDialog();
-            }
-            else if (customer.Equals("ROLLS"))
-            {
-                Form rollsPO = new RollsRoycePOReview(jobNo, true);
-                rollsPO.ShowDialog();
-            }
+            // TO_DO open form to assign tasks
         }
 
-        private void step2Details_DoubleClick(object sender, EventArgs e)
+        private void step3_DoubleClick(object sender, EventArgs e)
         {
             bool updated = false;
 
@@ -338,61 +335,8 @@ namespace Workflow
                 UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
             }
         }
-
-        private void step2Label_DoubleClick_1(object sender, EventArgs e)
-        {
-            bool updated = false;
-
-            if (type == Status_Type.ContractReview)
-            {
-                ContractReviewCheckList_ME contractReviewME = new ContractReviewCheckList_ME(jobNo, int.Parse(workflowListBox.SelectedItem.ToString()));
-                contractReviewME.ShowDialog();
-                updated = contractReviewME.been_updated;
-            }
-            else if (type == Status_Type.QuickRelease)
-            {
-                QuickReleaseForm_Engineering quickReleaseForm = new QuickReleaseForm_Engineering(jobNo, partNo, int.Parse(workflowListBox.SelectedItem.ToString()));
-                quickReleaseForm.ShowDialog();
-                updated = quickReleaseForm.been_updated;
-            }
-
-            if (updated)
-            {
-                using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
-                {
-                    conn.Open();
-
-                    // update query
-                    string query = string.Empty;
-
-                    if (type == Status_Type.ContractReview)
-                        query =
-                            "UPDATE [ATI_Workflow].[dbo].[StatusData]\n" +
-                            "SET[LastUpdated] = '" + DateTime.Now.ToString() + "'\n" +
-                            ",[ContractReview_ME_Status] = 'Complete'\n" +
-                            ",[ContractReview_ME_UserName] = '" + Globals.userName + "'\n" +
-                            ",[ContractReview_ME_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
-                            "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-                    else
-                        query =
-                            "UPDATE [ATI_Workflow].[dbo].[StatusData]\n" +
-                            "SET[LastUpdated] = '" + DateTime.Now.ToString() + "'\n" +
-                            ",[QuickRelease_Engineering_Status] = 'Complete'\n" +
-                            ",[QuickRelease_Engineering_UserName] = '" + Globals.userName + "'\n" +
-                            ",[QuickRelease_Engineering_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
-                            "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-
-                    OdbcCommand com = new OdbcCommand(query, conn);
-                    int rows = com.ExecuteNonQuery();
-
-                    if (rows != 1)
-                        MessageBox.Show(Globals.generic_IT_error);
-                }
-                UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
-            }
-        }
-
-        private void step3Details_DoubleClick(object sender, EventArgs e)
+        
+        private void step4_DoubleClick(object sender, EventArgs e)
         {
             bool updated = false;
 
@@ -444,61 +388,8 @@ namespace Workflow
                 UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
             }
         }
-
-        private void step3Label_DoubleClick_1(object sender, EventArgs e)
-        {
-            bool updated = false;
-
-            if (type == Status_Type.ContractReview)
-            {
-                ContractReviewCheckList_QA contractReviewQA = new ContractReviewCheckList_QA(jobNo, int.Parse(workflowListBox.SelectedItem.ToString()));
-                contractReviewQA.ShowDialog();
-                updated = contractReviewQA.been_updated;
-            }
-            else if (type == Status_Type.QuickRelease)
-            {
-                QuickReleaseForm_Quality quickReleaseForm = new QuickReleaseForm_Quality(jobNo, partNo, int.Parse(workflowListBox.SelectedItem.ToString()));
-                quickReleaseForm.ShowDialog();
-                updated = quickReleaseForm.been_updated;
-            }
-
-            if (updated)
-            {
-                using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
-                {
-                    conn.Open();
-
-                    // update query
-                    string query = string.Empty;
-
-                    if (type == Status_Type.ContractReview)
-                        query =
-                            "UPDATE [ATI_Workflow].[dbo].[StatusData]\n" +
-                            "SET[LastUpdated] = '" + DateTime.Now.ToString() + "'\n" +
-                            ",[ContractReview_QA_Status] = 'Complete'\n" +
-                            ",[ContractReview_QA_UserName] = '" + Globals.userName + "'\n" +
-                            ",[ContractReview_QA_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
-                            "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-                    else
-                        query =
-                            "UPDATE [ATI_Workflow].[dbo].[StatusData]\n" +
-                            "SET[LastUpdated] = '" + DateTime.Now.ToString() + "'\n" +
-                            ",[QuickRelease_Quality_Status] = 'Complete'\n" +
-                            ",[QuickRelease_Quality_UserName] = '" + Globals.userName + "'\n" +
-                            ",[QuickRelease_Quality_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
-                            "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-
-                    OdbcCommand com = new OdbcCommand(query, conn);
-                    int rows = com.ExecuteNonQuery();
-
-                    if (rows != 1)
-                        MessageBox.Show(Globals.generic_IT_error);
-                }
-                UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
-            }
-        }
-
-        private void step4Details_DoubleClick(object sender, EventArgs e)
+        
+        private void step5_DoubleClick(object sender, EventArgs e)
         {
             bool updated = false;
             if (type == Status_Type.ContractReview)
@@ -521,41 +412,6 @@ namespace Workflow
                             ",[ContractReview_QE_UserName] = '" + Globals.userName + "'\n" +
                             ",[ContractReview_QE_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
                             "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-
-                    OdbcCommand com = new OdbcCommand(query, conn);
-                    int rows = com.ExecuteNonQuery();
-
-                    if (rows != 1)
-                        MessageBox.Show(Globals.generic_IT_error);
-                }
-                UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
-            }
-        }
-
-        private void step4Label_DoubleClick_1(object sender, EventArgs e)
-        {
-            bool updated = false;
-            if (type == Status_Type.ContractReview)
-            {
-                ContractReviewCheckList_QE contractReviewME = new ContractReviewCheckList_QE(jobNo, int.Parse(workflowListBox.SelectedItem.ToString()));
-                contractReviewME.ShowDialog();
-                updated = contractReviewME.been_updated;
-            }
-            if (updated)
-            {
-                using (OdbcConnection conn = new OdbcConnection(Globals.odbc_connection_string))
-                {
-                    conn.Open();
-
-                    // update query
-                    string query =
-                        "UPDATE [ATI_Workflow].[dbo].[StatusData]\n" +
-                        "SET[LastUpdated] = '" + DateTime.Now.ToString() + "'\n" +
-                        ",[ContractReview_QE_Status] = 'Complete'\n" +
-                        ",[ContractReview_QE_UserName] = '" + Globals.userName + "'\n" +
-                        ",[ContractReview_QE_TimeStamp] = '" + DateTime.Now.ToString() + "'\n" +
-                        "WHERE Job = '" + jobNo + "' AND Workflow_ID = '" + int.Parse(workflowListBox.SelectedItem.ToString()) + "';";
-
 
                     OdbcCommand com = new OdbcCommand(query, conn);
                     int rows = com.ExecuteNonQuery();
@@ -673,5 +529,7 @@ namespace Workflow
             if (workflowListBox.SelectedItem != null)
                 UpdateFromDB(int.Parse(workflowListBox.SelectedItem.ToString()));
         }
+
+
     }
 }
