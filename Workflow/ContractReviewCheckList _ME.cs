@@ -209,7 +209,7 @@ namespace Workflow
 
         private void button36_Click_1(object sender, EventArgs e)
         {
-            textBox43.Visible = !textBox43.Visible;
+            question36TextBox.Visible = !question36TextBox.Visible;
         }
 
         private void button37_Click_1(object sender, EventArgs e)
@@ -830,7 +830,7 @@ namespace Workflow
 
         private void textBox43_TextChanged(object sender, EventArgs e)
         {
-            if (textBox43.Text == "")
+            if (question36TextBox.Text == "")
             {
                 button36.Text = "Create Note";
 
@@ -1186,6 +1186,11 @@ namespace Workflow
             }
 
             this.Close();
+        }
+
+        private void label46_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

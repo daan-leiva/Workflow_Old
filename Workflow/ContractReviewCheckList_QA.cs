@@ -16,7 +16,7 @@ namespace Workflow
         string jobNo;
         int workflow_ID;
         public bool been_updated { get; set; }
-        int[] rowSizes = new int[12];
+        float[] rowSizes = new float[12];
 
         public ContractReviewCheckList_QA(string jobNo, int workflow_ID)
         {
@@ -42,26 +42,56 @@ namespace Workflow
         private void button2_Click(object sender, EventArgs e)
         {
             question2TextBox.Visible = !question2TextBox.Visible;
+            if (question2TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[3].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[3].Height = rowSizes[3];
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             question3TextBox.Visible = !question3TextBox.Visible;
+            if (question3TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[5].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[5].Height = rowSizes[5];
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             question4TextBox.Visible = !question4TextBox.Visible;
+            if (question4TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[7].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[7].Height = rowSizes[7];
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             question5TextBox.Visible = !question5TextBox.Visible;
+            if (question5TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[9].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[9].Height = rowSizes[9];
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             question6TextBox.Visible = !question6TextBox.Visible;
+            if (question6TextBox.Visible == false)
+            {
+                tableLayoutPanel1.RowStyles[11].Height = 0;
+            }
+            else
+                tableLayoutPanel1.RowStyles[11].Height = rowSizes[11];
         }
 
         private void ContractReviewCheckList_QA_Load(object sender, EventArgs e)
@@ -76,7 +106,8 @@ namespace Workflow
             
             for (int i = 1; i < 12; i += 2)
             {
-                tableLayoutPanel1.RowStyles[i].Height = rowSizes[i];
+                 rowSizes[i] = tableLayoutPanel1.RowStyles[i].Height;
+                tableLayoutPanel1.RowStyles[i].Height = 0;
             }
             
             
