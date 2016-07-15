@@ -143,12 +143,12 @@ namespace Workflow
                     {
                         if (reader.GetBoolean(10))
                         {
-                            question2YesradioButton.Checked = true;
+                            question2YesRadioButton.Checked = true;
                             question2NoRadioButton.Checked = false;
                         }
                         else
                         {
-                            question2YesradioButton.Checked = false;
+                            question2YesRadioButton.Checked = false;
                             question2NoRadioButton.Checked = true;
                         }
                     }
@@ -268,11 +268,11 @@ namespace Workflow
             if (partNoLabel.Text.Trim().Length == 0)
                 return;
             // calculate the type of form to create after
-            if (question4YesRadioButton.Checked || radioButton2.Checked
-                || radioButton2.Checked || question6YesRadioButton.Checked)
+            if (question3YesRadioButton.Checked || question4YesRadioButton.Checked
+                || question5YesRadioButton.Checked || question6YesRadioButton.Checked)
                 type = "Contract Review";
-            else if (!question4YesRadioButton.Checked || !radioButton2.Checked
-                || !radioButton2.Checked || !question6YesRadioButton.Checked)
+            else if (!question3YesRadioButton.Checked || !question4YesRadioButton.Checked
+                || !question5YesRadioButton.Checked || !question6YesRadioButton.Checked)
             {
                 if (question1NewRadioButton.Checked)
                     type = "Quick Release";
@@ -320,11 +320,11 @@ namespace Workflow
                         "'" + revDateTextBox.Text + "',\n" +
                         "'" + descriptionOfChangeTextBox.Text + "',\n" +
                         (question1NewRadioButton.Checked ? "'New'" : (question1ActiveRadioButton.Checked ? "'Active'" : (question1CompleteRadioButton.Checked ? "'Complete'" : "NULL"))) + ",\n" +
-                        (question2YesradioButton.Checked ? "1" : (question2NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
+                        (question2YesRadioButton.Checked ? "1" : (question2NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
                         (question3YesRadioButton.Checked ? "'Yes'" : (question3NoRadioButton.Checked ? "'No'" : (question3NARadioButton.Checked ? "'N/A'" : "NULL"))) + ",\n" +
                         (question4YesRadioButton.Checked ? "1" : (question4NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
-                        (radioButton2.Checked ? "1" : (radioButton2.Checked ? "0" : "NULL")) + ",\n" +
-                        (question6YesCheckBox.Checked ? "1" : (question6NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
+                        (question5YesRadioButton.Checked ? "1" : (question5NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
+                        (question6YesRadioButton.Checked ? "1" : (question6NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
                         (question7YesCheckBox.Checked ? "'Yes'" : (question7NoCheckBox.Checked ? "'No'" : (question7NACheckBox.Checked ? "'N/A'" : "NULL"))) + ",\n" +
                         (question8YesCheckBox.Checked ? "1" : (question8NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
                         "'" + partNoLabel.Text + "',\n" +
