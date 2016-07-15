@@ -143,13 +143,13 @@ namespace Workflow
                     {
                         if (reader.GetBoolean(10))
                         {
-                            question2YesCheckBox.Checked = true;
-                            question2NoCheckBox.Checked = false;
+                            question2YesradioButton.Checked = true;
+                            question2NoRadioButton.Checked = false;
                         }
                         else
                         {
-                            question2YesCheckBox.Checked = false;
-                            question2NoCheckBox.Checked = true;
+                            question2YesradioButton.Checked = false;
+                            question2NoRadioButton.Checked = true;
                         }
                     }
 
@@ -157,21 +157,21 @@ namespace Workflow
                     {
                         if (reader.GetString(11).Equals("Yes"))
                         {
-                            question3YesCheckBox.Checked = true;
-                            question3NoCheckBox.Checked = false;
-                            question3NACheckBox.Checked = false;
+                            question3YesRadioButton.Checked = true;
+                            question3NoRadioButton.Checked = false;
+                            question3NARadioButton.Checked = false;
                         }
                         else if (reader.GetString(11).Equals("No"))
                         {
-                            question3YesCheckBox.Checked = false;
-                            question3NoCheckBox.Checked = true;
-                            question3NACheckBox.Checked = false;
+                            question3YesRadioButton.Checked = false;
+                            question3NoRadioButton.Checked = true;
+                            question3NARadioButton.Checked = false;
                         }
                         else
                         {
-                            question3YesCheckBox.Checked = false;
-                            question3NoCheckBox.Checked = false;
-                            question3NACheckBox.Checked = true;
+                            question3YesRadioButton.Checked = false;
+                            question3NoRadioButton.Checked = false;
+                            question3NARadioButton.Checked = true;
                         }
                     }
 
@@ -179,13 +179,13 @@ namespace Workflow
                     {
                         if (reader.GetBoolean(12))
                         {
-                            question4YesCheckBox.Checked = true;
-                            question4NoCheckBox.Checked = false;
+                            question4YesRadioButton.Checked = true;
+                            question4NoRadioButton.Checked = false;
                         }
                         else
                         {
-                            question4YesCheckBox.Checked = false;
-                            question4NoCheckBox.Checked = true;
+                            question4YesRadioButton.Checked = false;
+                            question4NoRadioButton.Checked = true;
                         }
                     }
 
@@ -193,13 +193,13 @@ namespace Workflow
                     {
                         if (reader.GetBoolean(13))
                         {
-                            question5YesCheckBox.Checked = true;
-                            question5NoCheckBox.Checked = false;
+                            question5YesRadioButton.Checked = true;
+                            question5NoRadioButton.Checked = false;
                         }
                         else
                         {
-                            question5YesCheckBox.Checked = false;
-                            question5NoCheckBox.Checked = true;
+                            question5YesRadioButton.Checked = false;
+                            question5NoRadioButton.Checked = true;
                         }
                     }
 
@@ -208,13 +208,13 @@ namespace Workflow
                     {
                         if (reader.GetBoolean(14))
                         {
-                            question6YesCheckBox.Checked = true;
-                            question6NoCheckBox.Checked = false;
+                            question6YesRadioButton.Checked = true;
+                            question6NoRadioButton.Checked = false;
                         }
                         else
                         {
-                            question6YesCheckBox.Checked = false;
-                            question6NoCheckBox.Checked = true;
+                            question6YesRadioButton.Checked = false;
+                            question6NoRadioButton.Checked = true;
                         }
                     }
 
@@ -268,11 +268,11 @@ namespace Workflow
             if (partNoLabel.Text.Trim().Length == 0)
                 return;
             // calculate the type of form to create after
-            if (question4YesCheckBox.Checked || question5YesCheckBox.Checked
-                || question5YesCheckBox.Checked || question6YesCheckBox.Checked)
+            if (question4YesRadioButton.Checked || radioButton2.Checked
+                || radioButton2.Checked || question6YesRadioButton.Checked)
                 type = "Contract Review";
-            else if (!question4YesCheckBox.Checked || !question5YesCheckBox.Checked
-                || !question5YesCheckBox.Checked || !question6YesCheckBox.Checked)
+            else if (!question4YesRadioButton.Checked || !radioButton2.Checked
+                || !radioButton2.Checked || !question6YesRadioButton.Checked)
             {
                 if (question1NewRadioButton.Checked)
                     type = "Quick Release";
@@ -320,10 +320,10 @@ namespace Workflow
                         "'" + revDateTextBox.Text + "',\n" +
                         "'" + descriptionOfChangeTextBox.Text + "',\n" +
                         (question1NewRadioButton.Checked ? "'New'" : (question1ActiveRadioButton.Checked ? "'Active'" : (question1CompleteRadioButton.Checked ? "'Complete'" : "NULL"))) + ",\n" +
-                        (question2YesCheckBox.Checked ? "1" : (question2NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
-                        (question3YesCheckBox.Checked ? "'Yes'" : (question3NoCheckBox.Checked ? "'No'" : (question3NACheckBox.Checked ? "'N/A'" : "NULL"))) + ",\n" +
-                        (question4YesCheckBox.Checked ? "1" : (question4NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
-                        (question5YesCheckBox.Checked ? "1" : (question5NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
+                        (question2YesradioButton.Checked ? "1" : (question2NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
+                        (question3YesRadioButton.Checked ? "'Yes'" : (question3NoRadioButton.Checked ? "'No'" : (question3NARadioButton.Checked ? "'N/A'" : "NULL"))) + ",\n" +
+                        (question4YesRadioButton.Checked ? "1" : (question4NoRadioButton.Checked ? "0" : "NULL")) + ",\n" +
+                        (radioButton2.Checked ? "1" : (radioButton2.Checked ? "0" : "NULL")) + ",\n" +
                         (question6YesCheckBox.Checked ? "1" : (question6NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
                         (question7YesCheckBox.Checked ? "'Yes'" : (question7NoCheckBox.Checked ? "'No'" : (question7NACheckBox.Checked ? "'N/A'" : "NULL"))) + ",\n" +
                         (question8YesCheckBox.Checked ? "1" : (question8NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
