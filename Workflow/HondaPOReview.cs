@@ -121,21 +121,21 @@ namespace Workflow
                     {
                         if (reader.GetString(9).Equals("New"))
                         {
-                            question1NewCheckBox.Checked = true;
-                            question1ActiveCheckBox.Checked = false;
-                            question1CompleteCheckBox.Checked = false;
+                            question1NewRadioButton.Checked = true;
+                            question1ActiveRadioButton.Checked = false;
+                            question1CompleteRadioButton.Checked = false;
                         }
                         else if (reader.GetString(9).Equals("Active"))
                         {
-                            question1NewCheckBox.Checked = false;
-                            question1ActiveCheckBox.Checked = true;
-                            question1CompleteCheckBox.Checked = false;
+                            question1NewRadioButton.Checked = false;
+                            question1ActiveRadioButton.Checked = true;
+                            question1CompleteRadioButton.Checked = false;
                         }
                         else
                         {
-                            question1NewCheckBox.Checked = false;
-                            question1ActiveCheckBox.Checked = false;
-                            question1CompleteCheckBox.Checked = true;
+                            question1NewRadioButton.Checked = false;
+                            question1ActiveRadioButton.Checked = false;
+                            question1CompleteRadioButton.Checked = true;
                         }
                     }
 
@@ -274,9 +274,9 @@ namespace Workflow
             else if (!question4YesCheckBox.Checked || !question5YesCheckBox.Checked
                 || !question5YesCheckBox.Checked || !question6YesCheckBox.Checked)
             {
-                if (question1NewCheckBox.Checked)
+                if (question1NewRadioButton.Checked)
                     type = "Quick Release";
-                else if (question1ActiveCheckBox.Checked || question1CompleteCheckBox.Checked)
+                else if (question1ActiveRadioButton.Checked || question1CompleteRadioButton.Checked)
                     type = "Nothing";
             }
 
@@ -319,7 +319,7 @@ namespace Workflow
                         "'" + revTextBox.Text + "',\n" +
                         "'" + revDateTextBox.Text + "',\n" +
                         "'" + descriptionOfChangeTextBox.Text + "',\n" +
-                        (question1NewCheckBox.Checked ? "'New'" : (question1ActiveCheckBox.Checked ? "'Active'" : (question1CompleteCheckBox.Checked ? "'Complete'" : "NULL"))) + ",\n" +
+                        (question1NewRadioButton.Checked ? "'New'" : (question1ActiveRadioButton.Checked ? "'Active'" : (question1CompleteRadioButton.Checked ? "'Complete'" : "NULL"))) + ",\n" +
                         (question2YesCheckBox.Checked ? "1" : (question2NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
                         (question3YesCheckBox.Checked ? "'Yes'" : (question3NoCheckBox.Checked ? "'No'" : (question3NACheckBox.Checked ? "'N/A'" : "NULL"))) + ",\n" +
                         (question4YesCheckBox.Checked ? "1" : (question4NoCheckBox.Checked ? "0" : "NULL")) + ",\n" +
