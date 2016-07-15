@@ -210,5 +210,19 @@ namespace Workflow
         {
             remarksTextBox.Text += " " + DateTime.Now.ToShortDateString() + DateTime.Now.ToShortTimeString();
         }
+
+        private void QuickReleaseForm_Engineering_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("If you close the form you will loose unsaved data. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+                this.Activate();
+            }
+        }
+
+        private void completeButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

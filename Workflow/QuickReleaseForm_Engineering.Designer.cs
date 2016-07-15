@@ -49,7 +49,6 @@
             this.personTextBox = new System.Windows.Forms.TextBox();
             this.remarksTextBox = new System.Windows.Forms.TextBox();
             this.partNumberTextBox = new System.Windows.Forms.TextBox();
-            this.documentTextBox = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -59,10 +58,10 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.jobTextBox = new System.Windows.Forms.TextBox();
-            this.submitButton = new System.Windows.Forms.Button();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.completeButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,9 +104,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 145);
+            this.label19.Location = new System.Drawing.Point(3, 124);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(426, 29);
+            this.label19.Size = new System.Drawing.Size(426, 31);
             this.label19.TabIndex = 31;
             this.label19.Text = "Review release sheet and incorporate changes nito planning, as applicable.";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,7 +119,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question9ComboBox.Location = new System.Drawing.Point(435, 381);
+            this.question9ComboBox.Location = new System.Drawing.Point(435, 377);
             this.question9ComboBox.Name = "question9ComboBox";
             this.question9ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question9ComboBox.TabIndex = 44;
@@ -131,9 +130,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 290);
+            this.label23.Location = new System.Drawing.Point(3, 279);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(426, 29);
+            this.label23.Size = new System.Drawing.Size(426, 31);
             this.label23.TabIndex = 43;
             this.label23.Text = "Add FAIR operation to planning for Argo-Tech, Parker HSD, Rolls-Royce & UTC, as r" +
     "equired.";
@@ -145,9 +144,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 261);
+            this.label22.Location = new System.Drawing.Point(3, 248);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(426, 29);
+            this.label22.Size = new System.Drawing.Size(426, 31);
             this.label22.TabIndex = 42;
             this.label22.Text = "State if FAIR is required in final inspection operation.";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -158,9 +157,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 319);
+            this.label15.Location = new System.Drawing.Point(3, 310);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(426, 29);
+            this.label15.Size = new System.Drawing.Size(426, 31);
             this.label15.TabIndex = 27;
             this.label15.Text = "Procure spline gages, thread gages, and other gaging, as needed";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,9 +170,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 348);
+            this.label4.Location = new System.Drawing.Point(3, 341);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(426, 29);
+            this.label4.Size = new System.Drawing.Size(426, 31);
             this.label4.TabIndex = 26;
             this.label4.Text = "Procure depth gages for gundrill/BTA, as needed.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,9 +183,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 377);
+            this.label21.Location = new System.Drawing.Point(3, 372);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(426, 29);
+            this.label21.Size = new System.Drawing.Size(426, 31);
             this.label21.TabIndex = 27;
             this.label21.Text = "Print and sign traveleres";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -199,7 +198,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question8ComboBox.Location = new System.Drawing.Point(435, 352);
+            this.question8ComboBox.Location = new System.Drawing.Point(435, 346);
             this.question8ComboBox.Name = "question8ComboBox";
             this.question8ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question8ComboBox.TabIndex = 41;
@@ -212,7 +211,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question7ComboBox.Location = new System.Drawing.Point(435, 323);
+            this.question7ComboBox.Location = new System.Drawing.Point(435, 315);
             this.question7ComboBox.Name = "question7ComboBox";
             this.question7ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question7ComboBox.TabIndex = 40;
@@ -225,7 +224,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question6ComboBox.Location = new System.Drawing.Point(435, 294);
+            this.question6ComboBox.Location = new System.Drawing.Point(435, 284);
             this.question6ComboBox.Name = "question6ComboBox";
             this.question6ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question6ComboBox.TabIndex = 36;
@@ -238,7 +237,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question5ComboBox.Location = new System.Drawing.Point(435, 265);
+            this.question5ComboBox.Location = new System.Drawing.Point(435, 253);
             this.question5ComboBox.Name = "question5ComboBox";
             this.question5ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question5ComboBox.TabIndex = 34;
@@ -251,7 +250,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question4ComboBox.Location = new System.Drawing.Point(435, 236);
+            this.question4ComboBox.Location = new System.Drawing.Point(435, 222);
             this.question4ComboBox.Name = "question4ComboBox";
             this.question4ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question4ComboBox.TabIndex = 35;
@@ -259,7 +258,7 @@
             // timestampButton
             // 
             this.timestampButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.timestampButton.Location = new System.Drawing.Point(3, 525);
+            this.timestampButton.Location = new System.Drawing.Point(3, 530);
             this.timestampButton.Name = "timestampButton";
             this.timestampButton.Size = new System.Drawing.Size(75, 20);
             this.timestampButton.TabIndex = 33;
@@ -275,9 +274,9 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label20.Location = new System.Drawing.Point(3, 116);
+            this.label20.Location = new System.Drawing.Point(3, 93);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(426, 29);
+            this.label20.Size = new System.Drawing.Size(426, 31);
             this.label20.TabIndex = 32;
             this.label20.Text = "Engineering";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -287,16 +286,16 @@
             this.jobLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.jobLabel.AutoSize = true;
-            this.jobLabel.Location = new System.Drawing.Point(435, 116);
+            this.jobLabel.Location = new System.Drawing.Point(435, 93);
             this.jobLabel.Name = "jobLabel";
-            this.jobLabel.Size = new System.Drawing.Size(0, 29);
+            this.jobLabel.Size = new System.Drawing.Size(0, 31);
             this.jobLabel.TabIndex = 24;
             this.jobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // personTextBox
             // 
             this.personTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.personTextBox.Location = new System.Drawing.Point(435, 33);
+            this.personTextBox.Location = new System.Drawing.Point(435, 36);
             this.personTextBox.Name = "personTextBox";
             this.personTextBox.Size = new System.Drawing.Size(219, 20);
             this.personTextBox.TabIndex = 25;
@@ -308,28 +307,20 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.remarksTextBox, 2);
-            this.remarksTextBox.Location = new System.Drawing.Point(3, 409);
+            this.remarksTextBox.Location = new System.Drawing.Point(3, 406);
             this.remarksTextBox.Multiline = true;
             this.remarksTextBox.Name = "remarksTextBox";
             this.tableLayoutPanel1.SetRowSpan(this.remarksTextBox, 4);
-            this.remarksTextBox.Size = new System.Drawing.Size(858, 110);
+            this.remarksTextBox.Size = new System.Drawing.Size(858, 118);
             this.remarksTextBox.TabIndex = 22;
             // 
             // partNumberTextBox
             // 
             this.partNumberTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.partNumberTextBox.Location = new System.Drawing.Point(435, 62);
+            this.partNumberTextBox.Location = new System.Drawing.Point(435, 67);
             this.partNumberTextBox.Name = "partNumberTextBox";
             this.partNumberTextBox.Size = new System.Drawing.Size(219, 20);
             this.partNumberTextBox.TabIndex = 26;
-            // 
-            // documentTextBox
-            // 
-            this.documentTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.documentTextBox.Location = new System.Drawing.Point(435, 91);
-            this.documentTextBox.Name = "documentTextBox";
-            this.documentTextBox.Size = new System.Drawing.Size(219, 20);
-            this.documentTextBox.TabIndex = 27;
             // 
             // label18
             // 
@@ -337,9 +328,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 174);
+            this.label18.Location = new System.Drawing.Point(3, 155);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(426, 29);
+            this.label18.Size = new System.Drawing.Size(426, 31);
             this.label18.TabIndex = 30;
             this.label18.Text = "Verify setup/time standards in job and template, as needed.";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -350,9 +341,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 203);
+            this.label17.Location = new System.Drawing.Point(3, 186);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(426, 29);
+            this.label17.Size = new System.Drawing.Size(426, 31);
             this.label17.TabIndex = 29;
             this.label17.Text = "Verify Round Robin requirements per FSD-D-MFG-005 are met for Parker Nichols, as " +
     "applicable.";
@@ -364,9 +355,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 232);
+            this.label16.Location = new System.Drawing.Point(3, 217);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(426, 29);
+            this.label16.Size = new System.Drawing.Size(426, 31);
             this.label16.TabIndex = 28;
             this.label16.Text = "Verift FPA reqts (If Rolls-Royce job with two templates).";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -379,7 +370,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question1ComboBox.Location = new System.Drawing.Point(435, 149);
+            this.question1ComboBox.Location = new System.Drawing.Point(435, 129);
             this.question1ComboBox.Name = "question1ComboBox";
             this.question1ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question1ComboBox.TabIndex = 37;
@@ -392,7 +383,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question2ComboBox.Location = new System.Drawing.Point(435, 178);
+            this.question2ComboBox.Location = new System.Drawing.Point(435, 160);
             this.question2ComboBox.Name = "question2ComboBox";
             this.question2ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question2ComboBox.TabIndex = 38;
@@ -405,7 +396,7 @@
             "Yes",
             "No",
             "N/A"});
-            this.question3ComboBox.Location = new System.Drawing.Point(435, 207);
+            this.question3ComboBox.Location = new System.Drawing.Point(435, 191);
             this.question3ComboBox.Name = "question3ComboBox";
             this.question3ComboBox.Size = new System.Drawing.Size(51, 21);
             this.question3ComboBox.TabIndex = 39;
@@ -418,41 +409,38 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.documentTextBox, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.partNumberTextBox, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.personTextBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label20, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label19, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.question1ComboBox, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label18, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.question2ComboBox, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label17, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.question3ComboBox, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label16, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.question4ComboBox, 1, 8);
-            this.tableLayoutPanel1.Controls.Add(this.label22, 0, 9);
-            this.tableLayoutPanel1.Controls.Add(this.question5ComboBox, 1, 9);
-            this.tableLayoutPanel1.Controls.Add(this.label23, 0, 10);
-            this.tableLayoutPanel1.Controls.Add(this.question6ComboBox, 1, 10);
-            this.tableLayoutPanel1.Controls.Add(this.label15, 0, 11);
-            this.tableLayoutPanel1.Controls.Add(this.question7ComboBox, 1, 11);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 12);
-            this.tableLayoutPanel1.Controls.Add(this.question8ComboBox, 1, 12);
-            this.tableLayoutPanel1.Controls.Add(this.label21, 0, 13);
-            this.tableLayoutPanel1.Controls.Add(this.question9ComboBox, 1, 13);
-            this.tableLayoutPanel1.Controls.Add(this.remarksTextBox, 0, 14);
-            this.tableLayoutPanel1.Controls.Add(this.timestampButton, 0, 18);
-            this.tableLayoutPanel1.Controls.Add(this.jobLabel, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label20, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label19, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.question1ComboBox, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label18, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.question2ComboBox, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label17, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.question3ComboBox, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label16, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.question4ComboBox, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label22, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.question5ComboBox, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label23, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.question6ComboBox, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.label15, 0, 10);
+            this.tableLayoutPanel1.Controls.Add(this.question7ComboBox, 1, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 11);
+            this.tableLayoutPanel1.Controls.Add(this.question8ComboBox, 1, 11);
+            this.tableLayoutPanel1.Controls.Add(this.label21, 0, 12);
+            this.tableLayoutPanel1.Controls.Add(this.question9ComboBox, 1, 12);
+            this.tableLayoutPanel1.Controls.Add(this.remarksTextBox, 0, 13);
+            this.tableLayoutPanel1.Controls.Add(this.timestampButton, 0, 17);
+            this.tableLayoutPanel1.Controls.Add(this.jobLabel, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.jobTextBox, 1, 0);
             this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 92);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 20;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
+            this.tableLayoutPanel1.RowCount = 19;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
@@ -481,9 +469,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 29);
+            this.label3.Location = new System.Drawing.Point(3, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(426, 29);
+            this.label3.Size = new System.Drawing.Size(426, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Person";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -494,25 +482,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 58);
+            this.label5.Location = new System.Drawing.Point(3, 62);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(426, 29);
+            this.label5.Size = new System.Drawing.Size(426, 31);
             this.label5.TabIndex = 4;
             this.label5.Text = "Part Number";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 87);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(426, 29);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Document";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
             // 
@@ -522,7 +497,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(426, 29);
+            this.label1.Size = new System.Drawing.Size(426, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Job";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -530,21 +505,31 @@
             // jobTextBox
             // 
             this.jobTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.jobTextBox.Location = new System.Drawing.Point(435, 4);
+            this.jobTextBox.Location = new System.Drawing.Point(435, 5);
             this.jobTextBox.Name = "jobTextBox";
             this.jobTextBox.Size = new System.Drawing.Size(219, 20);
             this.jobTextBox.TabIndex = 45;
             // 
-            // submitButton
+            // saveButton
             // 
-            this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.submitButton.Location = new System.Drawing.Point(801, 698);
-            this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(75, 23);
-            this.submitButton.TabIndex = 28;
-            this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
-            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            this.saveButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.saveButton.Location = new System.Drawing.Point(720, 698);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(75, 23);
+            this.saveButton.TabIndex = 28;
+            this.saveButton.Text = "Save";
+            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.submitButton_Click);
+            // 
+            // completeButton
+            // 
+            this.completeButton.Location = new System.Drawing.Point(801, 698);
+            this.completeButton.Name = "completeButton";
+            this.completeButton.Size = new System.Drawing.Size(75, 23);
+            this.completeButton.TabIndex = 29;
+            this.completeButton.Text = "Complete";
+            this.completeButton.UseVisualStyleBackColor = true;
+            this.completeButton.Click += new System.EventHandler(this.completeButton_Click);
             // 
             // QuickReleaseForm_Engineering
             // 
@@ -553,7 +538,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(888, 731);
-            this.Controls.Add(this.submitButton);
+            this.Controls.Add(this.completeButton);
+            this.Controls.Add(this.saveButton);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label2);
@@ -561,6 +547,7 @@
             this.MinimumSize = new System.Drawing.Size(400, 600);
             this.Name = "QuickReleaseForm_Engineering";
             this.Text = "QuickRelease_Form";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QuickReleaseForm_Engineering_FormClosing);
             this.Load += new System.EventHandler(this.QuickReleaseForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -597,13 +584,12 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox documentTextBox;
         private System.Windows.Forms.TextBox partNumberTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox jobTextBox;
-        private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.Button completeButton;
     }
 }
