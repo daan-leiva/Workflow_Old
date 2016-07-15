@@ -44,15 +44,10 @@
             this.label22 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.question2YesCheckBox = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.poNoTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.question3YesCheckBox = new System.Windows.Forms.CheckBox();
-            this.question3NoCheckBox = new System.Windows.Forms.CheckBox();
-            this.question2NoCheckBox = new System.Windows.Forms.CheckBox();
-            this.question3NACheckBox = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -104,22 +99,30 @@
             this.label10 = new System.Windows.Forms.Label();
             this.partNoLabel = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.question4YesCheckBox = new System.Windows.Forms.CheckBox();
-            this.question4NoCheckBox = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
             this.drawingRevTextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.question5YesCheckBox = new System.Windows.Forms.CheckBox();
-            this.question5NoCheckBox = new System.Windows.Forms.CheckBox();
             this.label32 = new System.Windows.Forms.Label();
             this.applicableCIDNosTextBox = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.question6YesCheckBox = new System.Windows.Forms.CheckBox();
-            this.question6NoCheckBox = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.question1CompleteRadioButton = new System.Windows.Forms.RadioButton();
             this.question1ActiveRadioButton = new System.Windows.Forms.RadioButton();
             this.question1NewRadioButton = new System.Windows.Forms.RadioButton();
+<<<<<<< HEAD
+=======
+            this.question2YesradioButton = new System.Windows.Forms.RadioButton();
+            this.question2NoRadioButton = new System.Windows.Forms.RadioButton();
+            this.question3YesRadioButton = new System.Windows.Forms.RadioButton();
+            this.question3NoRadioButton = new System.Windows.Forms.RadioButton();
+            this.question3NARadioButton = new System.Windows.Forms.RadioButton();
+            this.question4YesRadioButton = new System.Windows.Forms.RadioButton();
+            this.question4NoRadioButton = new System.Windows.Forms.RadioButton();
+            this.question5YesRadioButton = new System.Windows.Forms.RadioButton();
+            this.question5NoRadioButton = new System.Windows.Forms.RadioButton();
+            this.question6YesRadioButton = new System.Windows.Forms.RadioButton();
+            this.question6NoRadioButton = new System.Windows.Forms.RadioButton();
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -253,7 +256,6 @@
             this.tableLayoutPanel2.Controls.Add(this.label22, 0, 26);
             this.tableLayoutPanel2.Controls.Add(this.textBox8, 0, 11);
             this.tableLayoutPanel2.Controls.Add(this.label8, 0, 10);
-            this.tableLayoutPanel2.Controls.Add(this.question2YesCheckBox, 2, 6);
             this.tableLayoutPanel2.Controls.Add(this.label6, 0, 6);
             this.tableLayoutPanel2.Controls.Add(this.poNoTextBox, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.dateTextBox, 5, 0);
@@ -263,10 +265,6 @@
             this.tableLayoutPanel2.Controls.Add(this.label55, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label4, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.label7, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.question3YesCheckBox, 2, 9);
-            this.tableLayoutPanel2.Controls.Add(this.question3NoCheckBox, 3, 9);
-            this.tableLayoutPanel2.Controls.Add(this.question2NoCheckBox, 3, 6);
-            this.tableLayoutPanel2.Controls.Add(this.question3NACheckBox, 4, 9);
             this.tableLayoutPanel2.Controls.Add(this.label9, 2, 11);
             this.tableLayoutPanel2.Controls.Add(this.label14, 0, 16);
             this.tableLayoutPanel2.Controls.Add(this.label15, 0, 17);
@@ -320,19 +318,24 @@
             this.tableLayoutPanel2.Controls.Add(this.label10, 0, 13);
             this.tableLayoutPanel2.Controls.Add(this.partNoLabel, 1, 13);
             this.tableLayoutPanel2.Controls.Add(this.label12, 2, 13);
-            this.tableLayoutPanel2.Controls.Add(this.question4YesCheckBox, 4, 13);
-            this.tableLayoutPanel2.Controls.Add(this.question4NoCheckBox, 5, 13);
             this.tableLayoutPanel2.Controls.Add(this.label11, 0, 14);
             this.tableLayoutPanel2.Controls.Add(this.drawingRevTextBox, 1, 14);
             this.tableLayoutPanel2.Controls.Add(this.label13, 2, 14);
-            this.tableLayoutPanel2.Controls.Add(this.question5YesCheckBox, 4, 14);
-            this.tableLayoutPanel2.Controls.Add(this.question5NoCheckBox, 5, 14);
             this.tableLayoutPanel2.Controls.Add(this.label32, 0, 15);
             this.tableLayoutPanel2.Controls.Add(this.applicableCIDNosTextBox, 1, 15);
             this.tableLayoutPanel2.Controls.Add(this.label33, 2, 15);
-            this.tableLayoutPanel2.Controls.Add(this.question6YesCheckBox, 4, 15);
-            this.tableLayoutPanel2.Controls.Add(this.question6NoCheckBox, 5, 15);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel1, 2, 5);
+            this.tableLayoutPanel2.Controls.Add(this.question2YesradioButton, 2, 6);
+            this.tableLayoutPanel2.Controls.Add(this.question2NoRadioButton, 3, 6);
+            this.tableLayoutPanel2.Controls.Add(this.question3YesRadioButton, 2, 9);
+            this.tableLayoutPanel2.Controls.Add(this.question3NoRadioButton, 3, 9);
+            this.tableLayoutPanel2.Controls.Add(this.question3NARadioButton, 4, 9);
+            this.tableLayoutPanel2.Controls.Add(this.question4YesRadioButton, 4, 13);
+            this.tableLayoutPanel2.Controls.Add(this.question4NoRadioButton, 5, 13);
+            this.tableLayoutPanel2.Controls.Add(this.question5YesRadioButton, 4, 14);
+            this.tableLayoutPanel2.Controls.Add(this.question5NoRadioButton, 5, 14);
+            this.tableLayoutPanel2.Controls.Add(this.question6YesRadioButton, 4, 15);
+            this.tableLayoutPanel2.Controls.Add(this.question6NoRadioButton, 5, 15);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 82);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 36;
@@ -372,6 +375,10 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
+<<<<<<< HEAD
+=======
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             this.tableLayoutPanel2.Size = new System.Drawing.Size(936, 1295);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
@@ -463,6 +470,7 @@
             this.label8.Text = "Comments";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // question2YesCheckBox
             // 
             this.question2YesCheckBox.AutoSize = true;
@@ -476,6 +484,8 @@
             this.question2YesCheckBox.Text = "Yes";
             this.question2YesCheckBox.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -538,6 +548,7 @@
             this.label7.Text = resources.GetString("label7.Text");
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // question3YesCheckBox
             // 
             this.question3YesCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -598,6 +609,8 @@
             this.question3NACheckBox.Text = "N/A";
             this.question3NACheckBox.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // label9
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1381,6 +1394,7 @@
             this.label12.Text = "(4) Is this a new part number?";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // question4YesCheckBox
             // 
             this.question4YesCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1411,6 +1425,8 @@
             this.question4NoCheckBox.Text = "No";
             this.question4NoCheckBox.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // label11
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1455,6 +1471,7 @@
             this.label13.Text = "(5) Has the drawing changed since the last review?";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // question5YesCheckBox
             // 
             this.question5YesCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1485,6 +1502,8 @@
             this.question5NoCheckBox.Text = "No";
             this.question5NoCheckBox.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // label32
             // 
             this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1529,6 +1548,7 @@
             this.label33.Text = "(6) Are there any new CIDs since the last review";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // question6YesCheckBox
             // 
             this.question6YesCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1559,6 +1579,8 @@
             this.question6NoCheckBox.Text = "No";
             this.question6NoCheckBox.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.AutoSize = true;
@@ -1617,6 +1639,141 @@
             this.question1NewRadioButton.TabStop = true;
             this.question1NewRadioButton.Text = "New (Not Started)";
             this.question1NewRadioButton.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            // 
+            // question2YesradioButton
+            // 
+            this.question2YesradioButton.AutoSize = true;
+            this.question2YesradioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question2YesradioButton.Location = new System.Drawing.Point(313, 213);
+            this.question2YesradioButton.Name = "question2YesradioButton";
+            this.question2YesradioButton.Size = new System.Drawing.Size(149, 29);
+            this.question2YesradioButton.TabIndex = 114;
+            this.question2YesradioButton.TabStop = true;
+            this.question2YesradioButton.Text = "Yes";
+            this.question2YesradioButton.UseVisualStyleBackColor = true;
+            // 
+            // question2NoRadioButton
+            // 
+            this.question2NoRadioButton.AutoSize = true;
+            this.question2NoRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question2NoRadioButton.Location = new System.Drawing.Point(468, 213);
+            this.question2NoRadioButton.Name = "question2NoRadioButton";
+            this.question2NoRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question2NoRadioButton.TabIndex = 115;
+            this.question2NoRadioButton.TabStop = true;
+            this.question2NoRadioButton.Text = "No";
+            this.question2NoRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question3YesRadioButton
+            // 
+            this.question3YesRadioButton.AutoSize = true;
+            this.question3YesRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question3YesRadioButton.Location = new System.Drawing.Point(313, 318);
+            this.question3YesRadioButton.Name = "question3YesRadioButton";
+            this.question3YesRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question3YesRadioButton.TabIndex = 116;
+            this.question3YesRadioButton.TabStop = true;
+            this.question3YesRadioButton.Text = "Yes";
+            this.question3YesRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question3NoRadioButton
+            // 
+            this.question3NoRadioButton.AutoSize = true;
+            this.question3NoRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question3NoRadioButton.Location = new System.Drawing.Point(468, 318);
+            this.question3NoRadioButton.Name = "question3NoRadioButton";
+            this.question3NoRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question3NoRadioButton.TabIndex = 117;
+            this.question3NoRadioButton.TabStop = true;
+            this.question3NoRadioButton.Text = "No";
+            this.question3NoRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question3NARadioButton
+            // 
+            this.question3NARadioButton.AutoSize = true;
+            this.question3NARadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question3NARadioButton.Location = new System.Drawing.Point(623, 318);
+            this.question3NARadioButton.Name = "question3NARadioButton";
+            this.question3NARadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question3NARadioButton.TabIndex = 118;
+            this.question3NARadioButton.TabStop = true;
+            this.question3NARadioButton.Text = "N/A";
+            this.question3NARadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question4YesRadioButton
+            // 
+            this.question4YesRadioButton.AutoSize = true;
+            this.question4YesRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question4YesRadioButton.Location = new System.Drawing.Point(623, 458);
+            this.question4YesRadioButton.Name = "question4YesRadioButton";
+            this.question4YesRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question4YesRadioButton.TabIndex = 119;
+            this.question4YesRadioButton.TabStop = true;
+            this.question4YesRadioButton.Text = "Yes";
+            this.question4YesRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question4NoRadioButton
+            // 
+            this.question4NoRadioButton.AutoSize = true;
+            this.question4NoRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question4NoRadioButton.Location = new System.Drawing.Point(778, 458);
+            this.question4NoRadioButton.Name = "question4NoRadioButton";
+            this.question4NoRadioButton.Size = new System.Drawing.Size(155, 29);
+            this.question4NoRadioButton.TabIndex = 120;
+            this.question4NoRadioButton.TabStop = true;
+            this.question4NoRadioButton.Text = "No";
+            this.question4NoRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question5YesRadioButton
+            // 
+            this.question5YesRadioButton.AutoSize = true;
+            this.question5YesRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question5YesRadioButton.Location = new System.Drawing.Point(623, 493);
+            this.question5YesRadioButton.Name = "question5YesRadioButton";
+            this.question5YesRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question5YesRadioButton.TabIndex = 121;
+            this.question5YesRadioButton.TabStop = true;
+            this.question5YesRadioButton.Text = "Yes";
+            this.question5YesRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question5NoRadioButton
+            // 
+            this.question5NoRadioButton.AutoSize = true;
+            this.question5NoRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question5NoRadioButton.Location = new System.Drawing.Point(778, 493);
+            this.question5NoRadioButton.Name = "question5NoRadioButton";
+            this.question5NoRadioButton.Size = new System.Drawing.Size(155, 29);
+            this.question5NoRadioButton.TabIndex = 122;
+            this.question5NoRadioButton.TabStop = true;
+            this.question5NoRadioButton.Text = "No";
+            this.question5NoRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question6YesRadioButton
+            // 
+            this.question6YesRadioButton.AutoSize = true;
+            this.question6YesRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question6YesRadioButton.Location = new System.Drawing.Point(623, 528);
+            this.question6YesRadioButton.Name = "question6YesRadioButton";
+            this.question6YesRadioButton.Size = new System.Drawing.Size(149, 29);
+            this.question6YesRadioButton.TabIndex = 123;
+            this.question6YesRadioButton.TabStop = true;
+            this.question6YesRadioButton.Text = "Yes";
+            this.question6YesRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // question6NoRadioButton
+            // 
+            this.question6NoRadioButton.AutoSize = true;
+            this.question6NoRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question6NoRadioButton.Location = new System.Drawing.Point(778, 528);
+            this.question6NoRadioButton.Name = "question6NoRadioButton";
+            this.question6NoRadioButton.Size = new System.Drawing.Size(155, 29);
+            this.question6NoRadioButton.TabIndex = 124;
+            this.question6NoRadioButton.TabStop = true;
+            this.question6NoRadioButton.Text = "No";
+            this.question6NoRadioButton.UseVisualStyleBackColor = true;
+>>>>>>> 72890645870ec130ddaeb24d9204ef576bd24264
             // 
             // HondaPOReview
             // 
@@ -1658,13 +1815,8 @@
         private System.Windows.Forms.TextBox poNoTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox question2YesCheckBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox question3YesCheckBox;
-        private System.Windows.Forms.CheckBox question3NoCheckBox;
-        private System.Windows.Forms.CheckBox question2NoCheckBox;
-        private System.Windows.Forms.CheckBox question3NACheckBox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox drawingRevTextBox;
         private System.Windows.Forms.TextBox partNoLabel;
@@ -1672,11 +1824,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.CheckBox question4YesCheckBox;
-        private System.Windows.Forms.CheckBox question4NoCheckBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.CheckBox question5YesCheckBox;
-        private System.Windows.Forms.CheckBox question5NoCheckBox;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
@@ -1723,13 +1871,22 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox applicableCIDNosTextBox;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.CheckBox question6YesCheckBox;
-        private System.Windows.Forms.CheckBox question6NoCheckBox;
         private System.Windows.Forms.TextBox jobLabel;
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.RadioButton question1CompleteRadioButton;
         private System.Windows.Forms.RadioButton question1ActiveRadioButton;
         private System.Windows.Forms.RadioButton question1NewRadioButton;
+        private System.Windows.Forms.RadioButton question2YesradioButton;
+        private System.Windows.Forms.RadioButton question2NoRadioButton;
+        private System.Windows.Forms.RadioButton question3YesRadioButton;
+        private System.Windows.Forms.RadioButton question3NoRadioButton;
+        private System.Windows.Forms.RadioButton question3NARadioButton;
+        private System.Windows.Forms.RadioButton question4YesRadioButton;
+        private System.Windows.Forms.RadioButton question4NoRadioButton;
+        private System.Windows.Forms.RadioButton question5YesRadioButton;
+        private System.Windows.Forms.RadioButton question5NoRadioButton;
+        private System.Windows.Forms.RadioButton question6YesRadioButton;
+        private System.Windows.Forms.RadioButton question6NoRadioButton;
     }
 }
