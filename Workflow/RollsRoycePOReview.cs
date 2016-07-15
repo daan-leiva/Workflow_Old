@@ -41,15 +41,15 @@ namespace Workflow
 
             // calculate the type of form to create after
             string type = string.Empty;
-            if (question3YesCheckBox.Checked || question4YesCheckBox.Checked
-                || question5YesCheckBox.Checked || question6YesCheckBox.Checked)
+            if (question3YesRadioButton.Checked || question4YesRadioButton.Checked
+                || question5YesRadioButton.Checked || question6YesRadioButton.Checked)
                 type = "Contract Review";
-            else if (!question3YesCheckBox.Checked || !question4YesCheckBox.Checked
-                || !question5YesCheckBox.Checked || !question6YesCheckBox.Checked)
+            else if (!question3YesRadioButton.Checked || !question4YesRadioButton.Checked
+                || !question5YesRadioButton.Checked || !question6YesRadioButton.Checked)
             {
-                if (question1NewCheckBox.Checked)
+                if (question1NewRadioButton.Checked)
                     type = "Quick Release";
-                else if (question1ActiveCheckBox.Checked || question1CompleteCheckBox.Checked)
+                else if (question1ActiveRadioButton.Checked || question1CompleteRadioButton.Checked)
                     type = "Nothing";
             }
 
