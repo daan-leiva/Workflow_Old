@@ -7,7 +7,6 @@ namespace Workflow
 {
     public partial class JobListViewer : Form
     {
-        string connection_string = "Server=ATI-SQL;Database=PRODUCTION;UID=support;PWD=lonestar";
         private BindingSource bindingSource = new BindingSource();
 
         public JobListViewer()
@@ -33,17 +32,25 @@ namespace Workflow
             dataGridView.ReadOnly = true;
             dataGridView.MultiSelect = true;
 
+            updateDataGridView(new object(), new EventArgs());
         }
 
         private void updateDataGridView(object sender, EventArgs e)
         {
             string query =
-                "SELECT Job, Customer, Order_Date, Status, Part_Number, Description\n" +
-                "FROM PRODUCTION.dbo.Job\n" +
-                "WHERE Job LIKE '%" + jobTextBox.Text.Trim() + "%' AND Part_Number LIKE '%" + partNoTextBox.Text.Trim() + "%' AND Order_Date >= CONVERT(DATE, '" + startDateTimePicker.Value.ToShortDateString() + "') AND Order_Date <= CONVERT(DATE, '" + endDateTimePicker.Value.ToShortDateString() + "') AND Customer LIKE '%" + customerTextBox.Text.Trim() + "%';";
+                "SELECT uT.Job, uT.Customer, uT.Part_Number, workflowT.Workflow_ID\n" +
+                "FROM\n" +
+                "\t(SELECT Job, Customer, Part_Number\n" +
+                "\tFROM PRODUCTION.dbo.Job\n" +
+                "\tUNION\n" +
+                "\tSELECT wJ.Job, wJ.Customer, wJ.Part_Number\n" +
+                "\tFROM ATI_Workflow.dbo.Job AS wJ\n" +
+                ") AS uT\n" +
+                "LEFT JOIN ATI_Workflow.dbo.StatusData AS workflowT\n" +
+                "ON workflowT.Job = uT.Job\n" +
+                "WHERE uT.Job LIKE '%" + jobTextBox.Text.Trim() + "%' AND uT.Part_Number LIKE '%" + partNoTextBox.Text.Trim() + "%' AND uT.Customer LIKE '%" + customerTextBox.Text.Trim() + "%';";
 
-
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connection_string);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(query, Globals.binding_connection_string);
 
             SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
             DataTable dt = new DataTable();
@@ -83,7 +90,10 @@ namespace Workflow
 
         private void tastkListButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form jobList = new TaskViewer();
+            jobList.FormClosed += (s, args) =>  this.Close();
+            jobList.Show();
         }
     }
 }

@@ -253,12 +253,11 @@ namespace Workflow
                             question8YesRadioButton.Checked = false;
                             question8NoRadioButton.Checked = true;
                         }
+
+                    partNoLabel.Text = reader.IsDBNull(16) ? "" : reader.GetString(16);
+                    drawingRevTextBox.Text = reader.IsDBNull(17) ? "" : reader.GetString(17);
+                    applicableCIDNosTextBox.Text = reader.IsDBNull(18) ? "" : reader.GetString(18);
                 }
-
-
-                partNoLabel.Text = reader.IsDBNull(16) ? "" : reader.GetString(16);
-                drawingRevTextBox.Text = reader.IsDBNull(17) ? "" : reader.GetString(17);
-                applicableCIDNosTextBox.Text = reader.IsDBNull(18) ? "" : reader.GetString(18);
             }
         }
 
@@ -269,10 +268,10 @@ namespace Workflow
                 return;
             // calculate the type of form to create after
             if (question3YesRadioButton.Checked || question4YesRadioButton.Checked
-                || question5YesRadioButton.Checked || question6YesRadioButton.Checked)
+                || question5YesRadioButton.Checked || question6YesRadioButton.Checked
+                || question7YesRadioButton.Checked)
                 type = "Contract Review";
-            else if (!question3YesRadioButton.Checked || !question4YesRadioButton.Checked
-                || !question5YesRadioButton.Checked || !question6YesRadioButton.Checked)
+            else
             {
                 if (question1NewRadioButton.Checked)
                     type = "Quick Release";

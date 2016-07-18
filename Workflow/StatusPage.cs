@@ -37,10 +37,11 @@ namespace Workflow
 
         private void StatusPage_Load(object sender, EventArgs e)
         {
-            // set up job number label
+            // set up lead labels
             jobNoLabel.Text = jobNo;
             partNoLabel.Text = partNo;
             customerLabel.Text = customer;
+            currentUserLabel.Text = Globals.userName;
 
             // update layout shape
             UpdateLayout();
@@ -92,6 +93,8 @@ namespace Workflow
                 step1Label.Show();
                 step1Details.Show();
                 // Hide step 2-4
+                step2Label.Hide();
+                step2Details.Hide();
                 step3Label.Hide();
                 step3Details.Hide();
                 step4Label.Hide();
@@ -104,6 +107,8 @@ namespace Workflow
                 // Show step 1 - 4
                 step1Label.Show();
                 step1Details.Show();
+                step2Label.Show();
+                step2Details.Show();
                 step3Label.Show();
                 step3Details.Show();
                 step4Label.Show();
@@ -111,7 +116,8 @@ namespace Workflow
                 step5Label.Show();
                 step5Details.Show();
 
-                // rename steps 2-4
+                // rename steps 2-5
+                step2Label.Text = "Assign Workflow";
                 step3Label.Text = "Contract Review Check List ME";
                 step4Label.Text = "Contract Review Check List QA";
                 step5Label.Text = "Contract Review Check List QE";
