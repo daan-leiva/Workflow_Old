@@ -45,18 +45,12 @@
             this.label54 = new System.Windows.Forms.Label();
             this.qualityTextBox = new System.Windows.Forms.TextBox();
             this.approvalTextBox = new System.Windows.Forms.TextBox();
-            this.question1CheckBox = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.question2CheckBox = new System.Windows.Forms.CheckBox();
-            this.question3CheckBox = new System.Windows.Forms.CheckBox();
-            this.question4CheckBox = new System.Windows.Forms.CheckBox();
-            this.question5CheckBox = new System.Windows.Forms.CheckBox();
-            this.question6CheckBox = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.question6TextBox = new System.Windows.Forms.TextBox();
             this.question5TextBox = new System.Windows.Forms.TextBox();
@@ -71,6 +65,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.question1TextBox = new System.Windows.Forms.TextBox();
             this.submitButton = new System.Windows.Forms.Button();
+            this.question1ComboBox = new System.Windows.Forms.ComboBox();
+            this.question2ComboBox = new System.Windows.Forms.ComboBox();
+            this.question3ComboBox = new System.Windows.Forms.ComboBox();
+            this.question4ComboBox = new System.Windows.Forms.ComboBox();
+            this.question5ComboBox = new System.Windows.Forms.ComboBox();
+            this.question6ComboBox = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -320,20 +320,6 @@
             this.approvalTextBox.Size = new System.Drawing.Size(228, 20);
             this.approvalTextBox.TabIndex = 9;
             // 
-            // question1CheckBox
-            // 
-            this.question1CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question1CheckBox.AutoSize = true;
-            this.question1CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question1CheckBox, 2);
-            this.question1CheckBox.Location = new System.Drawing.Point(3, 3);
-            this.question1CheckBox.Name = "question1CheckBox";
-            this.question1CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question1CheckBox.TabIndex = 50;
-            this.question1CheckBox.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -417,76 +403,6 @@
     "tions are in Q-Pulse (verify revisions to PO, including subassemblies)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // question2CheckBox
-            // 
-            this.question2CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question2CheckBox.AutoSize = true;
-            this.question2CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question2CheckBox, 2);
-            this.question2CheckBox.Location = new System.Drawing.Point(3, 94);
-            this.question2CheckBox.Name = "question2CheckBox";
-            this.question2CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question2CheckBox.TabIndex = 51;
-            this.question2CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // question3CheckBox
-            // 
-            this.question3CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question3CheckBox.AutoSize = true;
-            this.question3CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question3CheckBox, 2);
-            this.question3CheckBox.Location = new System.Drawing.Point(3, 185);
-            this.question3CheckBox.Name = "question3CheckBox";
-            this.question3CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question3CheckBox.TabIndex = 52;
-            this.question3CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // question4CheckBox
-            // 
-            this.question4CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question4CheckBox.AutoSize = true;
-            this.question4CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question4CheckBox, 2);
-            this.question4CheckBox.Location = new System.Drawing.Point(3, 276);
-            this.question4CheckBox.Name = "question4CheckBox";
-            this.question4CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question4CheckBox.TabIndex = 53;
-            this.question4CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // question5CheckBox
-            // 
-            this.question5CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question5CheckBox.AutoSize = true;
-            this.question5CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question5CheckBox, 2);
-            this.question5CheckBox.Location = new System.Drawing.Point(3, 367);
-            this.question5CheckBox.Name = "question5CheckBox";
-            this.question5CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question5CheckBox.TabIndex = 54;
-            this.question5CheckBox.UseVisualStyleBackColor = true;
-            // 
-            // question6CheckBox
-            // 
-            this.question6CheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.question6CheckBox.AutoSize = true;
-            this.question6CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tableLayoutPanel1.SetColumnSpan(this.question6CheckBox, 2);
-            this.question6CheckBox.Location = new System.Drawing.Point(3, 458);
-            this.question6CheckBox.Name = "question6CheckBox";
-            this.question6CheckBox.Size = new System.Drawing.Size(80, 36);
-            this.question6CheckBox.TabIndex = 55;
-            this.question6CheckBox.UseVisualStyleBackColor = true;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -507,38 +423,38 @@
             this.tableLayoutPanel1.Controls.Add(this.button4, 3, 6);
             this.tableLayoutPanel1.Controls.Add(this.button3, 3, 4);
             this.tableLayoutPanel1.Controls.Add(this.button2, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.question6CheckBox, 0, 10);
-            this.tableLayoutPanel1.Controls.Add(this.question5CheckBox, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.question4CheckBox, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.question3CheckBox, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.question2CheckBox, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.label3, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.label4, 2, 6);
             this.tableLayoutPanel1.Controls.Add(this.label9, 2, 8);
             this.tableLayoutPanel1.Controls.Add(this.label7, 2, 10);
-            this.tableLayoutPanel1.Controls.Add(this.question1CheckBox, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button1, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.question1TextBox, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.submitButton, 3, 12);
+            this.tableLayoutPanel1.Controls.Add(this.question1ComboBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.question2ComboBox, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.question3ComboBox, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.question4ComboBox, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.question5ComboBox, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.question6ComboBox, 0, 10);
             this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 161);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 13;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.38F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(946, 588);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -696,6 +612,91 @@
             this.submitButton.UseVisualStyleBackColor = true;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
+            // question1ComboBox
+            // 
+            this.tableLayoutPanel1.SetColumnSpan(this.question1ComboBox, 2);
+            this.question1ComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.question1ComboBox.FormattingEnabled = true;
+            this.question1ComboBox.Items.AddRange(new object[] {
+            "Yes",
+            "N/A"});
+            this.question1ComboBox.Location = new System.Drawing.Point(3, 3);
+            this.question1ComboBox.Name = "question1ComboBox";
+            this.question1ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question1ComboBox.TabIndex = 61;
+            // 
+            // question2ComboBox
+            // 
+            this.question2ComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.question2ComboBox, 2);
+            this.question2ComboBox.FormattingEnabled = true;
+            this.question2ComboBox.Items.AddRange(new object[] {
+            "Yes",
+            "N/A"});
+            this.question2ComboBox.Location = new System.Drawing.Point(3, 94);
+            this.question2ComboBox.Name = "question2ComboBox";
+            this.question2ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question2ComboBox.TabIndex = 62;
+            // 
+            // question3ComboBox
+            // 
+            this.question3ComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.question3ComboBox, 2);
+            this.question3ComboBox.FormattingEnabled = true;
+            this.question3ComboBox.Items.AddRange(new object[] {
+            "Yes",
+            "N/A"});
+            this.question3ComboBox.Location = new System.Drawing.Point(3, 185);
+            this.question3ComboBox.Name = "question3ComboBox";
+            this.question3ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question3ComboBox.TabIndex = 63;
+            // 
+            // question4ComboBox
+            // 
+            this.question4ComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.question4ComboBox, 2);
+            this.question4ComboBox.FormattingEnabled = true;
+            this.question4ComboBox.Items.AddRange(new object[] {
+            "Yes",
+            "N/A"});
+            this.question4ComboBox.Location = new System.Drawing.Point(3, 276);
+            this.question4ComboBox.Name = "question4ComboBox";
+            this.question4ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question4ComboBox.TabIndex = 64;
+            // 
+            // question5ComboBox
+            // 
+            this.question5ComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.question5ComboBox, 2);
+            this.question5ComboBox.FormattingEnabled = true;
+            this.question5ComboBox.Location = new System.Drawing.Point(3, 367);
+            this.question5ComboBox.Name = "question5ComboBox";
+            this.question5ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question5ComboBox.TabIndex = 65;
+            // 
+            // question6ComboBox
+            // 
+            this.question6ComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.question6ComboBox, 2);
+            this.question6ComboBox.FormattingEnabled = true;
+            this.question6ComboBox.Items.AddRange(new object[] {
+            "Yes",
+            "N/A"});
+            this.question6ComboBox.Location = new System.Drawing.Point(3, 458);
+            this.question6ComboBox.Name = "question6ComboBox";
+            this.question6ComboBox.Size = new System.Drawing.Size(80, 21);
+            this.question6ComboBox.TabIndex = 66;
+            // 
             // ContractReviewCheckList_QA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -736,13 +737,7 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.TextBox qualityTextBox;
         private System.Windows.Forms.TextBox approvalTextBox;
-        private System.Windows.Forms.CheckBox question1CheckBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.CheckBox question6CheckBox;
-        private System.Windows.Forms.CheckBox question5CheckBox;
-        private System.Windows.Forms.CheckBox question4CheckBox;
-        private System.Windows.Forms.CheckBox question3CheckBox;
-        private System.Windows.Forms.CheckBox question2CheckBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -762,5 +757,11 @@
         private System.Windows.Forms.TextBox question2TextBox;
         private System.Windows.Forms.TextBox question1TextBox;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.ComboBox question1ComboBox;
+        private System.Windows.Forms.ComboBox question2ComboBox;
+        private System.Windows.Forms.ComboBox question3ComboBox;
+        private System.Windows.Forms.ComboBox question4ComboBox;
+        private System.Windows.Forms.ComboBox question5ComboBox;
+        private System.Windows.Forms.ComboBox question6ComboBox;
     }
 }
